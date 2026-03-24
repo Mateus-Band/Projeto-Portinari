@@ -63,6 +63,40 @@ def is_in(n,intervalo):
     else:
         return False
 
+def how_color2(r,g,b):
+    
+    color_hsv = cv2.cvtColor(np.uint8([[[b, g, r]]]), cv2.COLOR_BGR2HSV)[0][0]
+    
+    h = color_hsv[0]
+    s = color_hsv[1]
+    v = color_hsv[2]
+
+
+    
+    if v < 30: return 'Preto'
+    if s < 40:
+        if v > 200: return 'Branco'
+        return 'Cinza'
+
+
+    if h < 5 or h > 165:   color = 'Vermelho'
+    elif h < 15:           color = 'Laranja'
+    elif h < 25:           color = 'Amarelo'
+    elif h < 45:           color = 'Verde Grama'
+    elif h < 75:           color = 'Verde'
+    elif h < 95:           color = 'Ciano'
+    elif h < 125:          color = 'Azul'
+    elif h < 145:          color = 'Roxo'
+    elif h < 165:          color = 'Rosa'
+    else:                  return 'Indefinido'
+
+
+    if v < 100:
+        return f'{color} Escuro'
+    elif v > 220 and s < 100:
+        return f'{color} Claro'
+    
+    return color
 
 def how_color(r,g,b):
     '''
@@ -104,78 +138,148 @@ def how_color(r,g,b):
 
 
 
-    if is_in(v, [0, 25]):
+    if is_in(v, [0, 8]):
         return 'Preto'
 
     # Branco / Cinza
-    if is_in(s, [0, 25]):
-        if is_in(v, [0, 153]):
+    if is_in(s, [0, 10.2]):
+        if is_in(v, [8, 153]):
             return 'Cinza'
         else:
             return 'Branco'
 
     # Vermelho
-    if (is_in(h, [0, 6]) or is_in(h, [167, 179])) and is_in(s, [25, 255]):
-        if is_in(v, [153, 255]):
+    if (is_in(h, [0, 6]) or is_in(h, [167, 179])) and is_in(s, [60, 255]):
+        if is_in(v, [102, 255]):
             return 'Vermelho'
-        if v <= 153:
+        if v <= 102:
             return 'Vermelho escuro'
 
     # Laranja
-    if is_in(h, [6, 18]) and is_in(s, [25, 255]):
-        if is_in(v, [153, 255]):
+    if is_in(h, [6, 18]) and is_in(s, [60, 255]):
+        if is_in(v, [102, 255]):
             return 'Laranja'
-        if v <= 153:
+        if v <= 102:
             return 'Laranja escuro'
 
     # Amarelo
-    if is_in(h, [18, 28]) and is_in(s, [25, 255]):
-        if is_in(v, [153, 255]):
+    if is_in(h, [18, 28]) and is_in(s, [60, 255]):
+        if is_in(v, [102, 255]):
             return 'Amarelo'
-        if v <= 153:
+        if v <= 102:
             return 'Amarelo escuro'
 
     # Verde claro
-    if is_in(h, [28, 47]) and is_in(s, [25, 255]):
-        if is_in(v, [153, 255]):
-            return 'Verde Claro'
-        if v <= 153:
-            return 'Verde Claro escuro'
+    if is_in(h, [28, 47]) and is_in(s, [60, 255]):
+        if is_in(v, [102, 255]):
+            return 'Verde Grama'
+        if v <= 102:
+            return 'Verde Grama escuro'
 
     # Verde
-    if is_in(h, [47, 68]) and is_in(s, [25, 255]):
-        if is_in(v, [153, 255]):
+    if is_in(h, [47, 68]) and is_in(s, [60, 255]):
+        if is_in(v, [102, 255]):
             return 'Verde'
-        if v <= 153:
+        if v <= 102:
             return 'Verde escuro'
 
     # Azul claro
-    if is_in(h, [68, 104]) and is_in(s, [25, 255]):
-        if is_in(v, [153, 255]):
+    if is_in(h, [68, 104]) and is_in(s, [60, 255]):
+        if is_in(v, [102, 255]):
             return 'Azul Claro'
-        if v <= 153:
+        if v <= 102:
             return 'Azul Claro escuro'
 
     # Azul escuro
-    if is_in(h, [104, 119]) and is_in(s, [25, 255]):
+    if is_in(h, [104, 119]) and is_in(s, [60, 255]):
         if is_in(v, [153, 255]):
             return 'Azul Escuro'
         if v <= 153:
             return 'Azul Escuro escuro'
 
     # Roxo
-    if is_in(h, [119, 167]) and is_in(s, [25, 255]):
+    if is_in(h, [119, 167]) and is_in(s, [60, 255]):
         if is_in(v, [153, 204]):
             return 'Roxo'
-        if v <= 153:
-            return 'Roxo escuro'
-
-    # Rosa
-    if is_in(h, [119, 167]) and is_in(s, [25, 255]):
         if is_in(v, [204, 255]):
             return 'Rosa'
 
+        if v <= 153:
+            return 'Roxo escuro'
+        
+
     return 'Indefinido'
+
+
+def most_collor2(caminho_imagem,n_pixels = 10**4):
+
+    #carregando a imagem
+    imagem = cv2.imread(caminho_imagem)
+
+    if imagem is None:
+        print("Erro: Não foi possível carregar a imagem.")
+        return None
+    
+
+    #contador de quantidade que a cor apareceu
+    cores_count = {
+        "Preto": 0,
+        "Branco": 0,
+        "Cinza": 0,
+        "Vermelho": 0,
+        "Laranja": 0,
+        "Amarelo": 0,
+        "Verde Grama": 0,
+        "Verde": 0,
+        "Ciano": 0,
+        "Azul": 0,
+        "Roxo": 0,
+        "Rosa": 0,
+
+        "Vermelho Escuro": 0,
+        "Laranja Escuro": 0,
+        "Amarelo Escuro": 0,
+        "Verde Grama Escuro": 0,
+        "Verde Escuro": 0,
+        "Ciano Escuro": 0,
+        "Azul Escuro": 0,
+        "Roxo Escuro": 0,
+        "Rosa Escuro": 0,
+
+        "Vermelho Claro": 0,
+        "Laranja Claro": 0,
+        "Amarelo Claro": 0,
+        "Verde Grama Claro": 0,
+        "Verde Claro": 0,
+        "Ciano Claro": 0,
+        "Azul Claro": 0,
+        "Roxo Claro": 0,
+        "Rosa Claro": 0,
+
+        "Indefinido": 0
+        }
+
+
+    #loop sobre os pontos
+    for i in range(n_pixels):
+        pixel = list(imagem[int(random.uniform(0,imagem.shape[0])),int(random.uniform(0,imagem.shape[1]))])
+
+        #para a media
+        b = int(pixel[0])
+        g = int(pixel[1])
+        r = int(pixel[2])
+
+        #função que retorna qual cor com base na faxa de cores que eu defini
+        color = how_color2(r,g,b)
+
+        #realiza a contagem
+        if color in cores_count:
+            cores_count[color] += 1
+        else:
+            cores_count['Indefinido'] += 1
+
+    #printa a cor que mais aparece
+    return max(cores_count,key = cores_count.get)
 
 
 def most_collor(caminho_imagem,n_pixels = 10**4):
@@ -199,8 +303,8 @@ def most_collor(caminho_imagem,n_pixels = 10**4):
         "Laranja escuro": 0,
         "Amarelo": 0,
         "Amarelo escuro": 0,
-        "Verde Claro": 0,
-        "Verde Claro escuro": 0,
+        "Verde Grama": 0,
+        "Verde Grama escuro": 0,
         "Verde": 0,
         "Verde escuro": 0,
         "Azul Claro": 0,
@@ -232,13 +336,15 @@ def most_collor(caminho_imagem,n_pixels = 10**4):
 
 
     #printa a cor que mais aparece
-    print(f'A cor mais predominante na imagem é {max(cores_count,key = cores_count.get)}')
+    return max(cores_count,key = cores_count.get)
 
 
 
 
 
-#pegando imagem com caminho começando com 14886
-caminho_imagem = 'output/imagens/14886_Colheita_de_Caf_.jpeg'
-media_colors(caminho_imagem,50000)
-most_collor(caminho_imagem,50000)
+
+
+if __name__ == '__main__':
+    media_colors('quadro_branco.png',10000)
+    print(most_collor('quadro_azul.png',10000))
+    print(most_collor2('quadro_azul.png',10000))
