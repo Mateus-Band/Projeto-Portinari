@@ -1,3 +1,9 @@
+.venv
+venv
+Data/Documentos*
+Data/imagens
+package-lock.json
+
 # Logs
 logs
 *.log

@@ -1,0 +1,3 @@
+Arquivos de dados são grandes e não estão aqui. 
+Estão numa pasta Data na raiz do projeto local, sem estar no github.
+README.md conterá o link para o zip dos dados
