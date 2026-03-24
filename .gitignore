@@ -3,6 +3,7 @@ venv
 Data/Documentos*
 Data/imagens
 package-lock.json
+*__pycache__*
 
 # Logs
 logs
