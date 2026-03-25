@@ -39,7 +39,7 @@ def criar_grid_analise(num_imagens=20, tamanho_celula=250, output_path="grid_ana
     """
     
     # Caminho das imagens
-    imagens_dir = "../Data/imagens"
+    imagens_dir = "/home/lucca/Documents/Atividades escolares/impatech/Projeto portinari/Projeto-Portinari/Data/imagens"
     
     if not os.path.exists(imagens_dir):
         print(f"Erro: Diretório {imagens_dir} não encontrado!")
