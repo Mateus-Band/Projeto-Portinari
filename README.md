@@ -6,7 +6,7 @@ Projeto de TED (Tema de Estudo Dirigido) da graduação com foco na análise com
 
 ## Estrutura do repositório
 
-```
+``` Markdown
 .
 ├── Data/                        # Base de dados local (não versionada — ver abaixo)
 │   ├── imagens/                 # Imagens das obras baixadas
@@ -71,7 +71,7 @@ jupyter notebook
 ## Branches
 
 | Branch | Responsabilidade |
-|---|---|
+| --- | --- |
 | `main` | Código estável, integração das frentes |
 | `scraper` | Coleta de dados e notebooks de análise |
 | `identificador-cores` | Módulo de identificação de cores |
@@ -103,15 +103,18 @@ Os metadados e imagens são provenientes do site do [Projeto Portinari](https://
 ## Dependências
 
 **Runtime/Linguagens:**
+
 - Node.js (para scraping)
 - Python 3 (para análise e identificação de cores)
 
 **Node.js packages:**
+
 - Puppeteer — automação de navegador
 - Axios — requisições HTTP
 - fs-extra — operações de arquivo
 
 **Python packages:**
+
 - OpenCV (`cv2`) — processamento de imagens
 - NumPy — operações numéricas
 - pandas — manipulação de dados
@@ -131,21 +134,21 @@ Os metadados e imagens são provenientes do site do [Projeto Portinari](https://
 **Dependências principais do projeto:**
 
 - **Node.js:**
-    - puppeteer
-    - axios
-    - fs-extra
+  - puppeteer
+  - axios
+  - fs-extra
 
 - **Python:**
-    - opencv-python (cv2)
-    - numpy
-    - pandas
-    - plotly
-    - ipywidgets
-    - wordcloud
-    - matplotlib
-    - pillow
-    - kaleido
-    - openpyxl
-    - jupyter
+  - opencv-python (cv2)
+  - numpy
+  - pandas
+  - plotly
+  - ipywidgets
+  - wordcloud
+  - matplotlib
+  - pillow
+  - kaleido
+  - openpyxl
+  - jupyter
 
 Consulte as instruções acima para detalhes de instalação em cada frente do projeto.
