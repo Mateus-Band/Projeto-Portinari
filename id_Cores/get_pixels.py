@@ -61,7 +61,7 @@ def get_pixels(freio = -1):
     shape_tabelona = ((10**5),len(cam_imagens),3)
 
     #aqui o arquivo memap é um arquivo que permite trabalhar com arrays muito grandes sem guardalás na ram 
-    tabelona = np.memmap(os.path.join(diretorio_pixels,'Tabelona.dat'),dtype='uint8', mode='w+', shape=shape_tabelona)
+    tabelona = np.memmap(os.path.join(diretorio_pixels,'Tabelona_10e5.dat'),dtype='uint8', mode='w+', shape=shape_tabelona)
 
     #lista que guarda os nomes em ordem das imagens
     nomes_ordenados = np.empty((len(cam_imagens)),dtype = 'U30')
