@@ -1,0 +1,33 @@
+tema,frequencia,tipo
+Campo,146,filho de 'Paisagem'
+Trabalhadores,70,pai (sem filhos na obra)
+Paisagem,68,pai (sem filhos na obra)
+Cenas de trabalho,61,pai (sem filhos na obra)
+Lavrador,61,filho de 'Trabalhadores'
+Brodowski,51,filho de 'Paisagem'
+Marinha,40,filho de 'Paisagem'
+Favela,37,independente
+Cenas Históricas,30,pai (sem filhos na obra)
+Cultura de café,29,independente
+Guerra,24,independente
+Festas populares,23,pai (sem filhos na obra)
+Floresta,19,filho de 'Paisagem'
+Deserto,17,filho de 'Paisagem'
+Garimpagem,16,filho de 'Cenas de trabalho'
+Garimpeiro,16,filho de 'Trabalhadores'
+Rio de Janeiro,16,filho de 'Paisagem'
+Cultura de fumo,10,filho de 'Cenas de trabalho'
+Cultura de arroz,10,filho de 'Cenas de trabalho'
+Cultura de cana,9,filho de 'Cenas de trabalho'
+Circo,8,independente
+Cidade,7,filho de 'Paisagem'
+Morro,7,filho de 'Paisagem'
+Cultura de algodão,5,filho de 'Cenas de trabalho'
+Cultura de cacau,5,filho de 'Cenas de trabalho'
+Cultura de borracha,4,filho de 'Cenas de trabalho'
+Lavoura,4,filho de 'Cenas de trabalho'
+Carnaval,4,filho de 'Festas populares'
+Descobrimento do Brasil,3,filho de 'Cenas Históricas'
+Cultura de erva-mate,2,filho de 'Cenas de trabalho'
+Operário,2,filho de 'Trabalhadores'
+Cultura de milho,1,filho de 'Cenas de trabalho'
