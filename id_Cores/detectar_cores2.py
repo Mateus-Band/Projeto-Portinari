@@ -79,7 +79,7 @@ def how_color2(r,g,b):
         return 'Cinza'
 
 
-    if h < 5 or h > 165:   color = 'Vermelho'
+    if h < 5 or h >= 165:   color = 'Vermelho'
     elif h < 15:           color = 'Laranja'
     elif h < 25:           color = 'Amarelo'
     elif h < 45:           color = 'Verde Grama'
@@ -89,6 +89,12 @@ def how_color2(r,g,b):
     elif h < 145:          color = 'Roxo'
     elif h < 165:          color = 'Rosa'
     else:                  return 'Indefinido'
+
+    if ((color == 'Laranja') and (v < 160)):
+        color = 'Marrom' 
+
+    if ((color == 'Amarelo') and (v < 160)):
+        color = 'Palha' 
 
 
     if v < 100:
@@ -236,6 +242,9 @@ def most_collor2(caminho_imagem,n_pixels = 10**4):
         "Roxo": 0,
         "Rosa": 0,
 
+        "Marrom":0,
+        "Palha":0,
+
         "Vermelho Escuro": 0,
         "Laranja Escuro": 0,
         "Amarelo Escuro": 0,
@@ -245,6 +254,8 @@ def most_collor2(caminho_imagem,n_pixels = 10**4):
         "Azul Escuro": 0,
         "Roxo Escuro": 0,
         "Rosa Escuro": 0,
+        "Marrom Escuro":0,
+        "Palha Escuro":0,
 
         "Vermelho Claro": 0,
         "Laranja Claro": 0,
