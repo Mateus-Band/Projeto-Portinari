@@ -1,0 +1,609 @@
+id,imagemUrl,titulo,tipoObra,temas_filtrados
+14807,https://acervo-portinari.s3.sa-east-1.amazonaws.com/23858ea8cf2b2cc977ce31a428ab3899.jpeg,Pau-Brasil,Pintura,"Cenas de trabalho, Trabalhadores"
+14812,https://acervo-portinari.s3.sa-east-1.amazonaws.com/a9b5bfad5b0e55fdcac669b12e6eebe3.jpeg,Cana,Pintura,"Cenas de trabalho, Cultura de cana, Trabalhadores, Lavrador"
+14815,https://acervo-portinari.s3.sa-east-1.amazonaws.com/b366110eded343246e1148ef18cac0f2.jpeg,Gado,Pintura,"Cenas de trabalho, Trabalhadores"
+14822,https://acervo-portinari.s3.sa-east-1.amazonaws.com/f4f1dd53752181b420f541a69fc47c56.jpeg,Garimpo,Pintura,"Cenas de trabalho, Garimpagem, Trabalhadores, Garimpeiro"
+14825,https://acervo-portinari.s3.sa-east-1.amazonaws.com/c38427fb4d9a1f9e6bf8a20ceb21c37c.jpeg,Fumo,Pintura,"Cenas de trabalho, Cultura de fumo, Trabalhadores, Lavrador"
+14827,https://acervo-portinari.s3.sa-east-1.amazonaws.com/d18db45a462b186adb5a82e08f145447.jpeg,Fumo,Pintura,"Cenas de trabalho, Cultura de fumo, Trabalhadores, Lavrador"
+14829,https://acervo-portinari.s3.sa-east-1.amazonaws.com/66434c16838c02dbd377c9cd51345d72.jpeg,Algodão,Pintura,"Cenas de trabalho, Cultura de algodão, Trabalhadores, Lavrador"
+14831,https://acervo-portinari.s3.sa-east-1.amazonaws.com/240bdb4d09b3c5985b016c5abe274954.jpeg,Café,Pintura,"Cenas de trabalho, Cultura de café, Trabalhadores, Lavrador"
+14834,https://acervo-portinari.s3.sa-east-1.amazonaws.com/42e8fbaf7796ddfea1d2f24a994714eb.jpeg,Ferro,Pintura,"Cenas de trabalho, Trabalhadores"
+14837,https://acervo-portinari.s3.sa-east-1.amazonaws.com/46ceab8e6d56e3bd2b3fd789f54b2368.jpeg,Borracha,Pintura,"Cenas de trabalho, Cultura de borracha, Trabalhadores"
+14841,https://acervo-portinari.s3.sa-east-1.amazonaws.com/a4360c95d0206ffc1fa07b1b8ab9c4bd.jpeg,Carnaúba,Pintura,"Cenas de trabalho, Trabalhadores, Lavrador"
+14853,https://acervo-portinari.s3.sa-east-1.amazonaws.com/0dca87bcd65e05bd652562fbd7497596.jpeg,Paisagem de Petrópolis,Pintura,Paisagem
+14855,https://acervo-portinari.s3.sa-east-1.amazonaws.com/fbedb7028ef8cb61ad1d5b662572aa69.jpeg,Boizinhos,Pintura,"Paisagem, Campo"
+14865,https://acervo-portinari.s3.sa-east-1.amazonaws.com/c7cf5d056fa0e1f8146ccbf8a00c9020.jpeg,Espantalho,Pintura,"Paisagem, Campo"
+14879,https://acervo-portinari.s3.sa-east-1.amazonaws.com/ea8cd379a7bf6e64f22e2bc372310b05.jpeg,Derrubada,Pintura,"Cenas de trabalho, Trabalhadores, Paisagem, Floresta"
+14882,https://acervo-portinari.s3.sa-east-1.amazonaws.com/79fee5ea975a7c7dd6fb0142db4f052c.jpeg,Cana-de-Açúcar,Pintura,"Cenas de trabalho, Cultura de cana, Trabalhadores, Lavrador"
+14883,https://acervo-portinari.s3.sa-east-1.amazonaws.com/fc5b6272889f24d9f2c5c730cc3c65b4.jpeg,Colheita de Feijão,Pintura,"Cenas de trabalho, Trabalhadores, Lavrador"
+14886,https://acervo-portinari.s3.sa-east-1.amazonaws.com/831916020b2e1920d9d0baa7558a7f07.jpeg,Colheita de Café,Pintura,"Cenas de trabalho, Cultura de café, Trabalhadores, Lavrador"
+14887,https://acervo-portinari.s3.sa-east-1.amazonaws.com/f27c2c523b2a28f671cc3fd18bee1943.jpeg,Industrialização do Brasil,Pintura,"Paisagem, Cidade"
+14897,https://acervo-portinari.s3.sa-east-1.amazonaws.com/780f0e2599e37e7666b0df3ec65521dc.jpeg,Céu com Estrelas,Pintura,Paisagem
+14935,https://acervo-portinari.s3.sa-east-1.amazonaws.com/56ddd93c07a3124c6ca2c3b5f18618fb.jpeg,A Primeira Missa no Brasil,Pintura,Cenas Históricas
+16008,https://acervo-portinari.s3.sa-east-1.amazonaws.com/99f49caa88d59d5ff5d7a600dfcad22c.jpeg,Mulher Chorando,Pintura,Guerra
+16010,https://acervo-portinari.s3.sa-east-1.amazonaws.com/fae5de1e4e411683079e29c33c962739.jpeg,Futebol,Pintura,"Paisagem, Brodowski"
+16011,https://acervo-portinari.s3.sa-east-1.amazonaws.com/11bf77718afd5e17aaf8aec261d3d43f.jpeg,Órfão,Pintura,Guerra
+16012,https://acervo-portinari.s3.sa-east-1.amazonaws.com/682c6a002aa9acf430991852477fed32.jpeg,Puxada da Rede,Pintura,"Cenas de trabalho, Trabalhadores, Paisagem, Marinha"
+16022,https://acervo-portinari.s3.sa-east-1.amazonaws.com/374f4c142c00a23dee8b7378522fdf80.jpeg,Casamento na Roça,Pintura,"Paisagem, Brodowski"
+16025,https://acervo-portinari.s3.sa-east-1.amazonaws.com/0e3ac31740f3994077df664f02b4f6f4.jpeg,Espantalho no Arrozal,Pintura,"Cenas de trabalho, Cultura de arroz, Paisagem, Campo"
+16026,https://acervo-portinari.s3.sa-east-1.amazonaws.com/eda32c9f0e0b4c846101c9ef2cd24da1.jpeg,Mulher do Pilão,Pintura,Trabalhadores
+16027,https://acervo-portinari.s3.sa-east-1.amazonaws.com/9cb0ea8e2139d3c1ed0c96c9145a2c62.jpeg,Menino com Carneiro,Pintura,"Paisagem, Campo"
+16037,https://acervo-portinari.s3.sa-east-1.amazonaws.com/633722e987dc3cb258b7a1137a4ce6c1.jpeg,Preparativos para São João,Pintura,Festas populares
+16057,https://acervo-portinari.s3.sa-east-1.amazonaws.com/8683da43b81103c2824d4461f9073b5d.jpeg,Retrato de Regina Leão,Pintura,"Paisagem, Campo"
+16058,https://acervo-portinari.s3.sa-east-1.amazonaws.com/7106289f95cf4196b3282a06a571c2c8.jpeg,Futebol,Pintura,"Paisagem, Brodowski"
+16069,https://acervo-portinari.s3.sa-east-1.amazonaws.com/4c84368e77b5d9d366db2f02f132f7ff.jpeg,Bois e Espantalho,Pintura,Paisagem
+16124,https://acervo-portinari.s3.sa-east-1.amazonaws.com/1d6c02376cdabffb79a15449b77d4969.jpeg,Padre Anchieta,Pintura,"Cenas Históricas, Paisagem, Marinha"
+16136,https://acervo-portinari.s3.sa-east-1.amazonaws.com/1826bd84d37781c99558bbc3d8244a0b.jpeg,Cana,Pintura,"Cenas de trabalho, Cultura de cana, Trabalhadores, Lavrador"
+16137,https://acervo-portinari.s3.sa-east-1.amazonaws.com/6a92cc059f40726d9fbdee518c7b8431.jpeg,Garimpeiros,Pintura,"Cenas de trabalho, Garimpagem, Trabalhadores, Garimpeiro"
+16138,https://acervo-portinari.s3.sa-east-1.amazonaws.com/61cd9e2aa4602b3d8b6949bbd9945061.jpeg,Fumo,Pintura,"Cenas de trabalho, Cultura de fumo, Trabalhadores, Lavrador"
+16139,https://acervo-portinari.s3.sa-east-1.amazonaws.com/50d4b0e3fc36780a74c17fcdc7fea8a0.jpeg,Café,Pintura,"Cenas de trabalho, Cultura de café, Trabalhadores, Lavrador"
+16140,https://acervo-portinari.s3.sa-east-1.amazonaws.com/c71ea14545c10831498a63d337804937.jpeg,Cacau,Pintura,"Cenas de trabalho, Cultura de cacau, Trabalhadores, Lavrador"
+16201,https://acervo-portinari.s3.sa-east-1.amazonaws.com/d3ebf9d1bda62ef82b5064415a19ba7e.jpeg,Peneirando Café,Pintura,"Cenas de trabalho, Cultura de café, Trabalhadores, Lavrador"
+16204,https://acervo-portinari.s3.sa-east-1.amazonaws.com/c782858a8f2c02c9a0d42bd81f0294ac.jpeg,Lavadeira,Pintura,Trabalhadores
+16205,https://acervo-portinari.s3.sa-east-1.amazonaws.com/1e16e656261373f465656edd14db0e19.jpeg,Pracinha de Brodowski,Pintura,"Circo, Paisagem, Brodowski"
+16216,https://acervo-portinari.s3.sa-east-1.amazonaws.com/c729ce2e5657bb96ee4824da6a1896ab.jpeg,Festa de Iemanjá,Pintura,"Festas populares, Paisagem, Rio de Janeiro"
+16220,https://acervo-portinari.s3.sa-east-1.amazonaws.com/e3ea6128647de49dfbecc70cca105c86.jpeg,Sapateiro,Pintura,Trabalhadores
+16223,https://acervo-portinari.s3.sa-east-1.amazonaws.com/4a2b54cc0b22f70f1b0c2dccf3015e87.jpeg,Sapateiro,Pintura,Trabalhadores
+16224,https://acervo-portinari.s3.sa-east-1.amazonaws.com/2b76afdc33661f00f277ca4c449024a1.jpeg,A Onça,Pintura,"Paisagem, Floresta"
+16240,https://acervo-portinari.s3.sa-east-1.amazonaws.com/c35cd625d52a744957dde3c92dd7190e.jpeg,Espantalho,Pintura,"Paisagem, Campo"
+16242,https://acervo-portinari.s3.sa-east-1.amazonaws.com/9bfba4765df6e1f6c1782d59caf577c5.jpeg,Morro,Pintura,Favela
+16245,https://acervo-portinari.s3.sa-east-1.amazonaws.com/0f76925af2516a22cefe7bbab1be57da.jpeg,Espantalho,Pintura,Paisagem
+16248,https://acervo-portinari.s3.sa-east-1.amazonaws.com/ec586b14180466692de4ce4348c685f1.jpeg,Descobrimento do Brasil,Pintura,"Trabalhadores, Cenas Históricas, Descobrimento do Brasil"
+16255,https://acervo-portinari.s3.sa-east-1.amazonaws.com/7c4db962199d51929375972540e8ecdf.jpeg,Batedores de Arroz,Pintura,"Cenas de trabalho, Cultura de arroz, Trabalhadores, Lavrador"
+16258,https://acervo-portinari.s3.sa-east-1.amazonaws.com/8d0ab688c37c29ebcba87bca9db885a5.jpeg,Futebol,Pintura,"Paisagem, Brodowski"
+16272,https://acervo-portinari.s3.sa-east-1.amazonaws.com/621af3dc2d17b7e430d99c93b031b4f3.jpeg,Seca,Pintura,"Paisagem, Deserto"
+16280,https://acervo-portinari.s3.sa-east-1.amazonaws.com/b18c3cc971886f6a48b1f33ffed04b87.jpeg,Menino com Cabrito,Pintura,"Paisagem, Marinha"
+16282,https://acervo-portinari.s3.sa-east-1.amazonaws.com/b7e447ff086e6e42a9e2ce02b7976979.jpeg,Cavalos,Pintura,"Paisagem, Campo"
+16301,https://acervo-portinari.s3.sa-east-1.amazonaws.com/6b138dc7f162aa6824f82f2a4dea484a.jpeg,Casa de Brodowski,Pintura,"Paisagem, Brodowski"
+16302,https://acervo-portinari.s3.sa-east-1.amazonaws.com/98894e3c181cd38e6b70106c352fdf7a.jpeg,Futebol,Pintura,"Paisagem, Brodowski"
+16303,https://acervo-portinari.s3.sa-east-1.amazonaws.com/8e9e4b80690b64193921c16a34bd7f32.jpeg,Jangadas,Pintura,Trabalhadores
+16308,https://acervo-portinari.s3.sa-east-1.amazonaws.com/8612fbaa564d6ff2af62548512b2b21a.jpeg,Marinha,Pintura,"Paisagem, Marinha, Rio de Janeiro"
+16310,https://acervo-portinari.s3.sa-east-1.amazonaws.com/f85df7865a493f926cacc94481426323.jpeg,Marinha,Pintura,"Paisagem, Marinha, Rio de Janeiro"
+16314,https://acervo-portinari.s3.sa-east-1.amazonaws.com/587513045e8a861ba8e0a3075012b163.jpeg,Praça de Brodowski,Pintura,"Paisagem, Brodowski"
+16316,https://acervo-portinari.s3.sa-east-1.amazonaws.com/f5f92a4c2b8ed128a0f7f57f5f44a980.jpeg,Morto,Pintura,Guerra
+16317,https://acervo-portinari.s3.sa-east-1.amazonaws.com/a660763b64ef5a6667caad84ed129475.jpeg,Homem Morto,Pintura,Guerra
+16319,https://acervo-portinari.s3.sa-east-1.amazonaws.com/0fc620e7c8913cbaf19fb620745b8071.jpeg,Meninos Brincando,Pintura,"Paisagem, Brodowski"
+16330,https://acervo-portinari.s3.sa-east-1.amazonaws.com/0af0a1c208424b0771414ffe308ab0b7.jpeg,Árvore,Pintura,"Paisagem, Campo"
+16354,https://acervo-portinari.s3.sa-east-1.amazonaws.com/59a01815695c1e469edfacb3929634f9.jpeg,Casinha de Brodowski,Pintura,"Paisagem, Campo"
+16360,https://acervo-portinari.s3.sa-east-1.amazonaws.com/12ad8be6d951dcc9652ed4120048f2e2.jpeg,Kibutz,Pintura,"Cenas de trabalho, Trabalhadores, Paisagem, Campo"
+16369,https://acervo-portinari.s3.sa-east-1.amazonaws.com/ba308dee857253ac9f6e7663d80d3c26.jpeg,Espantalho,Pintura,"Paisagem, Campo"
+16371,https://acervo-portinari.s3.sa-east-1.amazonaws.com/34f3be4d3c0d0b2509f8d6f91599efe3.jpeg,Café,Pintura,"Cenas de trabalho, Cultura de café, Trabalhadores, Lavrador"
+16384,https://acervo-portinari.s3.sa-east-1.amazonaws.com/c446386058b6abde5734cf6eb4f8c8be.jpeg,Sapateiro de Brodowski,Pintura,Trabalhadores
+16386,https://acervo-portinari.s3.sa-east-1.amazonaws.com/44a74a508094d234f646e4720f8cfc53.jpeg,Sapateiro,Pintura,Trabalhadores
+16389,https://acervo-portinari.s3.sa-east-1.amazonaws.com/44b0a17e00ddd08b5681a6c221d5ad23.jpeg,Lavadeiras,Pintura,Trabalhadores
+16394,https://acervo-portinari.s3.sa-east-1.amazonaws.com/d70926fd2fe6696e770c659d1008c01b.jpeg,Morro,Pintura,Favela
+16572,https://acervo-portinari.s3.sa-east-1.amazonaws.com/5c1e97a175e8b28027f26b4da359f3a5.jpeg,Futebol,Pintura,"Paisagem, Brodowski"
+16573,https://acervo-portinari.s3.sa-east-1.amazonaws.com/4797d501f4d0db10ab9795457b4fdff5.jpeg,Catequese,Pintura,Cenas Históricas
+16593,https://acervo-portinari.s3.sa-east-1.amazonaws.com/50dfa3faecefb7204f4bbc21a48e22a6.jpeg,Futebol,Pintura,"Paisagem, Brodowski"
+16594,https://acervo-portinari.s3.sa-east-1.amazonaws.com/dfabfa7a6331ca5534a290858c3a302c.jpeg,Céu com Estrelas,Pintura,Paisagem
+16615,https://acervo-portinari.s3.sa-east-1.amazonaws.com/c50245e8d65e82785a8a1bae2a044e65.jpeg,Bandeirantes,Pintura,"Cenas Históricas, Paisagem, Floresta"
+16617,https://acervo-portinari.s3.sa-east-1.amazonaws.com/6786018e22c6b634a9f59ec04889ac29.jpeg,Arrastão,Pintura,"Cenas de trabalho, Trabalhadores, Paisagem, Marinha"
+16632,https://acervo-portinari.s3.sa-east-1.amazonaws.com/81e8da14a1837bd0d49246c2d03bebc5.jpeg,Espantalho,Pintura,"Paisagem, Campo"
+16640,https://acervo-portinari.s3.sa-east-1.amazonaws.com/cac6e4f240f657ea3f1d588c7c458866.jpeg,Brodowski,Pintura,"Paisagem, Brodowski"
+16641,https://acervo-portinari.s3.sa-east-1.amazonaws.com/250cb4f540441273f812ebb0094409c3.jpeg,Espantalho,Pintura,"Paisagem, Campo"
+16646,https://acervo-portinari.s3.sa-east-1.amazonaws.com/2e0b764f21387edf1379205e8bbaf9ab.jpeg,Cidade,Pintura,Favela
+16651,https://acervo-portinari.s3.sa-east-1.amazonaws.com/513acec0b10a95eeaa22109e647029da.jpeg,Cana,Pintura,"Cenas de trabalho, Cultura de cana, Trabalhadores, Lavrador"
+16652,https://acervo-portinari.s3.sa-east-1.amazonaws.com/45025b8a2492e737cb5ad5d6f8130732.jpeg,Café,Pintura,"Cenas de trabalho, Cultura de café, Trabalhadores, Lavrador"
+16657,https://acervo-portinari.s3.sa-east-1.amazonaws.com/7bfd3d7963b3583e47e9da5e3aff9429.jpeg,Bumba-Meu-Boi,Pintura,Festas populares
+16666,https://acervo-portinari.s3.sa-east-1.amazonaws.com/dc3520a1637f0fbdd2b3f3cb364cdda3.jpeg,Lavadeiras,Pintura,"Cenas de trabalho, Trabalhadores"
+16667,https://acervo-portinari.s3.sa-east-1.amazonaws.com/7349f341c2e8564906d28de958ada00a.jpeg,Namorados,Pintura,Paisagem
+16683,https://acervo-portinari.s3.sa-east-1.amazonaws.com/5bd29e47cac2e6e3a63f03d0de92d249.jpeg,Paisagem de Brodowski,Pintura,"Paisagem, Brodowski"
+16698,https://acervo-portinari.s3.sa-east-1.amazonaws.com/b83767dee6fb0afb8709b3912482d9a0.jpeg,Marinha,Pintura,"Paisagem, Marinha"
+16704,https://acervo-portinari.s3.sa-east-1.amazonaws.com/4989ab0af97de2d52efdb10d29ebcc59.jpeg,Floresta,Pintura,"Paisagem, Floresta"
+16707,https://acervo-portinari.s3.sa-east-1.amazonaws.com/6550f145cef321c6552fd2bb7166de77.jpeg,Circo,Pintura,"Circo, Paisagem, Brodowski"
+16708,https://acervo-portinari.s3.sa-east-1.amazonaws.com/3d3d0046adadf8a6c9c0412cf43d77ee.jpeg,Espantalho,Pintura,Paisagem
+16715,https://acervo-portinari.s3.sa-east-1.amazonaws.com/0e54d4d0a22dddb38bd53e980017851b.jpeg,Espantalho,Pintura,"Paisagem, Campo"
+16727,https://acervo-portinari.s3.sa-east-1.amazonaws.com/59f6845448dcb7d78b387c82d2fbff69.jpeg,Navio Negreiro,Pintura,Cenas Históricas
+16736,https://acervo-portinari.s3.sa-east-1.amazonaws.com/110e1f8a26a421540af8e5ea15e87cd2.jpeg,Festa de São João,Pintura,"Favela, Festas populares"
+16750,https://acervo-portinari.s3.sa-east-1.amazonaws.com/fd99b13927d3f73c2b40e1a42a9b875b.jpeg,Enterro no Morro,Pintura,Favela
+16766,https://acervo-portinari.s3.sa-east-1.amazonaws.com/d9142ad8bae4beb4512ee618caaac1a7.jpeg,Coluna Prestes,Pintura,Cenas Históricas
+16767,https://acervo-portinari.s3.sa-east-1.amazonaws.com/77bd4356d4756aef858fff1892198310.jpeg,Baiana,Pintura,"Paisagem, Campo"
+16770,https://acervo-portinari.s3.sa-east-1.amazonaws.com/80d0682dbb8c9a984c0a76bdd1ef5a6c.jpeg,A Fuga para o Egito,Pintura,"Paisagem, Campo"
+16772,https://acervo-portinari.s3.sa-east-1.amazonaws.com/554add176d0a3b95116b028d7747af8d.jpeg,Colheita de Arroz,Pintura,"Cenas de trabalho, Cultura de arroz, Trabalhadores, Lavrador, Paisagem, Campo"
+16774,https://acervo-portinari.s3.sa-east-1.amazonaws.com/e1c22e23c1f359552cec3672ffac24aa.jpeg,Cabrito,Pintura,"Paisagem, Campo"
+16775,https://acervo-portinari.s3.sa-east-1.amazonaws.com/7172f5c9acdd6ac8e3eaf3535630ba16.jpeg,Estivador,Pintura,Trabalhadores
+16778,https://acervo-portinari.s3.sa-east-1.amazonaws.com/3bbfc261729d204c3c135967bd3ca63d.jpeg,Paisagem da Seca,Pintura,"Paisagem, Campo"
+16779,https://acervo-portinari.s3.sa-east-1.amazonaws.com/9e1be6eff216aef5339d8cc444f763d7.jpeg,Circo,Pintura,"Circo, Paisagem, Brodowski"
+16783,https://acervo-portinari.s3.sa-east-1.amazonaws.com/1de75af12da50cbe7252110d8f289034.jpeg,A Chegada de Dom João VI à Bahia,Pintura,Cenas Históricas
+16787,https://acervo-portinari.s3.sa-east-1.amazonaws.com/85b1069826515a46c099c520b36249b9.jpeg,Meninos Soltando Pipas,Pintura,"Paisagem, Brodowski"
+16806,https://acervo-portinari.s3.sa-east-1.amazonaws.com/a2af62b95de2b1c84c02632df405ca1f.jpeg,Espantalho,Pintura,"Cenas de trabalho, Lavoura, Trabalhadores, Lavrador"
+16807,https://acervo-portinari.s3.sa-east-1.amazonaws.com/119689d1abaa10e2d98173818b29641d.jpeg,Menino com Carneiro,Pintura,"Paisagem, Campo"
+16809,https://acervo-portinari.s3.sa-east-1.amazonaws.com/a2ffdfa3f09e41c399d1ac2d32ca0915.jpeg,Retirantes,Pintura,"Paisagem, Campo"
+16810,https://acervo-portinari.s3.sa-east-1.amazonaws.com/4dc98c71b2833d46acdb0e541c31dae9.jpeg,Gato,Pintura,"Paisagem, Campo"
+16811,https://acervo-portinari.s3.sa-east-1.amazonaws.com/2f9f23a11f23b1ab1d6a742e166c4d74.jpeg,Sagrada Família,Pintura,"Paisagem, Campo"
+16812,https://acervo-portinari.s3.sa-east-1.amazonaws.com/9de02922ce6ef8440246ebe9e00931ac.jpeg,A Fuga para o Egito,Pintura,"Paisagem, Campo"
+16813,https://acervo-portinari.s3.sa-east-1.amazonaws.com/6d453401b6602a1b80edea3ba1317dc9.jpeg,A Fuga para o Egito,Pintura,"Paisagem, Campo"
+16815,https://acervo-portinari.s3.sa-east-1.amazonaws.com/385a92a566c46fd10e9e34a06d9ae4ed.jpeg,Casamento na Roça,Pintura,"Paisagem, Brodowski"
+16824,https://acervo-portinari.s3.sa-east-1.amazonaws.com/0487838f4625986d806a3960cff18f65.jpeg,Caravana,Pintura,"Paisagem, Deserto"
+16828,https://acervo-portinari.s3.sa-east-1.amazonaws.com/882141cc1bc8ca5455858917661abe92.jpeg,Retrato de Arthur Bernardes Alves de Souza Filho,Pintura,"Paisagem, Campo, Cidade"
+16880,https://acervo-portinari.s3.sa-east-1.amazonaws.com/f05b4d479a1721ca08c0e7a96e1b063f.jpeg,Espantalho sobre o Feno,Pintura,"Paisagem, Campo"
+16885,https://acervo-portinari.s3.sa-east-1.amazonaws.com/6aab448c6c7d616fae35799e4b2bd5f8.jpeg,A Chegada de Dom João VI à Bahia,Pintura,Cenas Históricas
+16887,https://acervo-portinari.s3.sa-east-1.amazonaws.com/3b58dd9fafdc5b15e08007494b687f1d.jpeg,Três Figuras Femininas,Pintura,"Paisagem, Deserto"
+16888,https://acervo-portinari.s3.sa-east-1.amazonaws.com/845258178029fc202b5f1350745e38b8.jpeg,Mata,Pintura,"Paisagem, Floresta"
+16889,https://acervo-portinari.s3.sa-east-1.amazonaws.com/3a95c2e96ec88e55a6aa34a840aef3db.jpeg,Laçando Boi,Pintura,"Cenas de trabalho, Trabalhadores"
+16896,https://acervo-portinari.s3.sa-east-1.amazonaws.com/b24e29bfd54fa6e0a5dfdf5d744b3d32.jpeg,Espantalho,Pintura,"Paisagem, Campo"
+16900,https://acervo-portinari.s3.sa-east-1.amazonaws.com/096d25a19210e505a9f97c4201d2ae48.jpeg,Dois Coelhos,Pintura,"Paisagem, Floresta"
+16901,https://acervo-portinari.s3.sa-east-1.amazonaws.com/84b462a70e010e291fb474ab4100eb6c.jpeg,Cavalo Branco,Pintura,"Paisagem, Campo"
+16902,https://acervo-portinari.s3.sa-east-1.amazonaws.com/64804adf01aabbab4bf61d83f61f6268.jpeg,Retrato de Manuel Bandeira,Pintura,"Paisagem, Rio de Janeiro"
+16915,https://acervo-portinari.s3.sa-east-1.amazonaws.com/8544e193ad5506f1374d4cdfe4573a04.jpeg,Dom Quixote,Pintura,"Paisagem, Campo"
+16916,https://acervo-portinari.s3.sa-east-1.amazonaws.com/6edf8cc9125542312662bfd3b3f6f61e.jpeg,Circo,Pintura,"Circo, Paisagem, Brodowski"
+16943,https://acervo-portinari.s3.sa-east-1.amazonaws.com/008176023c4a730b532bc9c890bae45e.jpeg,A Primeira Missa no Brasil,Pintura,Cenas Históricas
+16949,https://acervo-portinari.s3.sa-east-1.amazonaws.com/77867cd1c8b7a0c952086641b10162d9.jpeg,Marinha,Pintura,"Paisagem, Marinha"
+16953,https://acervo-portinari.s3.sa-east-1.amazonaws.com/cc6ae7def061ae4f1876f15b6f76a630.jpeg,Retrato de Beatriz Llambi-Campbell,Pintura,Paisagem
+16964,https://acervo-portinari.s3.sa-east-1.amazonaws.com/d59ca028a5020f42c17b84c80829538a.jpeg,Preparativos para São João,Pintura,Festas populares
+16965,https://acervo-portinari.s3.sa-east-1.amazonaws.com/4e41130f9f29e2fc548635083d7cff1f.jpeg,Menino com Carneiro,Pintura,"Paisagem, Campo"
+16966,https://acervo-portinari.s3.sa-east-1.amazonaws.com/71f169e7747b0fe3ae753c1c7fbc732e.jpeg,Menino com Carneiro,Pintura,"Paisagem, Campo"
+16967,https://acervo-portinari.s3.sa-east-1.amazonaws.com/f6cb5f26f83e8facf07254a3e415b904.jpeg,Menino com Peixe,Pintura,"Paisagem, Campo"
+16968,https://acervo-portinari.s3.sa-east-1.amazonaws.com/56b69b335aadec4e230c9341a6dfe98a.jpeg,Marinha,Pintura,"Paisagem, Marinha"
+16969,https://acervo-portinari.s3.sa-east-1.amazonaws.com/9c5eee43b637c2a7b593724540b27aa6.jpeg,Marinha,Pintura,"Paisagem, Marinha"
+16985,https://acervo-portinari.s3.sa-east-1.amazonaws.com/6dd6a19fbbc2d87f41308a13cd85bf6b.jpeg,Semeadora,Pintura,"Cenas de trabalho, Lavoura, Trabalhadores, Paisagem, Campo"
+17025,https://acervo-portinari.s3.sa-east-1.amazonaws.com/56367f9f380ebb51f20433940e9ca905.jpeg,Pau-Brasil,Pintura,"Cenas de trabalho, Trabalhadores"
+17035,https://acervo-portinari.s3.sa-east-1.amazonaws.com/8889c8272d8af2a3a7bfced65eaef5c5.jpeg,Plantação de Cana,Pintura,"Cenas de trabalho, Cultura de cana, Trabalhadores, Lavrador"
+17036,https://acervo-portinari.s3.sa-east-1.amazonaws.com/0eede934f2e9b5b64d92b8e527103f81.jpeg,Colheita de Cana,Pintura,"Cenas de trabalho, Cultura de cana, Trabalhadores, Lavrador"
+17053,https://acervo-portinari.s3.sa-east-1.amazonaws.com/0bac7a3db559d2262e84d5b00e24d294.jpeg,Garimpeiros,Pintura,"Cenas de trabalho, Garimpagem, Trabalhadores, Garimpeiro"
+17054,https://acervo-portinari.s3.sa-east-1.amazonaws.com/a71e13509a93dc165da8a9df42b5527f.jpeg,Garimpeiros,Pintura,"Cenas de trabalho, Garimpagem, Trabalhadores, Garimpeiro"
+17055,https://acervo-portinari.s3.sa-east-1.amazonaws.com/5ef32a428d3980bee89c25bf787bcb11.jpeg,Garimpo,Pintura,"Cenas de trabalho, Garimpagem, Trabalhadores, Garimpeiro"
+17056,https://acervo-portinari.s3.sa-east-1.amazonaws.com/f7805d7f1ef7342dfb51493246ceb673.jpeg,Garimpo,Pintura,"Cenas de trabalho, Garimpagem, Trabalhadores, Garimpeiro"
+17057,https://acervo-portinari.s3.sa-east-1.amazonaws.com/cc269477c4c9526b0f727a3d3b8c0ee9.jpeg,Garimpeiros,Pintura,"Cenas de trabalho, Garimpagem, Trabalhadores, Garimpeiro"
+17058,https://acervo-portinari.s3.sa-east-1.amazonaws.com/4fb6cb394d977eb0cb8133b7fc32586b.jpeg,Garimpeiros,Pintura,"Cenas de trabalho, Garimpagem, Trabalhadores, Garimpeiro"
+17059,https://acervo-portinari.s3.sa-east-1.amazonaws.com/9219b434235f5f393ddbd83799a57987.jpeg,Faiscadores de Ouro,Pintura,"Cenas de trabalho, Garimpagem, Trabalhadores, Garimpeiro"
+17062,https://acervo-portinari.s3.sa-east-1.amazonaws.com/ae7849b212b3c2f2a129f024efacbffd.jpeg,Garimpo,Pintura,"Cenas de trabalho, Garimpagem, Trabalhadores, Garimpeiro"
+17065,https://acervo-portinari.s3.sa-east-1.amazonaws.com/9e4a3bbbb60ace555f3b0ab88f8b9f68.jpeg,Garimpeiros no Rio,Pintura,"Cenas de trabalho, Garimpagem, Trabalhadores, Garimpeiro"
+17067,https://acervo-portinari.s3.sa-east-1.amazonaws.com/8e652e885c42f0a5328b5794ebc1130e.jpeg,Garimpeiros no Rio,Pintura,"Cenas de trabalho, Garimpagem, Trabalhadores, Garimpeiro"
+17071,https://acervo-portinari.s3.sa-east-1.amazonaws.com/6c10ad9ded61f82358351d21e4646ea1.jpeg,Fumo,Pintura,"Cenas de trabalho, Cultura de fumo, Trabalhadores, Lavrador"
+17072,https://acervo-portinari.s3.sa-east-1.amazonaws.com/c824351391ff44fea3077afa7e293c35.jpeg,Fumo,Pintura,"Cenas de trabalho, Cultura de fumo, Trabalhadores, Lavrador"
+17073,https://acervo-portinari.s3.sa-east-1.amazonaws.com/4c8f8ecce3ff09434355c03f3122dce0.jpeg,Fumo,Pintura,"Cenas de trabalho, Cultura de fumo, Trabalhadores, Lavrador"
+17074,https://acervo-portinari.s3.sa-east-1.amazonaws.com/a813244009054bdc222ec9527867a8e1.jpeg,Fumo,Pintura,"Cenas de trabalho, Cultura de fumo, Trabalhadores, Lavrador"
+17075,https://acervo-portinari.s3.sa-east-1.amazonaws.com/bab7b4cf6c505304d5423fe4a58682bd.jpeg,Colheita de Fumo,Pintura,"Cenas de trabalho, Cultura de fumo, Trabalhadores, Lavrador"
+17084,https://acervo-portinari.s3.sa-east-1.amazonaws.com/0fe9b92f2466554671780bb7578b4b80.jpeg,Algodão,Pintura,"Cenas de trabalho, Cultura de algodão, Trabalhadores, Lavrador"
+17085,https://acervo-portinari.s3.sa-east-1.amazonaws.com/caa1f686d3dedc401ae9fdea2b74fdd9.jpeg,Algodão,Pintura,"Cenas de trabalho, Cultura de algodão, Trabalhadores, Lavrador"
+17087,https://acervo-portinari.s3.sa-east-1.amazonaws.com/12670a0e0678a538b3aba6611ced3de2.jpeg,Colheita de Algodão,Pintura,"Cenas de trabalho, Cultura de algodão, Trabalhadores, Lavrador"
+17093,https://acervo-portinari.s3.sa-east-1.amazonaws.com/d0b382b5ee3f73f12f71b8305ed3762f.jpeg,Erva-Mate,Pintura,"Cenas de trabalho, Cultura de erva-mate, Trabalhadores, Lavrador"
+17094,https://acervo-portinari.s3.sa-east-1.amazonaws.com/a9a05d9471f8bf5fa6aadce72320f341.jpeg,Erva-Mate,Pintura,"Cenas de trabalho, Cultura de erva-mate, Trabalhadores, Lavrador"
+17105,https://acervo-portinari.s3.sa-east-1.amazonaws.com/b2c55f4b2aa7fb64bf2c6dd7797eabf9.jpeg,Café,Pintura,"Cenas de trabalho, Cultura de café, Trabalhadores, Lavrador"
+17106,https://acervo-portinari.s3.sa-east-1.amazonaws.com/086cd9a0736fb890ade33fc9d00c2678.jpeg,Café,Pintura,"Cenas de trabalho, Cultura de café, Trabalhadores, Lavrador"
+17107,https://acervo-portinari.s3.sa-east-1.amazonaws.com/54c0d1dc3926c9eb4a77e9cd3a38d1f1.jpeg,Café,Pintura,"Cenas de trabalho, Cultura de café, Trabalhadores, Lavrador"
+17108,https://acervo-portinari.s3.sa-east-1.amazonaws.com/85e662b6cde37bd5cfce2844de0efc34.jpeg,Café,Pintura,"Cenas de trabalho, Cultura de café, Trabalhadores, Lavrador"
+17110,https://acervo-portinari.s3.sa-east-1.amazonaws.com/e3f2046096c573b5459174df0d36223f.jpeg,Transportando Café,Pintura,"Cenas de trabalho, Cultura de café, Trabalhadores, Lavrador"
+17114,https://acervo-portinari.s3.sa-east-1.amazonaws.com/ebd6c0f76458a01d11065683d0afce23.jpeg,Cacau,Pintura,"Cenas de trabalho, Cultura de cacau, Trabalhadores, Lavrador"
+17115,https://acervo-portinari.s3.sa-east-1.amazonaws.com/23f75cb088c20390029f028527d0fe46.jpeg,Cacau,Pintura,"Cenas de trabalho, Cultura de cacau, Trabalhadores, Lavrador"
+17125,https://acervo-portinari.s3.sa-east-1.amazonaws.com/25985ee519db415274a01d3ed49f11ba.jpeg,Borracha,Pintura,"Cenas de trabalho, Cultura de borracha, Trabalhadores"
+17135,https://acervo-portinari.s3.sa-east-1.amazonaws.com/fd43be60c2d6ed27daeed4a8c621de6c.jpeg,Norte-Sul,Pintura,Trabalhadores
+17168,https://acervo-portinari.s3.sa-east-1.amazonaws.com/27d0f19da9b61d41427867cdf945db92.jpeg,Catequese,Pintura,Cenas Históricas
+17169,https://acervo-portinari.s3.sa-east-1.amazonaws.com/8d9bcabcb957c8d4391a6927a4e21d7d.jpeg,Escola,Pintura,Cenas Históricas
+17195,https://acervo-portinari.s3.sa-east-1.amazonaws.com/1b094f29e203620ca311d09ba41733ce.jpeg,Espantalhos,Pintura,Paisagem
+17196,https://acervo-portinari.s3.sa-east-1.amazonaws.com/e4b3a2982280874198974a281dba72d6.jpeg,Paisagem de Brodowski,Pintura,"Paisagem, Brodowski"
+17203,https://acervo-portinari.s3.sa-east-1.amazonaws.com/a4461c304e5236537923939a2519f929.jpeg,Pulando Carniça,Pintura,"Paisagem, Campo"
+17211,https://acervo-portinari.s3.sa-east-1.amazonaws.com/8b7c40492a1e0c621e70ad79f72c3cda.jpeg,Praça,Pintura,"Paisagem, Cidade"
+17224,https://acervo-portinari.s3.sa-east-1.amazonaws.com/c8518510c1853441b1a7c6c9d74c0875.jpeg,Igreja de Nossa Senhora da Glória do Outeiro,Pintura,"Paisagem, Rio de Janeiro"
+17228,https://acervo-portinari.s3.sa-east-1.amazonaws.com/d667705e76a53b0f1c97209569edeb7e.jpeg,Paisagem com Cabras,Pintura,"Paisagem, Campo"
+17239,https://acervo-portinari.s3.sa-east-1.amazonaws.com/2f9f740c28e0f8ccb405122858424448.jpeg,Espantalho,Pintura,"Paisagem, Campo"
+17244,https://acervo-portinari.s3.sa-east-1.amazonaws.com/027276f09f63e3f99c1663460b4f2040.jpeg,Três Mulheres,Pintura,Paisagem
+17246,https://acervo-portinari.s3.sa-east-1.amazonaws.com/77910ee33f964656a423f968855590ce.jpeg,Terreiro de Café,Pintura,"Cenas de trabalho, Cultura de café, Trabalhadores, Lavrador, Festas populares"
+17247,https://acervo-portinari.s3.sa-east-1.amazonaws.com/f737eaaa66e647ebed936c457ac0885c.jpeg,Peneirando Café,Pintura,"Cenas de trabalho, Cultura de café, Trabalhadores"
+17249,https://acervo-portinari.s3.sa-east-1.amazonaws.com/445563855e2e6a48552a2c65f5a7b302.jpeg,Palhacinhos na Gangorra,Pintura,"Paisagem, Campo"
+17250,https://acervo-portinari.s3.sa-east-1.amazonaws.com/f9b6c7caa84d45404263ac430cb34c40.jpeg,Meninos Pulando Carniça,Pintura,"Paisagem, Campo"
+17255,https://acervo-portinari.s3.sa-east-1.amazonaws.com/1e4cb6a88b04965829f36c73b0e00d5b.jpeg,Tempestade,Pintura,"Paisagem, Campo"
+17264,https://acervo-portinari.s3.sa-east-1.amazonaws.com/d4294fef53f563c04818d30f1c025552.jpeg,Bumba-Meu-Boi,Pintura,Festas populares
+17268,https://acervo-portinari.s3.sa-east-1.amazonaws.com/c6f05af50cd76af0d6f76dd18358cb3e.jpeg,Homem com Espingarda,Pintura,"Paisagem, Floresta"
+17272,https://acervo-portinari.s3.sa-east-1.amazonaws.com/5c2215d97215eace9fa907ac3f9fd911.jpeg,Colheita de Cacau,Pintura,"Cenas de trabalho, Cultura de cacau, Trabalhadores, Paisagem, Floresta"
+17280,https://acervo-portinari.s3.sa-east-1.amazonaws.com/429461c3c353af6491736df5a0c3e4a2.jpeg,Lembrança da Minha Infância,Pintura,"Circo, Paisagem, Brodowski"
+17281,https://acervo-portinari.s3.sa-east-1.amazonaws.com/d70db86f48d309f09853c6595160684e.jpeg,Casamento na Roça,Pintura,"Paisagem, Brodowski"
+17285,https://acervo-portinari.s3.sa-east-1.amazonaws.com/08824536fa88dd2f1c2a8c09a5996a5b.jpeg,Seca,Pintura,"Paisagem, Deserto"
+17288,https://acervo-portinari.s3.sa-east-1.amazonaws.com/8fb15cc0ad791885ba8eebd9ff1bd631.jpeg,Espantalho,Pintura,"Paisagem, Deserto"
+17299,https://acervo-portinari.s3.sa-east-1.amazonaws.com/a2b8f652de70057296226aae19a8ca64.jpeg,Brodowski,Pintura,"Paisagem, Brodowski"
+17300,https://acervo-portinari.s3.sa-east-1.amazonaws.com/6dc227c5075248be12af120642861713.jpeg,Brodowski,Pintura,"Paisagem, Brodowski"
+17304,https://acervo-portinari.s3.sa-east-1.amazonaws.com/26c10781ddb4e6e84f5cce7ae24f8b7c.jpeg,A Chegada de Dom João VI à Bahia,Pintura,Cenas Históricas
+17321,https://acervo-portinari.s3.sa-east-1.amazonaws.com/80cf0c0c85068632060d81325c284412.jpeg,Tempestade,Pintura,"Paisagem, Campo"
+17322,https://acervo-portinari.s3.sa-east-1.amazonaws.com/e01a2d1a199370dd0bced8012996a62b.jpeg,Banhista,Pintura,Paisagem
+17331,https://acervo-portinari.s3.sa-east-1.amazonaws.com/9881dbc572366ae3488a971313035951.jpeg,Lavadeira,Pintura,"Cenas de trabalho, Trabalhadores"
+17337,https://acervo-portinari.s3.sa-east-1.amazonaws.com/9c349d96e8bf655d0dd6e75e55d7779c.jpeg,Lavadeiras,Pintura,Trabalhadores
+17343,https://acervo-portinari.s3.sa-east-1.amazonaws.com/7cf7cd3837ffdb85949b13d998d530d1.jpeg,Praia de Ipanema,Pintura,"Paisagem, Marinha, Rio de Janeiro"
+17349,https://acervo-portinari.s3.sa-east-1.amazonaws.com/388986bbfcdb4320b6ef1ce35fc1f943.jpeg,Retirante,Pintura,"Paisagem, Campo"
+17357,https://acervo-portinari.s3.sa-east-1.amazonaws.com/171ae6962c32ee581dbf939a3d766e9b.jpeg,Médico de Loucos,Pintura,"Paisagem, Marinha"
+17358,https://acervo-portinari.s3.sa-east-1.amazonaws.com/a2cd6e47cbd3828b39dbf5771fafa240.jpeg,Cavalo,Pintura,"Paisagem, Campo"
+17379,https://acervo-portinari.s3.sa-east-1.amazonaws.com/3c3880e5f270c998362cf706c1ceccb7.jpeg,Baiana,Pintura,Paisagem
+17381,https://acervo-portinari.s3.sa-east-1.amazonaws.com/d3a91c49c97e2b9dfb8ef062f87997a5.jpeg,Casamento na Roça,Pintura,"Paisagem, Brodowski"
+17383,https://acervo-portinari.s3.sa-east-1.amazonaws.com/15ef0a53799832473781ab1e5fc9b1da.jpeg,Pescador,Pintura,"Paisagem, Marinha"
+17388,https://acervo-portinari.s3.sa-east-1.amazonaws.com/8438d16f003f5dab81b943438fc2fb66.jpeg,Pano de Boca,Pintura,Paisagem
+17433,https://acervo-portinari.s3.sa-east-1.amazonaws.com/458c20f26404dd1a9decd6a03b117938.jpeg,Casamento,Pintura,"Paisagem, Brodowski"
+17439,https://acervo-portinari.s3.sa-east-1.amazonaws.com/e656e31c7bc36d950d8d457d6a1c561f.jpeg,Meninos Pulando Carniça,Pintura,"Paisagem, Campo"
+17448,https://acervo-portinari.s3.sa-east-1.amazonaws.com/08a7cec7c483bd1ceec63b8d3a0c2f69.jpeg,Menino com Carneiros,Pintura,"Paisagem, Campo"
+17460,https://acervo-portinari.s3.sa-east-1.amazonaws.com/7b5c94fee05a9e8ce440c4a1f99520d2.jpeg,Mulher Chorando,Pintura,Guerra
+17466,https://acervo-portinari.s3.sa-east-1.amazonaws.com/9b26f6b71df8ef9acf9947335c3d1b31.jpeg,Cena de Cafezal,Pintura,"Cenas de trabalho, Cultura de café, Trabalhadores, Lavrador"
+17475,https://acervo-portinari.s3.sa-east-1.amazonaws.com/8bc53c24342bd6cad54970d3420bf39e.jpeg,Ipanema,Pintura,"Paisagem, Marinha, Rio de Janeiro"
+17478,https://acervo-portinari.s3.sa-east-1.amazonaws.com/ed9bd2b09bcd6d0097ebef41ec13196e.jpeg,Maternidade,Pintura,Guerra
+17483,https://acervo-portinari.s3.sa-east-1.amazonaws.com/1f36f46cfbc8fd5102dd326e24e46b86.jpeg,Café,Pintura,"Cenas de trabalho, Cultura de café, Paisagem, Campo"
+17487,https://acervo-portinari.s3.sa-east-1.amazonaws.com/452951c85b4f8baed38ffc2fe6cd6f11.jpeg,Depósito de Óleo,Pintura,Paisagem
+17498,https://acervo-portinari.s3.sa-east-1.amazonaws.com/12006847f24cd582a0d5d40086d05ba1.jpeg,Ave na Paisagem,Pintura,Paisagem
+17514,https://acervo-portinari.s3.sa-east-1.amazonaws.com/47ae89942772959e2102b600f1813e55.jpeg,Brasil,Pintura,Cenas Históricas
+17535,https://acervo-portinari.s3.sa-east-1.amazonaws.com/e69eedf7917da594374a4b47e60852cd.jpeg,Paisagem de Petrópolis,Pintura,Paisagem
+17537,https://acervo-portinari.s3.sa-east-1.amazonaws.com/0cb9810e88a72cb0383c3728f2edd58e.jpeg,Menino com Carneiro e Cavalo,Pintura,"Paisagem, Campo"
+17538,https://acervo-portinari.s3.sa-east-1.amazonaws.com/44689a6efe19075a8c7c0e9deeff4ed1.jpeg,Favela,Pintura,Favela
+17539,https://acervo-portinari.s3.sa-east-1.amazonaws.com/48cc71e55214d5609e61be28048e927d.jpeg,Retrato do Maestro Leonidas Autuori,Pintura,"Paisagem, Marinha"
+17543,https://acervo-portinari.s3.sa-east-1.amazonaws.com/fbbc0d4ddd898d25ea63e095300e24e7.jpeg,Retrato de Elza Rabello,Pintura,"Paisagem, Campo"
+17554,https://acervo-portinari.s3.sa-east-1.amazonaws.com/5367b5ca15aec39d06aa6d8b9a9f65b5.jpeg,Paisagem,Pintura,"Paisagem, Morro, Rio de Janeiro"
+17565,https://acervo-portinari.s3.sa-east-1.amazonaws.com/920c94c723cc193295b3ece033b704eb.jpeg,Meninos Soltando Pipas,Pintura,"Paisagem, Campo"
+17575,https://acervo-portinari.s3.sa-east-1.amazonaws.com/7521a64e8d7da4aca9c01b0c35631769.jpeg,Vaqueiro do Nordeste,Pintura,Trabalhadores
+17579,https://acervo-portinari.s3.sa-east-1.amazonaws.com/563f7c730fbecbdea220885b1b87aa44.jpeg,As Moças de Arcozelo,Pintura,"Paisagem, Campo"
+17580,https://acervo-portinari.s3.sa-east-1.amazonaws.com/9d27ee225ccff0e04468437de0101250.jpeg,Retirantes,Pintura,Paisagem
+17582,https://acervo-portinari.s3.sa-east-1.amazonaws.com/22a0f7e0bb400112b739bb4e828078d9.jpeg,Casamento na Roça,Pintura,"Paisagem, Brodowski"
+17591,https://acervo-portinari.s3.sa-east-1.amazonaws.com/4dcc198c41b95555ab9c75f6e5a3bfb6.jpeg,Tabaco,Pintura,"Cenas de trabalho, Cultura de fumo, Trabalhadores, Lavrador"
+17593,https://acervo-portinari.s3.sa-east-1.amazonaws.com/bd71fafe17fde84969d52331c8a2be5b.jpeg,Baile na Roça,Pintura,Festas populares
+17602,https://acervo-portinari.s3.sa-east-1.amazonaws.com/0f5cdd4d2c4da9a292ebea3838256cb6.jpeg,Favela ao Amanhecer,Pintura,Favela
+17605,https://acervo-portinari.s3.sa-east-1.amazonaws.com/f4f87f7bee0e340492e2abb86f7bac47.jpeg,Campo de Arroz,Pintura,"Cenas de trabalho, Cultura de arroz, Trabalhadores, Paisagem, Campo"
+17609,https://acervo-portinari.s3.sa-east-1.amazonaws.com/8f469265ca4b6833084b587694109be8.jpeg,Mulher com Lata na Cabeça,Pintura,Trabalhadores
+17610,https://acervo-portinari.s3.sa-east-1.amazonaws.com/4abfe4dceae0530f9f892a689f3d6920.jpeg,Espantalho,Pintura,Paisagem
+17620,https://acervo-portinari.s3.sa-east-1.amazonaws.com/f416a7f7c14d17143ffc70b65ba20d36.jpeg,Mulher e Crianças,Pintura,"Paisagem, Campo"
+17629,https://acervo-portinari.s3.sa-east-1.amazonaws.com/aa1587168bc0d433d2590b5382704e5f.jpeg,Favela,Pintura,Favela
+17632,https://acervo-portinari.s3.sa-east-1.amazonaws.com/85b808b4f57dca893732e013b2567da1.jpeg,Construção no Campo,Pintura,"Cenas de trabalho, Lavoura, Paisagem, Campo"
+17645,https://acervo-portinari.s3.sa-east-1.amazonaws.com/173c9a432fb804362f51e553e507c93e.jpeg,Espantalho,Pintura,"Paisagem, Campo"
+17649,https://acervo-portinari.s3.sa-east-1.amazonaws.com/bd40d351a20dae55393ab830323b2e0a.jpeg,Convento de Santa Teresa,Pintura,"Paisagem, Rio de Janeiro"
+17663,https://acervo-portinari.s3.sa-east-1.amazonaws.com/54444354ebdd7385f31096b8865d5f6d.jpeg,Marias,Pintura,Paisagem
+17665,https://acervo-portinari.s3.sa-east-1.amazonaws.com/c392695500fe1e3da08baa599481b5b3.jpeg,Espantalho,Pintura,Paisagem
+17666,https://acervo-portinari.s3.sa-east-1.amazonaws.com/0b8a16a2ac1aa0757206f577edebb5c7.jpeg,Domingo no Morro,Pintura,Favela
+17676,https://acervo-portinari.s3.sa-east-1.amazonaws.com/7c25cc1b75b7f612b4107cdc4aab1272.jpeg,Greve,Pintura,Cenas de trabalho
+17677,https://acervo-portinari.s3.sa-east-1.amazonaws.com/cb203f4680feaa90f49de473e442e701.jpeg,Destacamento da Coluna Prestes,Pintura,Cenas Históricas
+17693,https://acervo-portinari.s3.sa-east-1.amazonaws.com/3062a873ebdc97ccb9a7f8649dfb4b77.jpeg,Menina com Flor,Pintura,Favela
+17695,https://acervo-portinari.s3.sa-east-1.amazonaws.com/e45a897680a023928bd1ed4cab8725c1.jpeg,Paisagem de Brodowski,Pintura,"Paisagem, Brodowski"
+17696,https://acervo-portinari.s3.sa-east-1.amazonaws.com/c7b2f049db8cf7b685a6c9ef38a642f7.jpeg,Trabalho,Pintura,Cenas de trabalho
+17719,https://acervo-portinari.s3.sa-east-1.amazonaws.com/039a1ccbd989df79074d03608e6c9057.jpeg,Mulher Carregando Lenha,Pintura,Trabalhadores
+17720,https://acervo-portinari.s3.sa-east-1.amazonaws.com/521d5ce368efea0680e9ec32ad74aafb.jpeg,Peneirando Café,Pintura,"Cenas de trabalho, Cultura de café, Trabalhadores"
+17737,https://acervo-portinari.s3.sa-east-1.amazonaws.com/8f11ad1c721df4319fb7c89e1665b999.jpeg,Retrato de Armando Salles de Oliveira Filho,Pintura,"Paisagem, Marinha"
+17755,https://acervo-portinari.s3.sa-east-1.amazonaws.com/47fc72bc0b0639fca41a5f36215f5eac.jpeg,Civilização Mineira,Pintura,"Paisagem, Cidade"
+17756,https://acervo-portinari.s3.sa-east-1.amazonaws.com/3c04e69c4c91d66ee6de3379dd283d6f.jpeg,Os Inconfidentes,Pintura,"Paisagem, Cidade"
+17810,https://acervo-portinari.s3.sa-east-1.amazonaws.com/529b6900b020bdd6cf822593b193b39a.jpeg,Frevo,Pintura,"Festas populares, Carnaval"
+17811,https://acervo-portinari.s3.sa-east-1.amazonaws.com/a0b45b6d8d9838143ac9e619ca1e44ab.jpeg,Carnaval,Pintura,"Festas populares, Carnaval"
+17818,https://acervo-portinari.s3.sa-east-1.amazonaws.com/a810e83415d6302fdbf13578867ae6f3.jpeg,Mulher com Filho Morto,Pintura,Guerra
+17819,https://acervo-portinari.s3.sa-east-1.amazonaws.com/d1a84ad364558377c17284eaf16d7c7f.jpeg,Músicos na Favela,Pintura,Favela
+17863,https://acervo-portinari.s3.sa-east-1.amazonaws.com/88df5d5054e7dde72b5c2fadf6bb7885.jpeg,Operário,Pintura,Trabalhadores
+17864,https://acervo-portinari.s3.sa-east-1.amazonaws.com/4068c7f672cdef7c60272b4df19324e6.jpeg,Marinha,Pintura,"Paisagem, Marinha, Rio de Janeiro"
+17865,https://acervo-portinari.s3.sa-east-1.amazonaws.com/45ce22d80cfea1c69db2a399fc0a9a2c.jpeg,Crianças Brincando,Pintura,Paisagem
+17866,https://acervo-portinari.s3.sa-east-1.amazonaws.com/1d49d2135f5d01e0f1639398373cb0c9.jpeg,Paisagem de Petrópolis,Pintura,Paisagem
+17878,https://acervo-portinari.s3.sa-east-1.amazonaws.com/d26fbf16b335ff69c91ce26576dd56b5.jpeg,Descobrimento do Brasil,Pintura,"Cenas Históricas, Descobrimento do Brasil"
+17881,https://acervo-portinari.s3.sa-east-1.amazonaws.com/911ff479b84c79382f9281a81e1ffd9e.jpeg,Anchieta,Pintura,Cenas Históricas
+17891,https://acervo-portinari.s3.sa-east-1.amazonaws.com/fcb0105c473e887d8861ecbe299ced00.jpeg,Bumba-Meu-Boi,Pintura,Festas populares
+17898,https://acervo-portinari.s3.sa-east-1.amazonaws.com/6ec5f63e7dadec5f041b866ae17f72df.jpeg,Garimpo,Pintura,"Cenas de trabalho, Garimpagem, Trabalhadores, Garimpeiro"
+17904,https://acervo-portinari.s3.sa-east-1.amazonaws.com/3f3512e03a13f5181f22bd968e032647.jpeg,Paisagem de Petrópolis,Pintura,"Paisagem, Campo"
+17905,https://acervo-portinari.s3.sa-east-1.amazonaws.com/b8aec1caf5a6bca5ca8f130a0fc3ea0e.jpeg,Figura em Paisagem,Pintura,"Paisagem, Morro"
+17914,https://acervo-portinari.s3.sa-east-1.amazonaws.com/80efb323ca564a692e68ba6d74552d80.jpeg,Jangadas do Nordeste,Pintura,Trabalhadores
+17919,https://acervo-portinari.s3.sa-east-1.amazonaws.com/04756dcb0801d78e37eae4d746085ec3.jpeg,Guerra,Pintura,Guerra
+17929,https://acervo-portinari.s3.sa-east-1.amazonaws.com/b45b60ce8d9ca93c78292fb8ae573ec8.jpeg,Mestiço,Pintura,"Paisagem, Campo"
+17949,https://acervo-portinari.s3.sa-east-1.amazonaws.com/d4128960c00abd28d96891e02de96d42.jpeg,Menino com Pipa,Pintura,"Paisagem, Campo"
+17957,https://acervo-portinari.s3.sa-east-1.amazonaws.com/bb406cdd20c3826adaaa1b177e3468c1.jpeg,Céu com Balões,Pintura,Paisagem
+17958,https://acervo-portinari.s3.sa-east-1.amazonaws.com/3b1fdaf78ec3f21f2f0f70f46a4ec254.jpeg,Espantalho,Pintura,"Paisagem, Campo"
+17969,https://acervo-portinari.s3.sa-east-1.amazonaws.com/ad4b6ec8ccfbd0c8f295931ef5290ab8.jpeg,Marinha,Pintura,"Paisagem, Marinha"
+17970,https://acervo-portinari.s3.sa-east-1.amazonaws.com/a7a1938d38c355237b67aea77fb1c295.jpeg,Favela,Pintura,Favela
+17971,https://acervo-portinari.s3.sa-east-1.amazonaws.com/8788c94ef18cb78218de04b4cba4e3ae.jpeg,Menino com Carneiro,Pintura,"Paisagem, Campo"
+17980,https://acervo-portinari.s3.sa-east-1.amazonaws.com/1088dbafb12c6b91e348be23305a9a9c.jpeg,Pedra da Gávea,Pintura,"Paisagem, Campo, Rio de Janeiro"
+17986,https://acervo-portinari.s3.sa-east-1.amazonaws.com/8458fa4f55b88393270dadd6c8d63189.jpeg,Retrato do Maestro Oscar Lorenzo Fernández,Pintura,"Paisagem, Marinha"
+17989,https://acervo-portinari.s3.sa-east-1.amazonaws.com/6eabd38b0938dab2511e0049c11fec66.jpeg,Bandeirantes,Pintura,Cenas Históricas
+18008,https://acervo-portinari.s3.sa-east-1.amazonaws.com/9b24cdbbcab8175f08048404876c16da.jpeg,Espantalho na Tempestade,Pintura,"Paisagem, Campo"
+18027,https://acervo-portinari.s3.sa-east-1.amazonaws.com/a8a7b7d31292f3c746665fe4a15821fe.jpeg,Espantalho,Pintura,"Paisagem, Campo"
+18037,https://acervo-portinari.s3.sa-east-1.amazonaws.com/de04765883361e58cb72540b519663f3.jpeg,Pescadores,Pintura,"Cenas de trabalho, Trabalhadores"
+18038,https://acervo-portinari.s3.sa-east-1.amazonaws.com/3374b7c3951d07fa4d09515b0639e6d4.jpeg,Pescadores,Pintura,"Cenas de trabalho, Trabalhadores"
+18048,https://acervo-portinari.s3.sa-east-1.amazonaws.com/3cd67e761a74d9631845d603e724e40f.jpeg,Cabeça de Negro,Pintura,"Paisagem, Campo"
+18057,https://acervo-portinari.s3.sa-east-1.amazonaws.com/f976fe0fca28832c45d986a9d2738a55.jpeg,Espantalho no Morro,Pintura,"Paisagem, Campo"
+18060,https://acervo-portinari.s3.sa-east-1.amazonaws.com/21c0ba102f0263f1dc8e443bbd7964b7.jpeg,Catequese,Pintura,Cenas Históricas
+18069,https://acervo-portinari.s3.sa-east-1.amazonaws.com/6660a20902bf741a7bdff64e50055512.jpeg,Bandeirantes,Pintura,Cenas Históricas
+18073,https://acervo-portinari.s3.sa-east-1.amazonaws.com/4443941a43f1941868680c39bee3886b.jpeg,Favela com Músicos,Pintura,Favela
+18076,,Floresta,Pintura,"Paisagem, Floresta"
+18081,https://acervo-portinari.s3.sa-east-1.amazonaws.com/3fd0f7989af72f2411478d057aa1ebb3.jpeg,Carregadores de Café,Pintura,"Cenas de trabalho, Trabalhadores"
+18085,https://acervo-portinari.s3.sa-east-1.amazonaws.com/061a2adfe14fdc3cdadb7ad52a0f30a9.jpeg,Bandeirantes,Pintura,"Cenas Históricas, Paisagem, Floresta"
+18115,https://acervo-portinari.s3.sa-east-1.amazonaws.com/fdcdf50a7714871f5926752a0d95f6f4.jpeg,Lavrador de Café,Pintura,"Cenas de trabalho, Cultura de café, Trabalhadores, Lavrador"
+18120,https://acervo-portinari.s3.sa-east-1.amazonaws.com/8e377432077b8614a7e8266ac1981fae.jpeg,Retrato do Poeta Felippe d'Oliveira,Pintura,"Paisagem, Campo"
+18149,https://acervo-portinari.s3.sa-east-1.amazonaws.com/ea57fcfbca18df040dd53582346a2d7c.jpeg,Santo Antônio,Pintura,"Paisagem, Campo"
+18187,https://acervo-portinari.s3.sa-east-1.amazonaws.com/ddf145df303660cbf1247c5080556422.jpeg,Retrato de José Martins de Barros,Pintura,"Paisagem, Campo"
+18188,https://acervo-portinari.s3.sa-east-1.amazonaws.com/03c6b5863fb0e69c9d2875a2f58019c1.jpeg,Operário,Pintura,"Trabalhadores, Operário"
+18194,https://acervo-portinari.s3.sa-east-1.amazonaws.com/e7a6b7693038b6241cbd76a9b4316799.jpeg,Praça de Brodowski,Pintura,"Paisagem, Brodowski"
+18202,https://acervo-portinari.s3.sa-east-1.amazonaws.com/7978c3cd535d5b7db66d3252d335a3bf.jpeg,Paisagem,Pintura,"Paisagem, Brodowski"
+18208,https://acervo-portinari.s3.sa-east-1.amazonaws.com/a1ea906fc5590a0ac5dd191c0a483a6e.jpeg,Retrato de Jorge Amado,Pintura,"Paisagem, Campo"
+18217,https://acervo-portinari.s3.sa-east-1.amazonaws.com/43e167e46e56c2ced84be128206ea886.jpeg,Mulher e Criança,Pintura,Favela
+18218,https://acervo-portinari.s3.sa-east-1.amazonaws.com/37e9ff854442a0c07c5d979987af33c4.jpeg,Jangada e Carcaça,Pintura,Paisagem
+18221,https://acervo-portinari.s3.sa-east-1.amazonaws.com/591d72128dd5eba6c12e5e9b48c11f1b.jpeg,Quatro Vaqueiros Laçando Boi,Pintura,"Cenas de trabalho, Trabalhadores"
+18226,https://acervo-portinari.s3.sa-east-1.amazonaws.com/592df5bb998f8388ea4316d91f2d4ec8.jpeg,Batedores de Arroz,Pintura,"Cenas de trabalho, Cultura de arroz, Trabalhadores, Lavrador, Paisagem, Campo"
+18232,https://acervo-portinari.s3.sa-east-1.amazonaws.com/0d52dc6172907709555b95060c9509c6.jpeg,Flautista,Pintura,Favela
+18251,https://acervo-portinari.s3.sa-east-1.amazonaws.com/16f31cc53da2c4062b7828896e7672ba.jpeg,Paisagem,Pintura,"Paisagem, Brodowski"
+18252,https://acervo-portinari.s3.sa-east-1.amazonaws.com/2c97f65ebf6dd59a70357c09bc65943f.jpeg,Três Marias,Pintura,Paisagem
+18292,https://acervo-portinari.s3.sa-east-1.amazonaws.com/71147f704baf39c42047ccc1b3753519.jpeg,Cavalos em Debandada,Pintura,"Paisagem, Campo"
+18297,https://acervo-portinari.s3.sa-east-1.amazonaws.com/2c0af4897c77ca9a141abd73f495a341.jpeg,Retrato de Mariah Mendes de Almeida,Pintura,"Paisagem, Campo"
+18312,https://acervo-portinari.s3.sa-east-1.amazonaws.com/af80675ac6671572fc334ffdb0fb5c91.jpeg,Tintureiro,Pintura,Trabalhadores
+18314,https://acervo-portinari.s3.sa-east-1.amazonaws.com/eeab6399e738b00822535c9b5837326d.jpeg,Favela,Pintura,Favela
+18316,https://acervo-portinari.s3.sa-east-1.amazonaws.com/e4daf725d15f3798cd04329cf3686c76.jpeg,Jangadeiros,Pintura,Trabalhadores
+18318,https://acervo-portinari.s3.sa-east-1.amazonaws.com/662116825de0e0233dabc8260f04323c.jpeg,Enterro,Pintura,"Paisagem, Brodowski"
+18322,https://acervo-portinari.s3.sa-east-1.amazonaws.com/a985c1affed985ab2f19f3321664260e.jpeg,Seringal,Pintura,"Cenas de trabalho, Cultura de borracha, Trabalhadores, Paisagem, Floresta"
+18333,https://acervo-portinari.s3.sa-east-1.amazonaws.com/fdf165c7b8ab74e8b2f4199653da983e.jpeg,Menino das Cabras,Pintura,Cenas de trabalho
+18335,https://acervo-portinari.s3.sa-east-1.amazonaws.com/1a77c6a60ea4f8304c87b976996d98bf.jpeg,Casamento na Roça,Pintura,"Paisagem, Brodowski"
+18338,https://acervo-portinari.s3.sa-east-1.amazonaws.com/04ff175c0c21c1db082b4ac4dd662e6a.jpeg,Lavadeiras,Pintura,Trabalhadores
+18350,https://acervo-portinari.s3.sa-east-1.amazonaws.com/9fc611f8fe39e0d8f930739f5d368984.jpeg,Cidade,Pintura,Favela
+18351,https://acervo-portinari.s3.sa-east-1.amazonaws.com/b9a92a54c357362b2b268b5f6a67590f.jpeg,Colheita de Algodão,Pintura,"Cenas de trabalho, Cultura de algodão, Trabalhadores, Lavrador"
+18354,https://acervo-portinari.s3.sa-east-1.amazonaws.com/72d7380afae2c35c53a23b998e7c8f3a.jpeg,Menina com Criança no Colo,Pintura,Paisagem
+18357,https://acervo-portinari.s3.sa-east-1.amazonaws.com/74df494afba458ad6d3a58e50871d65f.jpeg,Casamento na Roça,Pintura,"Paisagem, Brodowski"
+18358,https://acervo-portinari.s3.sa-east-1.amazonaws.com/172f58a2abd1752b40e16092730f5929.jpeg,Jogo de Futebol em Brodowski,Pintura,"Paisagem, Brodowski"
+18359,https://acervo-portinari.s3.sa-east-1.amazonaws.com/b2d594e58c69ca776d539450a96191a5.jpeg,Enchente do Rio Tietê,Pintura,Paisagem
+18365,https://acervo-portinari.s3.sa-east-1.amazonaws.com/e6402f01ecc1a5c0627e37d9ee29bbdd.jpeg,Bandeirantes na Mata,Pintura,"Cenas Históricas, Paisagem, Floresta"
+18372,https://acervo-portinari.s3.sa-east-1.amazonaws.com/d25b42b4d334ccf15ad2cfc00d205998.jpeg,Circo,Pintura,Circo
+18374,https://acervo-portinari.s3.sa-east-1.amazonaws.com/9214eb2a2eab4405129057d60f094982.jpeg,Rio Tietê,Pintura,Paisagem
+18375,https://acervo-portinari.s3.sa-east-1.amazonaws.com/6cf734e634c9305906ecdc820fe4462c.jpeg,Índia e Mulata,Pintura,Paisagem
+18379,https://acervo-portinari.s3.sa-east-1.amazonaws.com/0c88805ff6263445aeb8a0e69b8fb91d.jpeg,Mulheres Carregando Lenha,Pintura,"Cenas de trabalho, Trabalhadores"
+18381,https://acervo-portinari.s3.sa-east-1.amazonaws.com/5a3d405b656cca619f53c0160effec5e.jpeg,Colheita de Milho,Pintura,"Cenas de trabalho, Cultura de milho, Trabalhadores, Lavrador"
+18382,https://acervo-portinari.s3.sa-east-1.amazonaws.com/05f4db84d8491c4a00e3fda00fc095aa.jpeg,Festa de São João,Pintura,"Cenas de trabalho, Cultura de café, Festas populares"
+18384,https://acervo-portinari.s3.sa-east-1.amazonaws.com/5c9859065b498259feecbca196ca579c.jpeg,Canavial,Pintura,"Cenas de trabalho, Cultura de cana, Trabalhadores, Lavrador"
+18385,https://acervo-portinari.s3.sa-east-1.amazonaws.com/2cc30e1ddcea04d99291cd3b0dca4e55.jpeg,Batendo Arroz,Pintura,"Cenas de trabalho, Cultura de arroz, Trabalhadores, Lavrador"
+18390,https://acervo-portinari.s3.sa-east-1.amazonaws.com/9b2b37f4b4b23822362d8861a2affbea.jpeg,Família,Pintura,Paisagem
+18392,https://acervo-portinari.s3.sa-east-1.amazonaws.com/a2fea725d9d87d6027b1c8c86d1a56a5.jpeg,Três Amigas no Morro,Pintura,Favela
+18398,https://acervo-portinari.s3.sa-east-1.amazonaws.com/be3e26aa6bcd715e19cd379813994426.jpeg,Colheita de Mel de Abelha Indígena,Pintura,"Cenas de trabalho, Trabalhadores"
+18400,https://acervo-portinari.s3.sa-east-1.amazonaws.com/d57bb1d0502049b64390e932478e3150.jpeg,Colheita de Café,Pintura,"Cenas de trabalho, Cultura de café, Trabalhadores, Lavrador"
+18407,https://acervo-portinari.s3.sa-east-1.amazonaws.com/bb4a80ee0114256cff805c78d2cd105a.jpeg,Transporte de Café,Pintura,"Cenas de trabalho, Trabalhadores"
+18414,https://acervo-portinari.s3.sa-east-1.amazonaws.com/f1c13dc07dc0d4553ba5dbdf0d3cffc3.jpeg,Paisagem,Pintura,"Paisagem, Brodowski"
+18431,https://acervo-portinari.s3.sa-east-1.amazonaws.com/e9f95a1e16081e950f1a4c2e080e5ac1.jpeg,Árabe no Arado,Pintura,"Cenas de trabalho, Lavoura"
+18433,https://acervo-portinari.s3.sa-east-1.amazonaws.com/5deeee0c6b78668f9217059e0b94c6d1.jpeg,Futebol em Brodowski,Pintura,"Paisagem, Brodowski"
+18435,https://acervo-portinari.s3.sa-east-1.amazonaws.com/85c24f6ee80dcee4377a6db16ca8e8a7.jpeg,Espantalho,Pintura,"Paisagem, Campo"
+18437,https://acervo-portinari.s3.sa-east-1.amazonaws.com/2a5ef0fbff1825a12f43065c6236f847.jpeg,Espantalho,Pintura,"Paisagem, Campo"
+18447,https://acervo-portinari.s3.sa-east-1.amazonaws.com/9ba194f0ac6bdf502996991596d4b5cd.jpeg,Menino Plantando Bananeira,Pintura,Paisagem
+18469,https://acervo-portinari.s3.sa-east-1.amazonaws.com/744ed9bca5ad94399113b24f500c9872.jpeg,Enéas na Praia,Pintura,"Paisagem, Marinha"
+18474,https://acervo-portinari.s3.sa-east-1.amazonaws.com/3317b78d62a1c5188ba2d7fbc55b88fa.jpeg,Meninos Brincando,Pintura,"Paisagem, Brodowski"
+18492,https://acervo-portinari.s3.sa-east-1.amazonaws.com/88126bb495fe5ef628fc3a7852e4307b.jpeg,Baiana e Crianças,Pintura,"Paisagem, Campo"
+18493,https://acervo-portinari.s3.sa-east-1.amazonaws.com/43304d78b04b1e49b75a954de1ed69ff.jpeg,Paisagem,Pintura,"Paisagem, Brodowski, Deserto"
+18494,https://acervo-portinari.s3.sa-east-1.amazonaws.com/49b7a804c2e048e5179453e22ee3aec2.jpeg,Colheita de Café,Pintura,"Cenas de trabalho, Cultura de café, Trabalhadores, Lavrador"
+18499,https://acervo-portinari.s3.sa-east-1.amazonaws.com/9cdf8165c165760c15e466ab190f1198.jpeg,Cavalo Malhado,Pintura,"Paisagem, Brodowski"
+18503,https://acervo-portinari.s3.sa-east-1.amazonaws.com/265ce2ba6f62579538d28997e5edf17c.jpeg,Catequese,Pintura,Cenas Históricas
+18520,https://acervo-portinari.s3.sa-east-1.amazonaws.com/f34d53c13ac78e0162c0253b33dc6db4.jpeg,Camponesa,Pintura,Trabalhadores
+18524,https://acervo-portinari.s3.sa-east-1.amazonaws.com/a1908ede4ada1143d0d87a8c5615c806.jpeg,Convento de Santa Teresa,Pintura,"Paisagem, Rio de Janeiro"
+18525,https://acervo-portinari.s3.sa-east-1.amazonaws.com/3f00970b908d92a4be687bf8f2055c0f.jpeg,Vendedor de Peru,Pintura,Trabalhadores
+18527,https://acervo-portinari.s3.sa-east-1.amazonaws.com/c1d657edc2c8b27a1291d0bdf7369966.jpeg,Paz,Pintura,Festas populares
+18528,https://acervo-portinari.s3.sa-east-1.amazonaws.com/f0408a0ab6a4ac43a1a593bba644816b.jpeg,Guerra,Pintura,Guerra
+18546,https://acervo-portinari.s3.sa-east-1.amazonaws.com/a147f29f425d6ccbe0fac185c4fc8329.jpeg,Retrato de Paulo Rossi Osir,Pintura,"Paisagem, Marinha"
+18548,https://acervo-portinari.s3.sa-east-1.amazonaws.com/30b1781912309910328112263df734e5.jpeg,Espantalho,Pintura,Paisagem
+18549,https://acervo-portinari.s3.sa-east-1.amazonaws.com/77a4518aea29397b553d5aadf6395d6c.jpeg,Colheita de Fumo,Pintura,"Cenas de trabalho, Cultura de fumo, Trabalhadores, Lavrador"
+18556,https://acervo-portinari.s3.sa-east-1.amazonaws.com/a3200fb34cc99ac4d608e43e5de57a82.jpeg,Colona Sentada,Pintura,"Trabalhadores, Paisagem"
+18557,https://acervo-portinari.s3.sa-east-1.amazonaws.com/2e7c2a440ca2efd7adeea7d4345412f7.jpeg,Retirantes,Pintura,Paisagem
+18558,https://acervo-portinari.s3.sa-east-1.amazonaws.com/9e3d21ad0297034475a4efd4ee5831d2.jpeg,Retrato de Mário de Andrade,Pintura,"Paisagem, Campo"
+18563,https://acervo-portinari.s3.sa-east-1.amazonaws.com/7c443d1bbafe4a9a8578b4d103af8860.jpeg,Paisagem com Casario,Pintura,"Paisagem, Morro, Rio de Janeiro"
+18570,https://acervo-portinari.s3.sa-east-1.amazonaws.com/84436c36799417f32aaa804fc1dae682.jpeg,Cavalos Correndo,Pintura,"Paisagem, Campo"
+18580,https://acervo-portinari.s3.sa-east-1.amazonaws.com/c5bf1331cb3ee65c168e196fba649117.jpeg,Enterro,Pintura,Paisagem
+18583,https://acervo-portinari.s3.sa-east-1.amazonaws.com/048d3b138c2fc7ccaef0b9452994a111.jpeg,Menino Sentado,Pintura,"Paisagem, Campo"
+18584,https://acervo-portinari.s3.sa-east-1.amazonaws.com/3a6dd78d56349aa613c01b99d2712fb9.jpeg,Morro,Pintura,Favela
+18585,https://acervo-portinari.s3.sa-east-1.amazonaws.com/8515098f82d1d8a3aeb61fcfa83ee030.jpeg,Espantalho,Pintura,Paisagem
+18588,https://acervo-portinari.s3.sa-east-1.amazonaws.com/89630654268d87d457cfe20959d8274a.jpeg,Menino com Bezerro,Pintura,"Paisagem, Campo"
+18589,https://acervo-portinari.s3.sa-east-1.amazonaws.com/8b909315bab5f050a7a98a38471ac882.jpeg,Cavaleiro,Pintura,"Paisagem, Campo"
+18597,https://acervo-portinari.s3.sa-east-1.amazonaws.com/a7326f3baa5eeb93115294e986506dbf.jpeg,Retrato de Jorge de Castro,Pintura,"Paisagem, Marinha"
+18601,https://acervo-portinari.s3.sa-east-1.amazonaws.com/bcbf02d3e42643c4e4eda557b1a3807a.jpeg,Descendo o Morro,Pintura,Favela
+18602,https://acervo-portinari.s3.sa-east-1.amazonaws.com/993bf6ce2afc1fed107af2ebc988071d.jpeg,Paisagem e Casas,Pintura,"Paisagem, Morro, Rio de Janeiro"
+18603,https://acervo-portinari.s3.sa-east-1.amazonaws.com/a2ec73791b75e6aca4b98d60558ed7e3.jpeg,Pescadores,Pintura,"Cenas de trabalho, Trabalhadores, Paisagem, Marinha"
+18613,https://acervo-portinari.s3.sa-east-1.amazonaws.com/31a05fbde6d15f6d8738bfbaeab8f815.jpeg,Enterro,Pintura,Paisagem
+18616,https://acervo-portinari.s3.sa-east-1.amazonaws.com/b502a2774b58c71f5e35d8df8cd25274.jpeg,Passacaglia,Pintura,Paisagem
+18627,https://acervo-portinari.s3.sa-east-1.amazonaws.com/f04581920529364a5063d12b5381627f.jpeg,Meninos Soltando Pipas,Pintura,"Paisagem, Campo"
+18631,https://acervo-portinari.s3.sa-east-1.amazonaws.com/3b16c881003bfebcc3dae579fc552c20.jpeg,Jangadeiros,Pintura,Trabalhadores
+18646,https://acervo-portinari.s3.sa-east-1.amazonaws.com/ea5bfcacf2c3eccb4046bf653dedccc5.jpeg,Meninos Soltando Pipas,Pintura,"Paisagem, Campo"
+18647,https://acervo-portinari.s3.sa-east-1.amazonaws.com/3b97c334fe3f6f5ef68a5e2e19914c7e.jpeg,Retrato de José Heitgen,Pintura,Paisagem
+18657,https://acervo-portinari.s3.sa-east-1.amazonaws.com/a8887d6009c8265c0a3eb17783d4b97a.jpeg,Café,Pintura,"Cenas de trabalho, Cultura de café, Trabalhadores, Lavrador"
+18663,https://acervo-portinari.s3.sa-east-1.amazonaws.com/d1f6dc4373d7c603c9628b8b5a706caa.jpeg,Colheita de Café,Pintura,"Cenas de trabalho, Cultura de café, Trabalhadores, Lavrador"
+18665,https://acervo-portinari.s3.sa-east-1.amazonaws.com/b44878f2b1d43ff7b2b86662d3ab42f1.jpeg,Igrejinha de Brodowski,Pintura,"Paisagem, Brodowski"
+18670,https://acervo-portinari.s3.sa-east-1.amazonaws.com/d31d68ac33e95312cf87211532af50f3.jpeg,Caçada,Pintura,"Cenas de trabalho, Cultura de arroz, Trabalhadores, Paisagem, Floresta"
+18679,https://acervo-portinari.s3.sa-east-1.amazonaws.com/a9b73c2699ccee3dfcc578fb9b0f793e.jpeg,Borracha,Pintura,"Cenas de trabalho, Cultura de borracha, Trabalhadores"
+18700,https://acervo-portinari.s3.sa-east-1.amazonaws.com/c39a8178b6166a9f25501c184bf4839c.jpeg,Andorinhas nos Fios,Pintura,Paisagem
+18706,https://acervo-portinari.s3.sa-east-1.amazonaws.com/b64e35555039e583c2324bd11ad9114f.jpeg,Chácara em Jacarepaguá,Pintura,"Paisagem, Rio de Janeiro"
+18707,https://acervo-portinari.s3.sa-east-1.amazonaws.com/9adaffc5ed19c112a759669513c047e7.jpeg,Jangada,Pintura,Trabalhadores
+18718,https://acervo-portinari.s3.sa-east-1.amazonaws.com/031b5dd9d98388a86f9c215fe6f47091.jpeg,Espantalho,Pintura,"Paisagem, Campo"
+18720,https://acervo-portinari.s3.sa-east-1.amazonaws.com/6776bfb911b454f10c6967a63f81db72.jpeg,Malhando Judas,Pintura,Paisagem
+18722,https://acervo-portinari.s3.sa-east-1.amazonaws.com/e0eaddf437fa63c94365866f2d05b2e0.jpeg,Paisagem,Pintura,"Paisagem, Campo"
+18725,https://acervo-portinari.s3.sa-east-1.amazonaws.com/13af392a5e1f41d8b93177710f641e19.jpeg,Colheita de Café,Pintura,"Cenas de trabalho, Cultura de café, Trabalhadores, Lavrador"
+18730,https://acervo-portinari.s3.sa-east-1.amazonaws.com/53c3718addbed7ca336b4d45bd660c9f.jpeg,Retirantes,Pintura,"Paisagem, Campo"
+18731,https://acervo-portinari.s3.sa-east-1.amazonaws.com/7b73d70d898fb872dbb810391389755d.jpeg,Mulheres Chorando,Pintura,Guerra
+18732,https://acervo-portinari.s3.sa-east-1.amazonaws.com/23297a103db45c4ef6ed0dbf01efcd4f.jpeg,Mulheres Chorando,Pintura,Guerra
+18735,https://acervo-portinari.s3.sa-east-1.amazonaws.com/067da1f3f634b75109ea6698a3aae450.jpeg,Colheita de Café,Pintura,"Cenas de trabalho, Cultura de café, Trabalhadores, Lavrador"
+18737,https://acervo-portinari.s3.sa-east-1.amazonaws.com/70899c957a04a18eae750eb3b5454683.jpeg,Retrato do Maestro Zacharias Autuori,Pintura,"Paisagem, Marinha"
+18753,https://acervo-portinari.s3.sa-east-1.amazonaws.com/e97bfcaf16af485c8b8bc7eab5fb9568.jpeg,Tiroteio de Pedra Bonita,Pintura,"Paisagem, Campo"
+18755,https://acervo-portinari.s3.sa-east-1.amazonaws.com/97efc5968e7b2a307a426c9d2d1eea96.jpeg,Colheita de Arroz,Pintura,"Cenas de trabalho, Cultura de arroz, Trabalhadores, Lavrador"
+18756,https://acervo-portinari.s3.sa-east-1.amazonaws.com/a2144bab86b70fc03c2d52c5464687c0.jpeg,Colhendo Batatas,Pintura,"Cenas de trabalho, Trabalhadores"
+18758,https://acervo-portinari.s3.sa-east-1.amazonaws.com/31aee2ef685451ef1daa67c3a67624c4.jpeg,Mulher e Criança,Pintura,"Paisagem, Marinha"
+18764,https://acervo-portinari.s3.sa-east-1.amazonaws.com/f9068d193eb943372a5408a5f20013be.jpeg,Noite de São João,Pintura,Festas populares
+18776,https://acervo-portinari.s3.sa-east-1.amazonaws.com/3d3bbe9de9087a569935c009b296cefe.jpeg,Baianinha,Pintura,"Paisagem, Campo"
+18777,https://acervo-portinari.s3.sa-east-1.amazonaws.com/4961763f769de5e77bba2480ab6cc5d2.jpeg,Jangadeiro,Pintura,Trabalhadores
+18780,https://acervo-portinari.s3.sa-east-1.amazonaws.com/64281c945eb6f6002352349266016d44.jpeg,Marinha com Barco a Vela,Pintura,"Paisagem, Marinha"
+18781,https://acervo-portinari.s3.sa-east-1.amazonaws.com/1100ff42cac044f0f5aaf5dfd7344ea8.jpeg,Marinha com Pedras,Pintura,"Paisagem, Marinha"
+18790,https://acervo-portinari.s3.sa-east-1.amazonaws.com/9d12512b1a5833bbef606a06f6dd37a3.jpeg,Circo,Pintura,"Circo, Paisagem, Brodowski"
+18796,https://acervo-portinari.s3.sa-east-1.amazonaws.com/cb1a67b0da8ec4f2239a8fb9e0d2c989.jpeg,Meninos na Gangorra,Pintura,"Paisagem, Brodowski"
+18797,https://acervo-portinari.s3.sa-east-1.amazonaws.com/e6f4ffe4856870ccb7e0e2a37fe3ab4f.jpeg,Colheita da Cana,Pintura,"Cenas de trabalho, Cultura de cana, Trabalhadores, Lavrador"
+18798,https://acervo-portinari.s3.sa-east-1.amazonaws.com/dbe27c0501cf552cd54f22a64dcbc8b5.jpeg,Amigas,Pintura,Favela
+18803,https://acervo-portinari.s3.sa-east-1.amazonaws.com/f5f2b20d585eb8ddc462d049cbfc7b41.jpeg,Espantalho,Pintura,"Paisagem, Campo"
+18812,https://acervo-portinari.s3.sa-east-1.amazonaws.com/bd6e5f7d63430d226eacb4c4bf30c13c.jpeg,Favela,Pintura,Favela
+18816,https://acervo-portinari.s3.sa-east-1.amazonaws.com/fdeabb3947f022c896ff58cf290ff2c2.jpeg,Roda Infantil,Pintura,"Paisagem, Brodowski"
+18824,https://acervo-portinari.s3.sa-east-1.amazonaws.com/fb2c963c6676fd52529484142e0e91b6.jpeg,Meninos Soltando Pipas,Pintura,"Paisagem, Campo"
+18831,https://acervo-portinari.s3.sa-east-1.amazonaws.com/38e1022e5f10cbe58fdcd4a0b74fc277.jpeg,Brasil Central,Pintura,Festas populares
+18848,https://acervo-portinari.s3.sa-east-1.amazonaws.com/758e21a7d8ec22b2c83eb143d9b16c34.jpeg,Retrato de Paulo Gagarin,Pintura,Paisagem
+18850,https://acervo-portinari.s3.sa-east-1.amazonaws.com/4530b8b87bf1e53759bc2c5ba947c5b9.jpeg,Retrato de Isaura de Almeida Mário,Pintura,Paisagem
+18870,https://acervo-portinari.s3.sa-east-1.amazonaws.com/c3998febd9c5f340240f7fbf8c2c3c6e.jpeg,Retrato de Mercedes de Arámburu,Pintura,Paisagem
+18875,https://acervo-portinari.s3.sa-east-1.amazonaws.com/40aa62f5be441421b21441da39a892ff.jpeg,Mãe,Pintura,Guerra
+18876,https://acervo-portinari.s3.sa-east-1.amazonaws.com/6c88720a6fd51f4ec155667970db7e39.jpeg,Mulher com Filho Morto,Pintura,Guerra
+18879,https://acervo-portinari.s3.sa-east-1.amazonaws.com/fa6516ac87a3df00530e86ae82d79542.jpeg,Os Despejados,Pintura,"Paisagem, Campo"
+18883,https://acervo-portinari.s3.sa-east-1.amazonaws.com/523ee9c069a27a56684b4a0d8411a306.jpeg,Centro-Oeste,Pintura,Festas populares
+18884,https://acervo-portinari.s3.sa-east-1.amazonaws.com/38b21de18bce12248c49b5605fd663b5.jpeg,Marinha,Pintura,"Paisagem, Marinha"
+18892,https://acervo-portinari.s3.sa-east-1.amazonaws.com/9f955aa5c725a29735f47c033537257c.jpeg,Mulata de Vestido Branco,Pintura,Paisagem
+18896,https://acervo-portinari.s3.sa-east-1.amazonaws.com/95dc1605648e3806442d208509fa592e.jpeg,Paisagem de Brodowski,Pintura,"Paisagem, Brodowski"
+18903,https://acervo-portinari.s3.sa-east-1.amazonaws.com/6a140622c1ade210c039ddd9ba3d836b.jpeg,Clarinetista,Pintura,Favela
+18905,https://acervo-portinari.s3.sa-east-1.amazonaws.com/8ad557d1cef05940eee94592196c9a5b.jpeg,Favela,Pintura,Favela
+18926,https://acervo-portinari.s3.sa-east-1.amazonaws.com/620f92a8d414de4fb79e00228155163b.jpeg,Feras,Pintura,Guerra
+18929,https://acervo-portinari.s3.sa-east-1.amazonaws.com/d7fd9d4638d04c0f86be6e014507392b.jpeg,Paisagem,Pintura,"Paisagem, Campo"
+18938,https://acervo-portinari.s3.sa-east-1.amazonaws.com/96da3fcc04bce078d93ba76a00f1766e.jpeg,Retrato de Sofia Cantalupo,Pintura,"Paisagem, Campo"
+18943,https://acervo-portinari.s3.sa-east-1.amazonaws.com/3569f674515bef63b6b94805758edd49.jpeg,Cavalos,Pintura,"Paisagem, Campo"
+18950,https://acervo-portinari.s3.sa-east-1.amazonaws.com/25a18b3e595cd5a745dd343894bf8995.jpeg,Cangaceiro a Cavalo,Pintura,"Paisagem, Campo"
+18960,https://acervo-portinari.s3.sa-east-1.amazonaws.com/803ec679663a53308bcf98beb74dffd0.jpeg,Cavalo-Marinho,Pintura,Festas populares
+18961,https://acervo-portinari.s3.sa-east-1.amazonaws.com/b4b16422e24c86da1a1d2e97f710b340.jpeg,Bumba-Meu-Boi,Pintura,Festas populares
+18964,https://acervo-portinari.s3.sa-east-1.amazonaws.com/40772ac416facece83165b0793f867ef.jpeg,Espantalho,Pintura,Paisagem
+18972,https://acervo-portinari.s3.sa-east-1.amazonaws.com/6647340ec7a86b422bf3473ab04a7272.jpeg,Descoberta da Terra,Pintura,"Trabalhadores, Cenas Históricas, Descobrimento do Brasil"
+18976,https://acervo-portinari.s3.sa-east-1.amazonaws.com/7edcace28284add195366cffa2f302e8.jpeg,Entrada na Floresta I,Pintura,"Paisagem, Floresta"
+18984,https://acervo-portinari.s3.sa-east-1.amazonaws.com/128b005b31b80eae30c68c791d458ce1.jpeg,Descoberta do Ouro,Pintura,"Cenas de trabalho, Garimpagem, Trabalhadores, Garimpeiro"
+18987,https://acervo-portinari.s3.sa-east-1.amazonaws.com/b23b230f20eb2fc4670fd756c33a20e7.jpeg,Morro,Pintura,Favela
+19000,https://acervo-portinari.s3.sa-east-1.amazonaws.com/ecad18897f484706db070f10278caca8.jpeg,Meninos Soltando Pipas,Pintura,"Paisagem, Campo"
+19005,https://acervo-portinari.s3.sa-east-1.amazonaws.com/a18a10f9f91315534bdf6489fd6dc66f.jpeg,Batedores de Arroz,Pintura,"Cenas de trabalho, Cultura de arroz, Trabalhadores, Lavrador"
+19007,https://acervo-portinari.s3.sa-east-1.amazonaws.com/5d5787de31f9c77faa185766f109e77b.jpeg,Café,Pintura,"Cenas de trabalho, Cultura de café, Trabalhadores, Lavrador"
+19025,https://acervo-portinari.s3.sa-east-1.amazonaws.com/48ce4c8e3ae99bd06b9f6ceac687ee72.jpeg,Mulher Ajoelhada com Filho Morto,Pintura,Guerra
+19031,https://acervo-portinari.s3.sa-east-1.amazonaws.com/1fca85bc2748731628459f03c7bd0f40.jpeg,Mulheres Chorando,Pintura,Guerra
+19035,https://acervo-portinari.s3.sa-east-1.amazonaws.com/c0afda14a875740e7e408255168f7909.jpeg,Menino Morto,Pintura,Guerra
+19036,https://acervo-portinari.s3.sa-east-1.amazonaws.com/4b6ff72414bc3913d4ba7c9cd4a43509.jpeg,Mulheres Chorando,Pintura,Guerra
+19037,https://acervo-portinari.s3.sa-east-1.amazonaws.com/af853facc59c3a8961cfd980a04e63d5.jpeg,Órfão,Pintura,Guerra
+19038,https://acervo-portinari.s3.sa-east-1.amazonaws.com/7441f2b4fe4e36f571d18b33461e667a.jpeg,Mulheres Chorando e Criança Morta,Pintura,Guerra
+19039,https://acervo-portinari.s3.sa-east-1.amazonaws.com/c91f844d45241742c47319b001a72dca.jpeg,Mulher Chorando,Pintura,Guerra
+19048,https://acervo-portinari.s3.sa-east-1.amazonaws.com/c5853f6a68a7be3c59f90d0c7df65ef4.jpeg,Órfão,Pintura,Guerra
+19063,https://acervo-portinari.s3.sa-east-1.amazonaws.com/391f921fcf7d60df5f6b2d2d31dbd870.jpeg,Retrato de Maria Sermolino,Pintura,"Paisagem, Campo"
+19074,https://acervo-portinari.s3.sa-east-1.amazonaws.com/3d9b1c85fb8a0e9ebc6a9edc6670825a.jpeg,Casamento na Roça,Pintura,"Paisagem, Brodowski"
+19079,https://acervo-portinari.s3.sa-east-1.amazonaws.com/20756430c2045e01afe81b3064f521a0.jpeg,Palhaço,Pintura,"Paisagem, Campo"
+19082,https://acervo-portinari.s3.sa-east-1.amazonaws.com/87e7a61bcead0b10db514482ea48c31a.jpeg,Retrato de Maria,Pintura,Paisagem
+19088,https://acervo-portinari.s3.sa-east-1.amazonaws.com/f51ae61ec0bb8ad8fad0a3815e531cb9.jpeg,Regata,Pintura,"Paisagem, Marinha"
+19091,https://acervo-portinari.s3.sa-east-1.amazonaws.com/7a0c67251d8f3b2d66a0829e4de435d4.jpeg,Paisagem de Brodowski,Pintura,"Paisagem, Brodowski"
+19095,https://acervo-portinari.s3.sa-east-1.amazonaws.com/0bb17a18a7ec0a6d2511360e564ff323.jpeg,Espantalho,Pintura,"Paisagem, Deserto"
+19096,https://acervo-portinari.s3.sa-east-1.amazonaws.com/ba3bd930c0a943bf050834fbfd3d3a6f.jpeg,Espantalho,Pintura,"Paisagem, Deserto"
+19099,https://acervo-portinari.s3.sa-east-1.amazonaws.com/ea6c545f3d31db9495d9a06804bb6a2d.jpeg,Nova York,Pintura,"Paisagem, Cidade"
+19101,https://acervo-portinari.s3.sa-east-1.amazonaws.com/e8bb589304c9632ac5fe55328bf0782f.jpeg,Paisagem com Palmeiras,Pintura,"Paisagem, Campo"
+19107,https://acervo-portinari.s3.sa-east-1.amazonaws.com/4e2be6930d82a1579e127746d5ae84f8.jpeg,Bandeirantes,Pintura,Cenas Históricas
+19109,https://acervo-portinari.s3.sa-east-1.amazonaws.com/db40935c02c891748195caae76097208.jpeg,Menino com Carneiro,Pintura,"Paisagem, Campo"
+19130,https://acervo-portinari.s3.sa-east-1.amazonaws.com/c0bed06190d964753fc9de93508bdc0e.jpeg,Retrato de Maria,Pintura,"Paisagem, Marinha"
+19134,https://acervo-portinari.s3.sa-east-1.amazonaws.com/b4891135dbb9e610833db41087b8a643.jpeg,Retrato de Marques Rebelo,Pintura,Paisagem
+19155,https://acervo-portinari.s3.sa-east-1.amazonaws.com/6676907c76a81495d0e9ca8a65876e7c.jpeg,Paisagem Marítima,Pintura,"Paisagem, Marinha"
+19156,https://acervo-portinari.s3.sa-east-1.amazonaws.com/0aea960c1e17e46686aad0ee30d739a2.jpeg,Paisagem com Boizinho,Pintura,Paisagem
+19171,https://acervo-portinari.s3.sa-east-1.amazonaws.com/55282829f7b667d7f58e3007baecaa76.jpeg,Colonos Carregando Café,Pintura,"Cenas de trabalho, Trabalhadores"
+19175,https://acervo-portinari.s3.sa-east-1.amazonaws.com/87d1d2f36dd85f51f8150a7b99b15b5a.jpeg,Casamento na Roça,Pintura,"Paisagem, Brodowski"
+19187,https://acervo-portinari.s3.sa-east-1.amazonaws.com/61dbd59beafff9005b2e77c8417517bb.jpeg,Baiana,Pintura,Paisagem
+19192,https://acervo-portinari.s3.sa-east-1.amazonaws.com/598a132b990a2ee35b23cb2051ca77b1.jpeg,Cena de Morro,Pintura,Favela
+19218,https://acervo-portinari.s3.sa-east-1.amazonaws.com/9d3773adf5806e4f4536edd96a2ca0ee.jpeg,Índia Carajá,Pintura,"Paisagem, Marinha"
+19237,https://acervo-portinari.s3.sa-east-1.amazonaws.com/56647b4a03bc79136668443d46b2067b.jpeg,Retrato de Jorge de Castro,Pintura,Paisagem
+19240,https://acervo-portinari.s3.sa-east-1.amazonaws.com/f3f187ee6f67687a4f81085276b64d6f.jpeg,A Moça das Duas Faces,Pintura,"Paisagem, Marinha"
+19241,https://acervo-portinari.s3.sa-east-1.amazonaws.com/71ada52f52b603ff45cc048244708c84.jpeg,Sorveteiro,Pintura,Trabalhadores
+19243,https://acervo-portinari.s3.sa-east-1.amazonaws.com/e6232479349e80f45f1d2b302c6e5c6c.jpeg,Operário,Pintura,"Trabalhadores, Operário"
+19244,https://acervo-portinari.s3.sa-east-1.amazonaws.com/7e2edafe41695ede349f6fa230fa58b6.jpeg,Praia,Pintura,"Paisagem, Marinha"
+19246,https://acervo-portinari.s3.sa-east-1.amazonaws.com/c43d5e21b65acdde3f28633580e70d10.jpeg,Morro,Pintura,Favela
+19250,https://acervo-portinari.s3.sa-east-1.amazonaws.com/3827c834abb7b1b188b485bb4657ad24.jpeg,Vaqueiro,Pintura,Trabalhadores
+19260,https://acervo-portinari.s3.sa-east-1.amazonaws.com/2dc24e50739899990d82e2428ce8405e.jpeg,Enterro,Pintura,"Paisagem, Brodowski"
+19265,https://acervo-portinari.s3.sa-east-1.amazonaws.com/5cdf3e2f3eec8662b7c6caf7de043ab4.jpeg,Gado,Pintura,"Cenas de trabalho, Trabalhadores"
+19267,https://acervo-portinari.s3.sa-east-1.amazonaws.com/293a752bb52c1657daceede82b4599af.jpeg,Noite de São João,Pintura,Festas populares
+19279,https://acervo-portinari.s3.sa-east-1.amazonaws.com/e26ac8cfc917cb0060a2dc526ff0c908.jpeg,Espantalho e Meninos Soltando Pipas,Pintura,"Paisagem, Campo"
+19282,https://acervo-portinari.s3.sa-east-1.amazonaws.com/a646dce5ee2e886a4abbb850a60430a6.jpeg,"Espantalho, Pipas e Balões",Pintura,"Paisagem, Campo"
+19283,https://acervo-portinari.s3.sa-east-1.amazonaws.com/4e9788529bd02fdeb317e0c49ffe659e.jpeg,Espantalho e Boi em Paisagem,Pintura,Paisagem
+19286,https://acervo-portinari.s3.sa-east-1.amazonaws.com/ac2bf16a7e7dda1c09f47f4cbfed64df.jpeg,Favela,Pintura,Favela
+19293,https://acervo-portinari.s3.sa-east-1.amazonaws.com/855862befa7b522e01b22f1b7be8b0f5.jpeg,Baiana com Crianças,Pintura,"Paisagem, Deserto"
+19294,https://acervo-portinari.s3.sa-east-1.amazonaws.com/6c22335c033ec2318103d84d74086e7c.jpeg,Tintureiro,Pintura,"Paisagem, Morro"
+19297,https://acervo-portinari.s3.sa-east-1.amazonaws.com/3045e63c5d729563feefb316742ab516.jpeg,Bandeirantes,Pintura,Cenas Históricas
+19302,https://acervo-portinari.s3.sa-east-1.amazonaws.com/f5409d7206e11cb80f60d88d4fd0084b.jpeg,Paisagem,Pintura,"Paisagem, Campo"
+19329,https://acervo-portinari.s3.sa-east-1.amazonaws.com/d71bb248a6a7b39b00c49f386515da71.jpeg,Galos,Pintura,"Paisagem, Campo"
+19331,https://acervo-portinari.s3.sa-east-1.amazonaws.com/69427cf0fef265994f16f3460d665c62.jpeg,Mar,Pintura,"Paisagem, Marinha"
+19332,https://acervo-portinari.s3.sa-east-1.amazonaws.com/13d5a145e873ff2250bf159543403c86.jpeg,Índia Carajá,Pintura,"Paisagem, Marinha"
+19374,https://acervo-portinari.s3.sa-east-1.amazonaws.com/ef89aab5ef678daa0e97cd3743b47a1c.jpeg,Mulher com Galo,Pintura,"Paisagem, Campo"
+19377,https://acervo-portinari.s3.sa-east-1.amazonaws.com/103a466f41cb6d2c1661cd425a16e583.jpeg,Mexerico,Pintura,Paisagem
+19391,https://acervo-portinari.s3.sa-east-1.amazonaws.com/783c305946378ed4fb06915cb9240cce.jpeg,Moça,Pintura,Favela
+19392,https://acervo-portinari.s3.sa-east-1.amazonaws.com/0a3732ce5e3a59f0f3a053bbb66567c6.jpeg,Mulher Sentada,Pintura,Paisagem
+19394,https://acervo-portinari.s3.sa-east-1.amazonaws.com/5300a46552697d5eb8535303e8af09e4.jpeg,Namorados,Pintura,"Paisagem, Campo"
+19395,https://acervo-portinari.s3.sa-east-1.amazonaws.com/791a68fa42f59faf22c8f731f12150a3.jpeg,Namorados,Pintura,Paisagem
+19396,https://acervo-portinari.s3.sa-east-1.amazonaws.com/74788de062c7e21ffc94c2fe4205108a.jpeg,Noivos,Pintura,"Paisagem, Campo"
+19400,https://acervo-portinari.s3.sa-east-1.amazonaws.com/c9e8a1fc2b8aec47c7b54083894f25ca.jpeg,Combate ao Inimigo,Pintura,Guerra
+19402,https://acervo-portinari.s3.sa-east-1.amazonaws.com/369a1cb7b6f4bf7e6bcbbea22fa36b14.jpeg,Guerra,Pintura,Guerra
+19404,https://acervo-portinari.s3.sa-east-1.amazonaws.com/9d3ecb8fc8c3acc3a360e8ae0cbfcce9.jpeg,Família,Pintura,"Paisagem, Deserto"
+19408,https://acervo-portinari.s3.sa-east-1.amazonaws.com/adec958b12d4b0237d0a54563c3bb5da.jpeg,Paisagem com Retirante,Pintura,"Paisagem, Campo"
+19409,https://acervo-portinari.s3.sa-east-1.amazonaws.com/5b9954d24c17a7b4960cb0b491886af5.jpeg,Mulher com Crianças,Pintura,"Paisagem, Deserto"
+19411,https://acervo-portinari.s3.sa-east-1.amazonaws.com/32f0520886d855fcbad9a630b2ec3383.jpeg,Paisagem,Pintura,Paisagem
+19413,https://acervo-portinari.s3.sa-east-1.amazonaws.com/adfe3a2a99d022e2b0ad8556e6a34845.jpeg,Menino com Carneiro,Pintura,"Paisagem, Campo"
+19420,https://acervo-portinari.s3.sa-east-1.amazonaws.com/8315fcef4301a424c92661d3ca9caf34.jpeg,Meninos Soltando Pipas,Pintura,"Paisagem, Deserto"
+19423,https://acervo-portinari.s3.sa-east-1.amazonaws.com/4bd464c3fc84e777e23223dd284b7da5.jpeg,Espantalho,Pintura,"Paisagem, Deserto"
+19474,https://acervo-portinari.s3.sa-east-1.amazonaws.com/295be0641327cd3cecdd61de9284e83c.jpeg,Espantalho sob as Estrelas,Pintura,Paisagem
+19490,https://acervo-portinari.s3.sa-east-1.amazonaws.com/fc147a3511b2a6cc161e17c31aefe855.jpeg,Favela,Pintura,Favela
+19491,https://acervo-portinari.s3.sa-east-1.amazonaws.com/342185a75592a37bd1c4e82669c236f2.jpeg,Retrato de Ruth Leão,Pintura,"Paisagem, Campo"
+19493,https://acervo-portinari.s3.sa-east-1.amazonaws.com/3e44eed4dba77ea0df8e644f72388699.jpeg,Circo,Pintura,"Circo, Paisagem, Brodowski"
+19535,https://acervo-portinari.s3.sa-east-1.amazonaws.com/e7649772f721439609d940cb6e9e2066.jpeg,Café,Pintura,"Cenas de trabalho, Cultura de café, Trabalhadores, Lavrador"
+19542,https://acervo-portinari.s3.sa-east-1.amazonaws.com/06865e9144be7fa8af51dac423ee3a1f.jpeg,Paisagem com Arco-Íris,Pintura,"Paisagem, Deserto"
+19543,https://acervo-portinari.s3.sa-east-1.amazonaws.com/f9f7a3b78a555750388e5b66d9a80783.jpeg,Paisagem com Urubus,Pintura,"Paisagem, Deserto"
+19544,https://acervo-portinari.s3.sa-east-1.amazonaws.com/f30d3545c99934e67c0bcf98f4d2c665.jpeg,Paisagem com Espantalho,Pintura,"Paisagem, Campo"
+19545,https://acervo-portinari.s3.sa-east-1.amazonaws.com/843d4961f13c478f4a8edb6fa77eaa8e.jpeg,Paisagem com Espantalho e Urubus,Pintura,"Paisagem, Deserto"
+19547,https://acervo-portinari.s3.sa-east-1.amazonaws.com/f14fddca09c371995b28c75c4c7622c6.jpeg,Paisagem de Petrópolis,Pintura,Paisagem
+19564,https://acervo-portinari.s3.sa-east-1.amazonaws.com/e799569eab6d607b560eb5b2602814be.jpeg,Menina com Cabrito,Pintura,"Paisagem, Campo"
+19565,https://acervo-portinari.s3.sa-east-1.amazonaws.com/32a5069523c442fc0ce4d1bc1ec2d3f6.jpeg,O Seringueiro,Pintura,"Paisagem, Floresta"
+19568,https://acervo-portinari.s3.sa-east-1.amazonaws.com/bd1283b3a2bc44a3a79ba9243e7e1ca6.jpeg,"Os ""Brabos""",Pintura,"Trabalhadores, Lavrador"
+19572,https://acervo-portinari.s3.sa-east-1.amazonaws.com/023527855ea17d34217010f37f0d4cab.jpeg,A Clareira,Pintura,"Paisagem, Floresta"
+19574,https://acervo-portinari.s3.sa-east-1.amazonaws.com/6da9c5276d2ce7885eb731a1a8271c93.jpeg,Os Retirantes,Pintura,"Paisagem, Campo"
+19576,https://acervo-portinari.s3.sa-east-1.amazonaws.com/d6273477fffab02f5a5381e07234c724.jpeg,A Onça,Pintura,"Paisagem, Floresta"
+19577,https://acervo-portinari.s3.sa-east-1.amazonaws.com/12e6418d5d39fb88b36d4f1b29572832.jpeg,O Cemitério,Pintura,"Paisagem, Floresta"
+19579,https://acervo-portinari.s3.sa-east-1.amazonaws.com/d00b009fb82401029bcba79668a8ff7f.jpeg,Os Índios,Pintura,"Paisagem, Floresta"
+19583,https://acervo-portinari.s3.sa-east-1.amazonaws.com/3c8fc8cd0726b628afbdc9d652284d35.jpeg,Laçando Boi,Pintura,"Cenas de trabalho, Trabalhadores"
+19584,https://acervo-portinari.s3.sa-east-1.amazonaws.com/a67269b3790f9f56158aecf6b9bff8d4.jpeg,Laçando Boi,Pintura,"Cenas de trabalho, Trabalhadores"
+19588,https://acervo-portinari.s3.sa-east-1.amazonaws.com/2d38f02c9be37cc06d6c5d4ae4b391bc.jpeg,Favela,Pintura,Favela
+19685,https://acervo-portinari.s3.sa-east-1.amazonaws.com/0a0c0c9aed14709d6edf6bc4571f57a8.jpeg,Máscara,Pintura,"Festas populares, Carnaval"
+19710,https://acervo-portinari.s3.sa-east-1.amazonaws.com/d472084ffbe7e73230b37820fc4b3ce7.jpeg,Jogo de Futebol em Brodowski,Pintura,"Paisagem, Brodowski"
+19724,https://acervo-portinari.s3.sa-east-1.amazonaws.com/7f46aa22fe413672bfdab50ac87e159f.jpeg,Jangadas,Pintura,Trabalhadores
+19731,https://acervo-portinari.s3.sa-east-1.amazonaws.com/c048747a8b04e8ec7d48dad3f93b4bc7.jpeg,Paisagem de Petrópolis,Pintura,Paisagem
+19737,https://acervo-portinari.s3.sa-east-1.amazonaws.com/3b6998bf25b4e659a003e4785971da81.jpeg,A Transfiguração,Pintura,"Paisagem, Campo"
+19739,https://acervo-portinari.s3.sa-east-1.amazonaws.com/9758c0245326e457b5a6e3744b8b82bc.jpeg,Arrozal,Pintura,"Cenas de trabalho, Cultura de arroz, Paisagem, Campo"
+19746,https://acervo-portinari.s3.sa-east-1.amazonaws.com/801f2bb83b0611efebec2a0bdea3703b.jpeg,Boba,Pintura,Paisagem
+19796,https://acervo-portinari.s3.sa-east-1.amazonaws.com/285eedab8c54bd44b9ed07decd4325d7.jpeg,Mulher e Peneira,Pintura,"Cenas de trabalho, Cultura de café, Trabalhadores"
+19805,https://acervo-portinari.s3.sa-east-1.amazonaws.com/f039e0d6ad918e7698efd11e87fbb94c.jpeg,O Filho Domício,Pintura,"Paisagem, Campo"
+19806,https://acervo-portinari.s3.sa-east-1.amazonaws.com/b0af4682a5afdd57a0602d8ed21a5624.jpeg,Bentinho e Mestre Jerônimo,Pintura,"Paisagem, Campo"
+19807,https://acervo-portinari.s3.sa-east-1.amazonaws.com/8b7db15d97c7d00bb35edb37d3115344.jpeg,Abraço de Proteção,Pintura,"Paisagem, Campo"
+19808,https://acervo-portinari.s3.sa-east-1.amazonaws.com/b74959f7a6f8717934a350283cbf0f4c.jpeg,Mulher Morta,Pintura,"Paisagem, Campo"
+19809,https://acervo-portinari.s3.sa-east-1.amazonaws.com/d0e60d4a8e3cea9258b185276a4f25e3.jpeg,Cangaceiro e Casal,Pintura,"Paisagem, Campo"
+19811,https://acervo-portinari.s3.sa-east-1.amazonaws.com/895e85f4e01b1b203e1a3ad2cc14ccec.jpeg,Quatro Homens,Pintura,"Paisagem, Campo"
+19814,https://acervo-portinari.s3.sa-east-1.amazonaws.com/8a7485ce7412bb78ff89630879700010.jpeg,Cangaceiro e Mulher,Pintura,"Paisagem, Campo"
+19818,https://acervo-portinari.s3.sa-east-1.amazonaws.com/4d6abfd25cf73144464da75012ead61b.jpeg,Cangaceiro,Pintura,"Paisagem, Campo"
+19820,https://acervo-portinari.s3.sa-east-1.amazonaws.com/e537a6cddc517d6131760b729e1dbd8f.jpeg,Dois Homens,Pintura,"Paisagem, Campo"
+19822,https://acervo-portinari.s3.sa-east-1.amazonaws.com/a78bee5722ebb5775d1c49686833496d.jpeg,Cangaceiro a Cavalo,Pintura,"Paisagem, Campo"
+19824,https://acervo-portinari.s3.sa-east-1.amazonaws.com/74ebee4284ef7181d0a017ccf6c90dcd.jpeg,Dois Homens Conversando,Pintura,"Paisagem, Campo"
+19826,https://acervo-portinari.s3.sa-east-1.amazonaws.com/9806e4aa644c7818b8296c7ff7163976.jpeg,Figura Sentada,Pintura,"Paisagem, Campo"
+19827,https://acervo-portinari.s3.sa-east-1.amazonaws.com/9a3d588fde56c16d584db3db2813d77b.jpeg,Cangaceiros Conversando,Pintura,"Paisagem, Campo"
+19829,https://acervo-portinari.s3.sa-east-1.amazonaws.com/8520ec5eb0f6dc6f50924711e492eb9e.jpeg,Cangaceiros Andando,Pintura,"Paisagem, Campo"
+19838,https://acervo-portinari.s3.sa-east-1.amazonaws.com/49060e3ff3db6d4e35a8daf81f3b3885.jpeg,Enterro,Pintura,"Paisagem, Campo"
+19840,https://acervo-portinari.s3.sa-east-1.amazonaws.com/4ae3a34af6d2d81417aa16ab44bc2d83.jpeg,"Bento, Deoclécio e Alice",Pintura,"Paisagem, Campo"
+19842,https://acervo-portinari.s3.sa-east-1.amazonaws.com/d787ef4fbbe142e2134cc206b46f65cb.jpeg,Cangaceiro Montado,Pintura,"Paisagem, Campo"
+19854,https://acervo-portinari.s3.sa-east-1.amazonaws.com/c3ce0cb486287d0bbf4381c71b1446ee.jpeg,Menino com Carneiro,Pintura,"Paisagem, Campo"
+19868,https://acervo-portinari.s3.sa-east-1.amazonaws.com/847fbcfe0b9be21c6b40c5b185f05028.jpeg,Meninos com Balões,Pintura,"Paisagem, Campo"
+19882,https://acervo-portinari.s3.sa-east-1.amazonaws.com/f1650b1de1ae9961d0f555023e62f4b2.jpeg,Retrato do Maestro Francisco Braga,Pintura,Paisagem
+19901,https://acervo-portinari.s3.sa-east-1.amazonaws.com/e45629061efac087133905ed45079acb.jpeg,Esquartejamento de Felipe dos Santos,Pintura,Cenas Históricas
+19909,https://acervo-portinari.s3.sa-east-1.amazonaws.com/94dae640ae37d9589d3dc0f6f2ce27f4.jpeg,Cafezal,Pintura,"Cenas de trabalho, Cultura de café"
+19929,https://acervo-portinari.s3.sa-east-1.amazonaws.com/1da55dc300f12d908d68d036c5a4533c.jpeg,Bumba-Meu-Boi,Pintura,Festas populares
+19933,https://acervo-portinari.s3.sa-east-1.amazonaws.com/d379f6a4b38197d8be7d1c1f2f1b5dd3.jpeg,Boi,Pintura,Festas populares
+19963,https://acervo-portinari.s3.sa-east-1.amazonaws.com/bbaf94c6b61f700204ea97afb6c4f9bd.jpeg,Paisagem de Petrópolis,Pintura,"Paisagem, Campo"
+19980,https://acervo-portinari.s3.sa-east-1.amazonaws.com/2d0241bef577b3cd5fa9414d4006b281.jpeg,Ciranda,Pintura,"Cenas de trabalho, Paisagem"
+19990,https://acervo-portinari.s3.sa-east-1.amazonaws.com/bf3012bb4ae244b93ac1c35bbfacce2b.jpeg,Garimpeiros,Pintura,"Cenas de trabalho, Garimpagem, Trabalhadores, Garimpeiro"
+19994,https://acervo-portinari.s3.sa-east-1.amazonaws.com/44f755c5ec27a4a7b0a6de7acad03d38.jpeg,Menino com Carneiro,Pintura,"Paisagem, Campo"
+19996,https://acervo-portinari.s3.sa-east-1.amazonaws.com/aa10b09a1afef61872de806a05adf422.jpeg,Faiscadores de Ouro,Pintura,"Cenas de trabalho, Garimpagem, Trabalhadores, Garimpeiro"
+20007,https://acervo-portinari.s3.sa-east-1.amazonaws.com/2f3329b09a7103641b83dae371ac72a0.jpeg,Colheita de Cacau,Pintura,"Cenas de trabalho, Cultura de cacau, Trabalhadores"
+20011,https://acervo-portinari.s3.sa-east-1.amazonaws.com/672206c7db5a4f5544b622046f5e43ee.jpeg,Lavadeiras,Pintura,"Cenas de trabalho, Trabalhadores"
+20038,https://acervo-portinari.s3.sa-east-1.amazonaws.com/5d258844fa796686af417033adbe32f9.jpeg,Cena de Morro,Pintura,Favela
+20040,https://acervo-portinari.s3.sa-east-1.amazonaws.com/6fc2aa64a67baab9c5233ef3af1de9fe.jpeg,Espantalho,Pintura,"Paisagem, Campo"
+20041,https://acervo-portinari.s3.sa-east-1.amazonaws.com/fb144e6194d04b84506657ab4f48e34c.jpeg,Noivos,Pintura,"Paisagem, Campo"
+20045,https://acervo-portinari.s3.sa-east-1.amazonaws.com/a53dae0fd098cdab52905ab6f0ea2c8a.jpeg,Paisagem de Petrópolis,Pintura,Paisagem
+20047,https://acervo-portinari.s3.sa-east-1.amazonaws.com/98e5b0856d0315bdb591a42c4ecbc869.jpeg,Abertura dos Portos,Pintura,"Cenas Históricas, Paisagem, Marinha"
+20061,https://acervo-portinari.s3.sa-east-1.amazonaws.com/d78f2e61305a9f80c5d22215642d4235.jpeg,Tintureiro,Pintura,"Paisagem, Campo"
+20065,https://acervo-portinari.s3.sa-east-1.amazonaws.com/9813db19f133ba37fa76cfeb8440c686.jpeg,Festa de São João,Pintura,"Favela, Festas populares"
+20076,https://acervo-portinari.s3.sa-east-1.amazonaws.com/37d503977e23351435af67b0092990b8.jpeg,Mulher em Paisagem,Pintura,"Paisagem, Campo"
+20078,https://acervo-portinari.s3.sa-east-1.amazonaws.com/109e540ccfee0abb70854be8eb1f0451.jpeg,Paisagem de Petrópolis,Pintura,Paisagem
+20079,https://acervo-portinari.s3.sa-east-1.amazonaws.com/312d113abf45401a7008c4002ebf8995.jpeg,Bandeirantes,Pintura,Cenas Históricas
+20080,https://acervo-portinari.s3.sa-east-1.amazonaws.com/1dd1b113fd49ecc606c33ec5e8047861.jpeg,Bandeirantes,Pintura,Cenas Históricas
+20087,https://acervo-portinari.s3.sa-east-1.amazonaws.com/b69aa8ed74998f71bf1c758efcac7544.jpeg,Baiana,Pintura,"Paisagem, Campo"
+20089,https://acervo-portinari.s3.sa-east-1.amazonaws.com/79eb237a8fe6a2f03f1b181550ba14f0.jpeg,Bois e Espantalhos,Pintura,Paisagem
+20092,https://acervo-portinari.s3.sa-east-1.amazonaws.com/f0c07e62b04541c2eea8f3e4277c397a.jpeg,Nossa Senhora da Glória do Outeiro,Pintura,"Paisagem, Cidade"
+20099,https://acervo-portinari.s3.sa-east-1.amazonaws.com/82f7bb9a2ea374b20e76ecf41267da57.jpeg,Bandeirantes,Pintura,Cenas Históricas
+20100,https://acervo-portinari.s3.sa-east-1.amazonaws.com/6e24703e6a47a5fa0585c88ffe9f4deb.jpeg,Catequese,Pintura,Cenas Históricas
+20107,https://acervo-portinari.s3.sa-east-1.amazonaws.com/126616e4bc7c91ad3e1c92c6c9dbce58.jpeg,Menina com Flor,Pintura,Paisagem
+20108,https://acervo-portinari.s3.sa-east-1.amazonaws.com/3854b232ba8971a77df4f61de669483d.jpeg,Paisagem de Petrópolis,Pintura,Paisagem
+20113,https://acervo-portinari.s3.sa-east-1.amazonaws.com/38c273ed0209d4c33e949ffb13dd7391.jpeg,Favela,Pintura,Favela
+20115,https://acervo-portinari.s3.sa-east-1.amazonaws.com/cbd1a81dbfb9964948ba5b434c154db2.jpeg,Paisagem,Pintura,"Paisagem, Marinha"
+20133,https://acervo-portinari.s3.sa-east-1.amazonaws.com/5ad2840186d9a9b1a876cd42511794b7.jpeg,Carnaval,Pintura,"Festas populares, Carnaval"
+20139,https://acervo-portinari.s3.sa-east-1.amazonaws.com/914570df131eec7dfb91d6eec2f5933d.jpeg,Retrato de Carlos de Lima Cavalcanti,Pintura,"Paisagem, Marinha"
+20140,https://acervo-portinari.s3.sa-east-1.amazonaws.com/4d88f8102d1bef3763b8378e1ec18d9c.jpeg,Festa de São João,Pintura,"Favela, Festas populares"
+20141,https://acervo-portinari.s3.sa-east-1.amazonaws.com/0a1a764dd5d4d6f6505ab4421a02db4f.jpeg,Festa de São João,Pintura,"Favela, Festas populares"
+20153,https://acervo-portinari.s3.sa-east-1.amazonaws.com/bacd46f3228306e4b4876e98cff56083.jpeg,Espantalho,Pintura,"Paisagem, Campo"
+20167,https://acervo-portinari.s3.sa-east-1.amazonaws.com/cff7355af271d2407dcb7d8665154eda.jpeg,Menina com Cabrito,Pintura,"Paisagem, Campo"
+20169,https://acervo-portinari.s3.sa-east-1.amazonaws.com/1a34b7a894a9968ad74e1734059e1467.jpeg,Paisagem com Bananeiras,Pintura,"Paisagem, Campo"
+20195,https://acervo-portinari.s3.sa-east-1.amazonaws.com/427453bb997ea03093f7f2e0817b4be6.jpeg,Rio Tietê,Pintura,Paisagem
+20198,https://acervo-portinari.s3.sa-east-1.amazonaws.com/96ee4bc4ff458adc2d4ca4a63cbf0ddf.jpeg,Espantalho,Pintura,"Paisagem, Campo"
+20202,https://acervo-portinari.s3.sa-east-1.amazonaws.com/a40ace6cde1abfc50dd0f442615d7058.jpeg,Espantalho,Pintura,"Paisagem, Campo"
+20205,https://acervo-portinari.s3.sa-east-1.amazonaws.com/8f564f0539023d47c5892fd5fb262a9b.jpeg,Meninos Soltando Pipas,Pintura,"Paisagem, Deserto"
+20212,https://acervo-portinari.s3.sa-east-1.amazonaws.com/0748b244e2d7d46428a66f2c66671df1.jpeg,Paisagem,Pintura,"Paisagem, Campo"
+20234,https://acervo-portinari.s3.sa-east-1.amazonaws.com/bd7deb5c4ed00cc59e66c61ce172fbc3.jpeg,Arrastão,Pintura,"Cenas de trabalho, Trabalhadores"
+20244,https://acervo-portinari.s3.sa-east-1.amazonaws.com/1751731c1fe3a3b85c86075e4f7d8d60.jpeg,Marinha,Pintura,"Paisagem, Marinha"
+20259,https://acervo-portinari.s3.sa-east-1.amazonaws.com/d2f03fdf1b3b09fb158500c3f4fa4ac6.jpeg,Cangaceiro,Pintura,"Cenas de trabalho, Cultura de cana"
+20276,https://acervo-portinari.s3.sa-east-1.amazonaws.com/5ecbb6e74ff6b52a64a66dfbb908a98d.jpeg,Peneirando Café,Pintura,"Cenas de trabalho, Cultura de café, Trabalhadores"
+20336,https://acervo-portinari.s3.sa-east-1.amazonaws.com/f04a9145b5f3f04a34c724794f525a21.jpeg,Brasil,Pintura,Cenas Históricas
+20337,https://acervo-portinari.s3.sa-east-1.amazonaws.com/30c150748d879279fad03aaad2769011.jpeg,Camponeses,Pintura,Trabalhadores
+20373,https://acervo-portinari.s3.sa-east-1.amazonaws.com/3ba2f057b3314fdd58b85389e3c1fe74.jpeg,Menino com Carneiro,Pintura,"Paisagem, Campo"
+20374,https://acervo-portinari.s3.sa-east-1.amazonaws.com/27de05b65d611e85eb3e662413637df4.jpeg,Negras da Bahia,Pintura,"Festas populares, Paisagem, Morro"
+20375,https://acervo-portinari.s3.sa-east-1.amazonaws.com/d54257d4262a71477d1ed18fe01c8ab1.jpeg,Meninos no Balanço,Pintura,"Paisagem, Brodowski"
+20414,https://acervo-portinari.s3.sa-east-1.amazonaws.com/8dcfd10e8029bf714e748b4e64539cfa.jpeg,Favela,Pintura,"Favela, Paisagem, Morro, Rio de Janeiro"
