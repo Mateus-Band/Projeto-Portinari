@@ -17,6 +17,7 @@ Data/Poemas-de-Portinari.pdf
 Data/Textos_Curatoriais_China.pdf
 Data/poemas_back.csv
 LLM_Poemas/bertimbau-portinari
+LLM_Poemas/resultados_fold*
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
