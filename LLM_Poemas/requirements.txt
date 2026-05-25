@@ -162,6 +162,7 @@ rpds-py
 safetensors==0.7.0
 scikit-learn
 scipy
+seaborn
 Send2Trash
 setuptools==81.0.0
 shellingham==1.5.4
