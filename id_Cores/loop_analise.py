@@ -142,4 +142,4 @@ def criar_grid_analise(num_imagens=20, tamanho_celula=250, output_path="grid_ana
 
 if __name__ == '__main__':
     # Criar grid com 20 imagens
-    criar_grid_analise(num_imagens=20, tamanho_celula=300, output_path="analise_cores_20.png")
+    criar_grid_analise(num_imagens=20, tamanho_celula=300, output_path="analise_cores_07.png")
