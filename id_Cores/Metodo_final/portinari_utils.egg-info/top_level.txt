@@ -1,0 +1,8 @@
+Bin_method
+cor_kmean
+cor_predominante
+funcionalidades
+get_pixels
+media_colors
+most_collor
+most_collor2
