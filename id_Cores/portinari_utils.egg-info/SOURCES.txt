@@ -1,0 +1,10 @@
+Bin_method.py
+Get_paleta.py
+detectar_cores2.py
+get_pixels.py
+loop_analise.py
+setup.py
+portinari_utils.egg-info/PKG-INFO
+portinari_utils.egg-info/SOURCES.txt
+portinari_utils.egg-info/dependency_links.txt
+portinari_utils.egg-info/top_level.txt
