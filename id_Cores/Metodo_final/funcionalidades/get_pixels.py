@@ -29,12 +29,20 @@ inicio = time.time()
 
 
 
-def get_pixels(freio = -1):
+def get_pixels(imagens_dir,diretorio_pixels,freio = -1,tabelona_name = 'Tabelona_10e5.dat'):
+    '''
+    função que transforma imagens em um diretório em colunas de uma tabela numpy,
+    cria um arquivo com a tabela numpy
+    de cada imagem se tira uma quantidade de pixels com posições aleatórias.
+    
+    imagens_dir = diretorio com as imagens que queremos retirar os pixels
+    diretorio_pixels = diretorio onde vamos colocar o arquivo com a tabela de pixels
+    freio = quantidade de imagens que queremos transformar, por default -1 transforma todas
+    tabelona_name = nome do arquivo com a tabela
+    '''
+    
     #o i é só para teste, freia o for das imagens
     i = 0
-
-    
-    imagens_dir = "/home/lucca/Documents/Atividades escolares/impatech/Projeto portinari/Projeto-Portinari/Data/imagens"
     
     if not os.path.exists(imagens_dir):
         print(f"Erro: Diretório {imagens_dir} não encontrado!")
@@ -45,8 +53,6 @@ def get_pixels(freio = -1):
                if f.lower().endswith(('.png', '.jpg', '.jpeg', '.bmp', '.gif'))]
     
 
-    #diretorio que guardará a informação dos pixels
-    diretorio_pixels = '/home/lucca/Documents/Atividades escolares/impatech/Projeto portinari/Projeto-Portinari/Data/Pixels_data'
 
 
     #se o diretorio escolhido não existir então cria um diretorio
@@ -57,11 +63,11 @@ def get_pixels(freio = -1):
 
 
 
-    #cria o arquivo numpy bom mesmo
+    #cria o arquivo numpy
     shape_tabelona = ((10**5),len(cam_imagens),3)
 
     #aqui o arquivo memap é um arquivo que permite trabalhar com arrays muito grandes sem guardalás na ram 
-    tabelona = np.memmap(os.path.join(diretorio_pixels,'Tabelona_10e5.dat'),dtype='uint8', mode='w+', shape=shape_tabelona)
+    tabelona = np.memmap(os.path.join(diretorio_pixels,tabelona_name),dtype='uint8', mode='w+', shape=shape_tabelona)
 
     #lista que guarda os nomes em ordem das imagens
     nomes_ordenados = np.empty((len(cam_imagens)),dtype = 'U30')
@@ -104,7 +110,8 @@ def get_pixels(freio = -1):
 
             i+=1
 
-            tabelona.flush()
+            if idx%50 == 0:
+                tabelona.flush()
 
 
     #salva a ordem das imagens
@@ -118,7 +125,7 @@ if __name__ == '__main__':
 
     if ip == 's':
         print('começando')
-        get_pixels()
+        get_pixels(imagens_dir = "/home/lucca/Documents/Atividades escolares/impatech/Projeto portinari/Projeto-Portinari/Data/imagens",diretorio_pixels = '/home/lucca/Documents/Atividades escolares/impatech/Projeto portinari/Projeto-Portinari/Data/Pixels_data')
         print('O programa foi concluido')
 
     tempo = time.time() - inicio

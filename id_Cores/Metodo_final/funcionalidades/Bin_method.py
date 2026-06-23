@@ -22,6 +22,15 @@ Caso contrario:
 
 '''
 
+def media_Bin(Data_Bined):
+    Medias = []
+    for buckets in Data_Bined:
+        RGB = np.atleast_2d(np.array(buckets))
+        Medias.append(np.mean(RGB,axis = 0))
+    
+    return Medias
+
+
 def quantizacao(Data):
     '''Quantiza as cores, basicamente reduz a quantidade de variação existente nas cores'''
     return Data//8
@@ -30,6 +39,9 @@ def quantizacao(Data):
 def Binacao(Data_Bin):
     '''
     Data_Bin é uma lista de lista, em que cada elemento é um conjunto.
+
+    Ou seja, recebe os dados da forma [[cluster 1], ... ,[cluster n]]
+    E retorn [[cluster 1],...,[cluster n],[cluster n+1]] , sendo que algum dos clusters foi dividido na mediana para gera o novo cluster.
     '''
 
 
@@ -91,6 +103,19 @@ def Binacao(Data_Bin):
     
 
 def Bin_method(Data,clusters_numb):
+    '''
+    Usando o metodo de divisão pela mediana divide os dados em n clusters.
+
+    Parametros:
+
+        Data: conjunto de dados pode ser lista ou numpy array
+        cluster_numb: numero de cluster desejados 
+    
+    Retorna uma numpy array com os clusters separados:
+        [[cluster 1], [cluster 2], ... , [cluster n]]
+    '''
+
+
     Data_Bined = [Data]
     while(len(Data_Bined) != clusters_numb):
         Data_Bined = Binacao(Data_Bined)
@@ -102,13 +127,19 @@ def Bin_method(Data,clusters_numb):
 def testezim():
     import random
 
-    a = [[random.randrange(3),random.randrange(3),random.randrange(3)] for i in range(10)]
+    a = [[random.randrange(10),random.randrange(10),random.randrange(10)] for i in range(10)]
 
     print(f'O conjunto de dados inicial: {a}', end='\n\n')
     print(f'Os subconjuntos formados pela função:')
+
+    Bined = Bin_method(a,3)
+
     for idx,conjunto in enumerate(Bin_method(a,3)):
         print(f'Conjunto {idx} : {conjunto}', end='\n\n')
 
+    return Bined
+
 
 if __name__ == '__main__':
-    testezim()
+    Bined = testezim()
+    print(f'Os pontos médios dos cluster encontrados são: {media_Bin(Bined)}')
