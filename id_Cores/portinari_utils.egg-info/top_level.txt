@@ -1,0 +1,6 @@
+Bin_method
+Get_paleta
+Paleta_por_k
+detectar_cores2
+get_pixels
+loop_analise
