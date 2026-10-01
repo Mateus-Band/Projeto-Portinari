@@ -1,0 +1,6 @@
+Considerei apenas o campo "numeroCR" para identificar duplicatas nas obras, verifiquei os outros campos e concluí que eles podem ser iguais mas as obras são diferentes. 
+
+O problema é que a imagem não é uma exatamente uma duplicata, são fotos diferentes
+A ideia é pegar a melhor foto, só que tem um padrão onde as imagens coloridas são fotos de uma parte da obra inteira
+E a foto que pega toda a obra sempre é preto e branco
+E na maioria dos casos tem mais de uma foto colorida da mesma obra, só que pegando recortes diferentes.
