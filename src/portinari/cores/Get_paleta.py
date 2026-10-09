@@ -1,20 +1,22 @@
 import numpy as np
 import os
-from Bin_method import Binacao,Bin_method,media_Bin
+from .Bin_method import Binacao, Bin_method, media_Bin
+from portinari import caminhos
 
 
-def get_tabelona(tamanhos_path,nomes_path,tabelona_path,tabelona_name = 'Tabelona_10e5.dat'):
+def get_tabelona(tamanhos_path=None, nomes_path=None, tabelona_dir=None, tabelona_name='Tabelona_10e5.dat'):
+    diretorio_pixels = tabelona_dir or os.environ.get("PORTINARI_PIXELS_DIR", str(caminhos.DADOS_DIR / "Pixels_data"))
+    t_path = tamanhos_path or os.path.join(diretorio_pixels, 'tamanhos_ordenados.npy')
+    n_path = nomes_path or os.path.join(diretorio_pixels, 'Nomes_ordenados.npy')
+
     #abrindo os arquivos com as informações das obras
     #tamanhos ordenados
-    tams_orde = np.load('/home/lucca/Documents/Atividades escolares/impatech/Projeto portinari/Projeto-Portinari/Data/Pixels_data/tamanhos_ordenados.npy', mmap_mode='r')
+    tams_orde = np.load(t_path, mmap_mode='r')
     #nomes ordenados das obras
-    nomes_orde = np.load('/home/lucca/Documents/Atividades escolares/impatech/Projeto portinari/Projeto-Portinari/Data/Pixels_data/Nomes_ordenados.npy', mmap_mode='r')
-
-    #diretório onde os pixels estão
-    diretorio_pixels = '/home/lucca/Documents/Atividades escolares/impatech/Projeto portinari/Projeto-Portinari/Data/Pixels_data'
+    nomes_orde = np.load(n_path, mmap_mode='r')
 
     #tabela em que cada coluna possue os pixels de uma imagem especifica
-    tabelona = np.memmap(os.path.join(diretorio_pixels,tabelona_name),dtype='uint8', mode='r',shape = (max(tams_orde),1575,3))
+    tabelona = np.memmap(os.path.join(diretorio_pixels, tabelona_name), dtype='uint8', mode='r', shape=(max(tams_orde), 1575, 3))
     _,colunas_tab,_ = tabelona.shape
 
 
