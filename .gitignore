@@ -15,6 +15,12 @@ lerna-debug.log*
 .npy
 .dat
 
+# uv files
+.python-version
+pyproject.toml
+uv.lock
+src/
+
 Data/Poemas-de-Portinari.pdf
 Data/Textos_Curatoriais_China.pdf
 Data/poemas_back.csv
