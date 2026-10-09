@@ -1,0 +1,19 @@
+,valor
+n_poemas,111
+n_poemas_vazios,0
+n_tokens_total,9681
+n_tipos (vocabulário),2926
+ttr_global,0.3022415039768619
+hapax (freq=1),1917
+hapax / vocabulário,0.6551606288448394
+hapax / tokens,0.19801673380849086
+tipos de conteúdo (sem stopwords),2657
+tokens de conteúdo,4875
+prop. tokens funcionais,0.496436318562132
+tokens/poema: média,87.21621621621621
+tokens/poema: mediana,78.0
+tokens/poema: desvio-padrão,39.235513923301085
+tokens/poema: mín,32
+tokens/poema: máx,257
+tokens/sentença: média,12.127678651048214
+comprimento médio da palavra,4.754777399029026
