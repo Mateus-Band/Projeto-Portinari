@@ -42,3 +42,16 @@ POEMAS_COM_OBRAS_CSV = DADOS_POEMAS_DIR / "poemas_com_obras.csv"
 POEMAS_PRINCIPAIS_CSV = DADOS_POEMAS_DIR / "poemas_principais.csv"
 PORTUGUESE_POEMS_CSV = DADOS_POEMAS_DIR / "portuguese-poems.csv"
 POEMAS_PALAVRAS_CSV = DADOS_POEMAS_DIR / "poemas_palavras.csv"
+
+# Imagens e documentos locais (não versionados no git)
+IMAGENS_DIR = (
+    DADOS_PRIVADOS_DIR / "imagens"
+    if (DADOS_PRIVADOS_DIR / "imagens").exists()
+    else (RAIZ / "Data" / "imagens")
+)
+
+DOCUMENTOS_DIR = (
+    DADOS_PRIVADOS_DIR / "documentos"
+    if (DADOS_PRIVADOS_DIR / "documentos").exists()
+    else (RAIZ / "Data")
+)
