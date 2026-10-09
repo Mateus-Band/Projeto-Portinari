@@ -47,14 +47,14 @@ if __name__ == '__main__':
     #numero de imagens
     numero_de_imagen = 1575
 
+    from portinari import caminhos
+    diretorio_pixels = os.environ.get("PORTINARI_PIXELS_DIR", str(caminhos.DADOS_DIR / "Pixels_data"))
+
     #abrindo os arquivos com as informações das obras
     #tamanhos ordenados
-    tams_orde = np.load('/home/lucca/Documents/Atividades escolares/impatech/Projeto portinari/Projeto-Portinari/Data/Pixels_data/tamanhos_ordenados.npy', mmap_mode='r')
+    tams_orde = np.load(os.path.join(diretorio_pixels, 'tamanhos_ordenados.npy'), mmap_mode='r')
     #nomes ordenados das obras
-    nomes_orde = np.load('/home/lucca/Documents/Atividades escolares/impatech/Projeto portinari/Projeto-Portinari/Data/Pixels_data/Nomes_ordenados.npy', mmap_mode='r')
-
-    #diretório onde os pixels estão
-    diretorio_pixels = '/home/lucca/Documents/Atividades escolares/impatech/Projeto portinari/Projeto-Portinari/Data/Pixels_data'
+    nomes_orde = np.load(os.path.join(diretorio_pixels, 'Nomes_ordenados.npy'), mmap_mode='r')
 
     #tabela em que cada coluna possue os pixels de uma imagem especifica
     tabelona = np.memmap(os.path.join(diretorio_pixels,'Tabelona_10e5.dat'),dtype='uint8', mode='r',shape = (max(tams_orde),1575,3))

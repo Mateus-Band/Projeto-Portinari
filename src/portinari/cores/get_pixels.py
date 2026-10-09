@@ -125,7 +125,10 @@ if __name__ == '__main__':
 
     if ip == 's':
         print('começando')
-        get_pixels(imagens_dir = "/home/lucca/Documents/Atividades escolares/impatech/Projeto portinari/Projeto-Portinari/Data/imagens",diretorio_pixels = '/home/lucca/Documents/Atividades escolares/impatech/Projeto portinari/Projeto-Portinari/Data/Pixels_data')
+        from portinari import caminhos
+        img_dir = os.environ.get("PORTINARI_IMAGENS_DIR", str(caminhos.DADOS_DIR / "imagens"))
+        px_dir = os.environ.get("PORTINARI_PIXELS_DIR", str(caminhos.DADOS_DIR / "Pixels_data"))
+        get_pixels(imagens_dir=img_dir, diretorio_pixels=px_dir)
         print('O programa foi concluido')
 
     tempo = time.time() - inicio
