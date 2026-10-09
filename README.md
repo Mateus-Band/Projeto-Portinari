@@ -1,154 +1,104 @@
 # Projeto Portinari
 
-Projeto de TED (Tema de Estudo Dirigido) da graduação com foco na análise computacional do acervo pictórico de Cândido Portinari. O projeto é dividido em frentes independentes que se complementam: coleta automatizada de dados, identificação de paletas de cores, análise e visualização dos metadados, e análise de correspondências — com outras frentes previstas.
+Projeto de Tema de Estudo Dirigido (TED) da graduação com foco na análise computacional, estatística e de visão computacional sobre o acervo artístico, literário e documental de Cândido Portinari.
+
+O repositório é organizado de forma modular em frentes de pesquisa integradas por uma biblioteca central compartilhada.
 
 ---
 
-## Estrutura do repositório
+## Estrutura do Repositório
 
-``` Markdown
-.
-├── Data/                        # Base de dados local (não versionada — ver abaixo)
-│   ├── imagens/                 # Imagens das obras baixadas
-│   ├── obras.csv                # Metadados em CSV
-│   └── obras_limpo.json         # Metadados em JSON processado
+```text
+projeto-portinari/
+├── README.md                   # Apresentação do projeto e guia de uso
+├── CONTRIBUTING.md             # Padrões de branches, sincronização e PRs
+├── pyproject.toml              # Configuração do projeto e dependências (uv/pip)
+├── requirements.txt            # Dependências em formato pip tradicional
+├── assets/                     # Identidade visual e imagens do projeto
 │
-├── Id_Cores/                    # Identificação de paletas de cores das pinturas
-│   └── detectar_cores2.py
+├── src/portinari/              # Pacote Python compartilhado
+│   ├── caminhos.py             # Caminhos padronizados relativos à raiz
+│   ├── dados.py                # Funções de carregamento (obras, poemas, correspondências)
+│   └── cores/                  # Módulos centrais de extração e análise cromática
 │
-└── portinari-scrapper/          # Coleta automatizada de dados do site do Projeto Portinari
-    ├── Scrapper.js              # Scraper principal (Node.js + Puppeteer)
-    ├── analise_portinari.ipynb  # Notebook de limpeza e exploração dos dados
-    ├── visualizacoes_portinari.ipynb  # Notebook de visualizações interativas
-    └── package.json
+├── dados/                      # Bases de dados (ver dados/README.md)
+│   ├── brutos/                 # JSON original extraído pelo scraper
+│   ├── processados/            # Obras tratadas, metadados com cores e correspondências
+│   └── poemas/                 # Poemas catalogados e datasets literários
+│
+├── frentes/                    # Frentes de trabalho ativas
+│   ├── coleta/                 # Scraper Puppeteer (Node.js) e tratamento das obras
+│   ├── cores/                  # Identificação de paletas cromáticas, amostras e experimentos
+│   ├── poemas/                 # Análise morfológica descritiva e classificador BERTimbau
+│   ├── duplicatas/             # Detecção e tratamento de duplicatas
+│   ├── correspondencias/       # Análise de correspondências e cartas (em estruturação)
+│   └── ocr/                    # Reconhecimento óptico de manuscritos (futuro)
+│
+├── apresentacoes/              # Notebooks preparados para exposições e bancas
+└── arquivo/                    # Frentes e experimentos históricos preservados
 ```
 
 ---
 
-## Frentes do projeto
+## Frentes de Pesquisa
 
-### Coleta de dados (`portinari-scrapper/`)
+### 1. Coleta e Tratamento de Obras (`frentes/coleta/`)
+* **Scraper:** Desenvolvido em Node.js com Puppeteer para coletar metadados e URLs de imagens do portal do Projeto Portinari.
+* **Tratamento:** Notebooks de normalização de dados curatoriais, dimensões físicas e padronização.
 
-Scraper desenvolvido em Node.js com Puppeteer que navega pelo site do [Projeto Portinari](https://www.portinari.org.br) e extrai metadados e imagens das obras do acervo. Suporta paginação completa (1826 obras em 37 páginas), retomada de execuções interrompidas e modo de teste com limite configurável.
+### 2. Identificação de Cores (`frentes/cores/`)
+* Módulos em Python utilizando OpenCV, NumPy e Scikit-Learn para quantificação de cores predominantes via K-means, Mean Shift e binning no espaço de cores HSV.
+* Notebooks de visualização e paletas por obra e por década.
 
-Campos coletados por obra: título, código FCO, número CR, ano, técnica, suporte, dimensões, descrição curatorial, local de produção, autoria, temas, assinatura e URL da imagem em alta resolução.
+### 3. Poemas de Portinari (`frentes/poemas/`)
+* **Descritiva:** Análise morfossintática com spaCy, coocorrência de termos, frequências lexicais e nuvens de palavras.
+* **Classificador LLM:** Treinamento e ajuste fino do modelo **BERTimbau** (`neuralmind/bert-base-portuguese-cased`) para classificação e estilometria dos poemas.
 
-**Dependências:** Node.js, Puppeteer, Axios, fs-extra
+### 4. Análise de Duplicatas (`frentes/duplicatas/`)
+* Auditoria dos identificadores FCO, número CR e duplicatas de registros no acervo.
 
+---
+
+## Instalação e Ambiente
+
+### Opção 1: Usando uv (Recomendado)
 ```bash
-cd portinari-scrapper
-npm install
-node Scrapper.js
+# Sincroniza o ambiente com as dependências do projeto
+uv sync
+
+# Para rodar scripts ou jupyter usando o ambiente:
+uv run jupyter notebook
 ```
 
-### Identificação de cores (`Id_Cores/`)
-
-Módulo Python que analisa as imagens das pinturas e identifica as cores predominantes usando o espaço de cor HSV. Implementa amostragem aleatória de pixels e classifica cada amostra em categorias de cores nomeadas (vermelho, laranja, amarelo, verde, azul, roxo, etc.) com distinção entre tons claros e escuros.
-
-**Dependências:** Python 3, OpenCV (`cv2`), NumPy
-
+### Opção 2: Usando venv e pip tradicional
 ```bash
-cd Id_Cores
-python detectar_cores2.py
-```
+# Cria e ativa o ambiente virtual
+python3 -m venv .venv
+source .venv/bin/activate
 
-### Análise e visualizações (`portinari-scrapper/`)
-
-Dois notebooks Jupyter para exploração e comunicação dos dados:
-
-- `analise_portinari.ipynb` — carregamento do JSON, limpeza, normalização, filtros e exportação para CSV/Excel.
-- `visualizacoes_portinari.ipynb` — visualizações interativas inspiradas no [Vikus Viewer](https://vikusviewer.fh-potsdam.de/): linha do tempo das obras, painel de estatísticas, dispersão por dimensões físicas, nuvem de palavras das descrições e grade visual filtrada por técnica e ano.
-
-**Dependências:** Python 3, pandas, plotly, ipywidgets, wordcloud, matplotlib, Pillow, kaleido
-
-```bash
-pip install pandas plotly ipywidgets wordcloud matplotlib Pillow kaleido openpyxl
-jupyter notebook
+# Instala as dependências e o pacote local em modo editável
+pip install -r requirements.txt
+pip install -e .
 ```
 
 ---
 
-## Branches
+## Como Utilizar o Pacote `portinari`
 
-| Branch | Responsabilidade |
-| --- | --- |
-| `main` | Código estável, integração das frentes |
-| `scraper` | Coleta de dados e notebooks de análise |
-| `identificador-cores` | Módulo de identificação de cores |
+Em qualquer script ou notebook do repositório, você pode carregar as bases e caminhos diretamente sem se preocupar com diretórios absolutos:
 
-Novas branches serão criadas conforme novas frentes do projeto forem iniciadas.
+```python
+import portinari
 
----
+# Carregar DataFrames das bases principais
+df_obras = portinari.carregar_obras()
+df_cores = portinari.carregar_obras_cores()
+df_poemas = portinari.carregar_poemas()
+df_cartas = portinari.carregar_correspondencias()
 
-## Base de dados
+# Acessar caminhos universais
+print(portinari.caminhos.RAIZ)
+print(portinari.caminhos.DADOS_DIR)
+```
 
-A base de dados (imagens e metadados) **não está disponível publicamente** neste repositório. O acesso é restrito aos colaboradores do projeto. O link de acesso será comunicado diretamente aos membros da equipe.
-
-Os arquivos de dados são ignorados pelo `.gitignore` e não devem ser versionados.
-
----
-
-## Status
-
-O projeto está em desenvolvimento ativo. Todas as frentes funcionam, mas estão sujeitas a refinamentos. Novas frentes de análise (como o estudo de correspondências) estão previstas.
-
----
-
-## Fonte dos dados
-
-Os metadados e imagens são provenientes do site do [Projeto Portinari](https://www.portinari.org.br), acervo mantido pela família Portinari. Verifique os termos de uso do site antes de qualquer utilização dos dados além do contexto deste projeto.
-
----
-
-## Dependências
-
-**Runtime/Linguagens:**
-
-- Node.js (para scraping)
-- Python 3 (para análise e identificação de cores)
-
-**Node.js packages:**
-
-- Puppeteer — automação de navegador
-- Axios — requisições HTTP
-- fs-extra — operações de arquivo
-
-**Python packages:**
-
-- OpenCV (`cv2`) — processamento de imagens
-- NumPy — operações numéricas
-- pandas — manipulação de dados
-- plotly — visualizações interativas
-- ipywidgets — widgets para Jupyter
-- wordcloud — nuvem de palavras
-- matplotlib — gráficos
-- Pillow — processamento de imagens
-- kaleido — exportação de gráficos
-- openpyxl — exportação para Excel
-- jupyter — notebooks interativos
-
----
-
-## Resumo das dependências
-
-**Dependências principais do projeto:**
-
-- **Node.js:**
-  - puppeteer
-  - axios
-  - fs-extra
-
-- **Python:**
-  - opencv-python (cv2)
-  - numpy
-  - pandas
-  - plotly
-  - ipywidgets
-  - wordcloud
-  - matplotlib
-  - pillow
-  - kaleido
-  - openpyxl
-  - jupyter
-
-Consulte as instruções acima para detalhes de instalação em cada frente do projeto.
+Consulte [CONTRIBUTING.md](CONTRIBUTING.md) para conhecer as diretrizes de branches e Pull Requests.
