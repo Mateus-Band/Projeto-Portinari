@@ -2,7 +2,36 @@
 
 Projeto de Tema de Estudo Dirigido (TED) da graduação com foco na análise computacional, estatística e de visão computacional sobre o acervo artístico, literário e documental de Cândido Portinari.
 
-O repositório é organizado de forma modular em frentes de pesquisa integradas por uma biblioteca central compartilhada.
+O repositório é organizado de forma modular em frentes de pesquisa integradas por uma biblioteca central compartilhada (`portinari`).
+
+---
+
+## Política de Dados e Google Drive
+
+> [!IMPORTANT]
+> **Nenhum arquivo de dados ou imagem é versionado no GitHub.**
+> Todas as bases de metadados, textos de poemas, cartas e imagens de pinturas residem exclusivamente na pasta institucional do **Google Drive** do Projeto Portinari por motivos de privacidade e direitos de acervo.
+
+### Como Obter e Configurar os Dados
+
+Para que os scripts e notebooks funcionem na sua máquina:
+
+1. **Acesso:** Solicite acesso à pasta do Google Drive do projeto via e-mail institucional (`al.mateus.torres@impatech.edu.br`).
+2. **Posicionamento:** Baixe a pasta de dados e posicione-a na raiz do projeto com o nome **`data/`** (essa pasta já está no `.gitignore` e não será enviada ao GitHub).
+3. **Opção com rclone (Recomendado para manter atualizado):**
+   ```bash
+   # Configurar remote no rclone (ex: 'portinari_drive') e sincronizar:
+   rclone sync portinari_drive:Projeto-Portinari/data data/
+   ```
+
+A estrutura esperada dentro de `data/` é:
+```text
+data/
+├── brutos/                 # obras.json
+├── processados/            # obras.csv, obras_limpo.json, obras_cores.csv, correspondencias.csv
+├── poemas/                 # poemas.csv, poemas_com_obras.csv, portuguese-poems.csv
+└── imagens/                # Imagens das obras (quando necessário)
+```
 
 ---
 
@@ -14,17 +43,13 @@ projeto-portinari/
 ├── CONTRIBUTING.md             # Padrões de branches, sincronização e PRs
 ├── pyproject.toml              # Configuração do projeto e dependências (uv/pip)
 ├── requirements.txt            # Dependências em formato pip tradicional
+├── .gitignore                  # Ignora data/, dados/, imagens e PDFs
 ├── assets/                     # Identidade visual e imagens do projeto
 │
 ├── src/portinari/              # Pacote Python compartilhado
-│   ├── caminhos.py             # Caminhos padronizados relativos à raiz
+│   ├── caminhos.py             # Caminhos padronizados com detecção automática de data/
 │   ├── dados.py                # Funções de carregamento (obras, poemas, correspondências)
 │   └── cores/                  # Módulos centrais de extração e análise cromática
-│
-├── dados/                      # Bases de dados (ver dados/README.md)
-│   ├── brutos/                 # JSON original extraído pelo scraper
-│   ├── processados/            # Obras tratadas, metadados com cores e correspondências
-│   └── poemas/                 # Poemas catalogados e datasets literários
 │
 ├── frentes/                    # Frentes de trabalho ativas
 │   ├── coleta/                 # Scraper Puppeteer (Node.js) e tratamento das obras
@@ -35,7 +60,8 @@ projeto-portinari/
 │   └── ocr/                    # Reconhecimento óptico de manuscritos (futuro)
 │
 ├── apresentacoes/              # Notebooks preparados para exposições e bancas
-└── arquivo/                    # Frentes e experimentos históricos preservados
+├── arquivo/                    # Frentes e experimentos históricos preservados
+└── data/                       # [NÃO VERSIONADO] Pasta local com os dados do Drive
 ```
 
 ---
@@ -85,20 +111,21 @@ pip install -e .
 
 ## Como Utilizar o Pacote `portinari`
 
-Em qualquer script ou notebook do repositório, você pode carregar as bases e caminhos diretamente sem se preocupar com diretórios absolutos:
+Em qualquer script ou notebook do repositório, você pode carregar as bases e caminhos diretamente sem se preocupar com diretórios absolutos locais:
 
 ```python
 import portinari
 
-# Carregar DataFrames das bases principais
+# Carregar DataFrames automaticamente da pasta data/ local:
 df_obras = portinari.carregar_obras()
 df_cores = portinari.carregar_obras_cores()
 df_poemas = portinari.carregar_poemas()
 df_cartas = portinari.carregar_correspondencias()
 
-# Acessar caminhos universais
+# Acessar caminhos universais:
 print(portinari.caminhos.RAIZ)
-print(portinari.caminhos.DADOS_DIR)
+print(portinari.caminhos.DADOS_DIR)    # Aponta automaticamente para a pasta data/
+print(portinari.caminhos.IMAGENS_DIR)
 ```
 
 Consulte [CONTRIBUTING.md](CONTRIBUTING.md) para conhecer as diretrizes de branches e Pull Requests.

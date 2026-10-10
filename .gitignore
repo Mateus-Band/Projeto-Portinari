@@ -24,11 +24,13 @@ npm-debug.log*
 yarn-debug.log*
 package-lock.json
 
-# Dados não públicos
+# Dados locais privados e pesados (não versionados)
 dados/
 data/
+Data/
 dados/privados/
 dados-brutos/
+arquivo/historico_materias/*.csv
 *.pdf
 Correspondencias/
 Imagens-Obras/
