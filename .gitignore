@@ -30,6 +30,10 @@ data/
 dados/privados/
 dados-brutos/
 *.pdf
+Correspondencias/
+Imagens-Obras/
+Poemas-Livro/
+*.zip
 
 # Modelos locais pesados
 bertimbau-portinari/
