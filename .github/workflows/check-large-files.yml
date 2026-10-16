@@ -15,7 +15,7 @@ jobs:
       - name: Checkout do código
         uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          fetch-depth: 0
 
       - name: Bloquear arquivos maiores que 5MB e pastas restritas
         run: |
@@ -31,9 +31,12 @@ jobs:
 
           # Lista arquivos alterados ou adicionados no commit atual
           if [ "${{ github.event_name }}" = "pull_request" ]; then
-            ARQUIVOS=$(git diff --name-only --diff-filter=d origin/${{ github.base_ref }} HEAD)
+            git fetch origin ${{ github.base_ref }} --depth=1
+            ARQUIVOS=$(git diff --name-only --diff-filter=d FETCH_HEAD HEAD)
           else
-            if git rev-parse HEAD~1 >/dev/null 2>&1; then
+            if [ -n "${{ github.event.before }}" ] && [ "${{ github.event.before }}" != "0000000000000000000000000000000000000000" ]; then
+              ARQUIVOS=$(git diff --name-only --diff-filter=d ${{ github.event.before }} ${{ github.sha }})
+            elif git rev-parse HEAD~1 >/dev/null 2>&1; then
               ARQUIVOS=$(git diff --name-only --diff-filter=d HEAD~1 HEAD)
             else
               ARQUIVOS=$(git ls-files)
