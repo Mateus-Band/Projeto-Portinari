@@ -1,0 +1,90 @@
+name: Validar Arquivos e Segredos
+
+on:
+  push:
+    branches:
+      - '**' # Executa em QUALQUER branch enviada para o GitHub
+  pull_request:
+
+jobs:
+  verificar-arquivos:
+    name: Verificar Tamanho e Tipos de Arquivos
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Bloquear arquivos maiores que 5MB e pastas restritas
+        run: |
+          echo "=== Verificando arquivos no commit ==="
+          LIMITE_BYTES=5242880 # 5 MB
+          FALHA=0
+
+          # Exceções conhecidas existentes antes desta regra
+          EXCECOES=(
+            "frentes/cores/amostras/amostra.html"
+            "frentes/poemas/descritiva/grafo_palavra.html"
+          )
+
+          # Lista arquivos alterados ou adicionados no commit atual
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            git fetch origin ${{ github.base_ref }} --depth=1
+            ARQUIVOS=$(git diff --name-only --diff-filter=d FETCH_HEAD HEAD)
+          else
+            if [ -n "${{ github.event.before }}" ] && [ "${{ github.event.before }}" != "0000000000000000000000000000000000000000" ]; then
+              ARQUIVOS=$(git diff --name-only --diff-filter=d ${{ github.event.before }} ${{ github.sha }})
+            elif git rev-parse HEAD~1 >/dev/null 2>&1; then
+              ARQUIVOS=$(git diff --name-only --diff-filter=d HEAD~1 HEAD)
+            else
+              ARQUIVOS=$(git ls-files)
+            fi
+          fi
+
+          for ARQ in $ARQUIVOS; do
+            # Se o arquivo foi deletado, ignora
+            if [ ! -f "$ARQ" ]; then
+              continue
+            fi
+
+            # 1. Bloqueio de pastas de extração proibidas no repositório
+            if [[ "$ARQ" =~ ^imagens_extraidas/ ]]; then
+              echo "::error file=$ARQ::A pasta 'imagens_extraidas/' não deve ser versionada no GitHub! Coloque no Google Drive."
+              FALHA=1
+            fi
+
+            # 2. Bloqueio de extensões pesadas
+            if [[ "$ARQ" =~ \.(zip|tar\.gz|parquet|bin)$ ]]; then
+              echo "::error file=$ARQ::Arquivos de dados/binários ($ARQ) não devem ser versionados no GitHub! Use o Google Drive."
+              FALHA=1
+            fi
+
+            # 3. Bloqueio por tamanho (> 5MB)
+            EH_EXCECAO=0
+            for EXC in "${EXCECOES[@]}"; do
+              if [ "$ARQ" = "$EXC" ]; then
+                EH_EXCECAO=1
+                break
+              fi
+            done
+
+            if [ $EH_EXCECAO -eq 0 ]; then
+              TAMANHO=$(stat -c%s "$ARQ")
+              if [ "$TAMANHO" -gt "$LIMITE_BYTES" ]; then
+                TAMANHO_MB=$(awk "BEGIN {printf \"%.2f\", $TAMANHO/1048576}")
+                echo "::error file=$ARQ::Arquivo muito grande: $ARQ ($TAMANHO_MB MB). O limite é de 5 MB."
+                FALHA=1
+              fi
+            fi
+          done
+
+          if [ $FALHA -ne 0 ]; then
+            echo ""
+            echo "❌ Foram detectados arquivos não permitidos ou acima do limite de 5MB."
+            echo "Consulte o CONTRIBUTING.md para a política de armazenamento no Google Drive."
+            exit 1
+          fi
+
+          echo "✅ Todos os arquivos verificados estão dentro das diretrizes de tamanho e tipo."

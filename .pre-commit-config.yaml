@@ -1,0 +1,30 @@
+# Configuração do Pre-commit para o Projeto Portinari
+# Para instalar na sua máquina:
+#   pip install pre-commit nbstripout
+#   pre-commit install
+#   nbstripout --install
+#
+# Isso garante que em QUALQUER branch, antes de criar o commit:
+# 1. Arquivos maiores que 5MB são bloqueados.
+# 2. Saídas pesadas de Jupyter Notebooks são limpas automaticamente.
+# 3. Chaves privadas e segredos são interceptados.
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0
+    hooks:
+      - id: check-added-large-files
+        name: Bloquear arquivos grandes (> 5MB)
+        args: ['--maxkb=5120']
+      - id: detect-private-key
+        name: Bloquear chaves privadas
+      - id: check-yaml
+      - id: check-json
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+
+  - repo: https://github.com/kynan/nbstripout
+    rev: 0.7.1
+    hooks:
+      - id: nbstripout
+        name: Limpar saídas pesadas de Jupyter Notebooks
