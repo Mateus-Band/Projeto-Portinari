@@ -7,6 +7,7 @@ ENV/
 # Segredos e chaves de API (nunca versionar)
 .env
 .env.*
+!.env.example
 *.key
 
 # Python / Bytecode / Cache
@@ -41,6 +42,9 @@ Correspondencias/
 Imagens-Obras/
 Poemas-Livro/
 *.zip
+*.tar.gz
+*.parquet
+imagens_extraidas/
 
 # Modelos locais pesados
 bertimbau-portinari/
