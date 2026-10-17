@@ -87,24 +87,15 @@ projeto-portinari/
 
 ## Instalação e Ambiente
 
-### Opção 1: Usando uv (Recomendado)
+### Usando uv (Ferramenta Padrão do Projeto)
+O projeto utiliza o `uv` para o gerenciamento ultrarrápido de dependências, garantindo que todos utilizem a mesma versão através do `pyproject.toml` e `uv.lock`.
+
 ```bash
-# Sincroniza o ambiente com as dependências do projeto
+# Sincroniza e instala o ambiente virtual com as dependências do projeto e o pacote portinari localmente:
 uv sync
 
-# Para rodar scripts ou jupyter usando o ambiente:
+# Para rodar scripts, análises ou o jupyter usando o ambiente configurado:
 uv run jupyter notebook
-```
-
-### Opção 2: Usando venv e pip tradicional
-```bash
-# Cria e ativa o ambiente virtual
-python3 -m venv .venv
-source .venv/bin/activate
-
-# Instala as dependências e o pacote local em modo editável
-pip install -r requirements.txt
-pip install -e .
 ```
 
 ---
