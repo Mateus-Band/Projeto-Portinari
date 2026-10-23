@@ -17,6 +17,7 @@ dependencies = [
     "jupyter>=1.0.0",
     "pre-commit>=4.6.2",
     "nbstripout>=0.9.1",
+    "weasyprint>=70.0",
 ]
 
 [build-system]
