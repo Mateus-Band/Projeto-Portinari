@@ -15,6 +15,9 @@ dependencies = [
     "wordcloud>=1.9.0",
     "openpyxl>=3.1.0",
     "jupyter>=1.0.0",
+    "networkx>=3.4.2",
+    "lxml>=6.1.3",
+    "altair>=6.2.2",
 ]
 
 [build-system]
