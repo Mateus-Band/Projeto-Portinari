@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+
+<graphml
+       xmlns="http://www.graphdrawing.org/xmlns/graphml"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:xlink="http://www.w3.org/1999/xlink"
+
+       xsi:schemaLocation="http://www.graphdrawing.org/xmlns/graphml
+                           graphml-structure-1.0rc.xsd
+
+			   http://www.graphdrawing.org/xmlns/graphml
+			   graphml-attributes-1.0rc.xsd"
+>
+
+<key id="we" for="edge" attr.name="weight" attr.type="double"><default>20</default></key>
+ <graph id="G" edgedefault="directed">
+  <node id="v0" />
+  <node id="v1" />
+  <node id="v2" />
+  <node id="v3" />
+  <node id="v4" />
+  <node id="v5" />
+  <node id="v6" />
+  <node id="v7"/>
+  <edge source="v0" target="v1">
+    <data key="we">10</data>
+  </edge>
+  <edge source="v1" target="v2"/>
+  <edge source="v2" target="v3"/>
+  <edge source="v3" target="v4"/>
+  <edge source="v4" target="v5"/>
+  <edge source="v5" target="v6"/>
+  <edge source="v6" target="v7"/>
+  <edge source="v7" target="v0"/>
+ </graph>
+</graphml>

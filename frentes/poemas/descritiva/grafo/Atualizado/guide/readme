@@ -1,0 +1,20 @@
+guide - Visualizing of Graphs supporting GML- and GraphML-Format
+
+requirements:
+-the programm was tested on Linux SuSE 8.0/7.3-Systems but should work with other distributions as well
+-xerces version 1.7.0 (1.6.0 might work too but you need to adjust include pathes in the source code)
+-a GLU-library (e.g. MesaGlu)
+
+building:
+-set the correct paths to your installation of xerces in the Makefile
+-type "make"
+
+running:
+-probably you have to adjust the environment variable LD_LIBRARY_PATH to include the xerces library 
+(e.g. by "export LD_LIBRARY_PATH="/home/student/maagv/hiwi/xerces-c1_6_0-linux/lib:$LD_LIBRARY_PATH")
+-type "graph.tcl" or "wish graph.tcl" to set the parameters with an interface
+-or start main directly setting the parameters "by hand"
+the results are written in the file "erg.xml"
+You may want to use the help provided by graph.tcl
+
+bug reports, critics, and so on to maagv@fmi.uni-konstanz.de

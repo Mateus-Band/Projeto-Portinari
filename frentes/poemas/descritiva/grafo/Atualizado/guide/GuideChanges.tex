@@ -1,0 +1,379 @@
+%% LyX 1.2 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[english,ngerman]{article}
+\usepackage[T1]{fontenc}
+\usepackage[latin1]{inputenc}
+\usepackage{longtable}
+\usepackage{amsmath}
+\usepackage{a4wide}
+\usepackage{babel}
+\IfFileExists{url.sty}{\usepackage{url}}
+                      {\newcommand{\url}{\texttt}}
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+\providecommand{\LyX}{L\kern-.1667em\lower.25em\hbox{Y}\kern-.125emX\@}
+\newcommand{\noun}[1]{\textsc{#1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
+ \newenvironment{lyxcode}
+   {\begin{list}{}{
+     \setlength{\rightmargin}{\leftmargin}
+     \raggedright
+     \setlength{\itemsep}{0pt}
+     \setlength{\parsep}{0pt}
+     \normalfont\ttfamily}%
+    \item[]}
+   {\end{list}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+
+\makeatletter
+
+\makeatother
+\begin{document}
+
+\title{Guide - Changes}
+
+
+\author{Volker Maag, Thomas Willhalm}
+
+\maketitle
+
+\section{Guide - short description}
+
+Guide is a program to visualize large graphs%
+\footnote{On an AMD Athlon 1400MHz/256MB RAM it worked with a graph with about
+25 000 vertices.%
+} efficiently. It has an interactive display to visualize the graph
+and it is based on the previous version named GRIP. It can read files in
+the gml-format and there are some test graphs like grid and moebius band
+implemented. The algorithm uses an intelligent clustering of the vertices
+in several layers and a force-based model to arrange the vertices
+in a layer in two, three or four dimensions. The force-based model is
+based on the method of Kamada-Kawai. Only in the last layer
+the method of Fruchtermann-Reingold is used.
+
+You may find the original source code, documentation and user's guide
+on \url{http://www.cs.arizona.edu/people/kobourov/GRIP/} 
+
+
+\section{Extensions}
+
+The following extensions were implemented:
+
+\begin{enumerate}
+\item read and write support for the GraphML-format%
+\footnote{For an up-do-date documentation of the GraphML-standard look
+at \url{http://www.graphdrawing.org/graphml/index.html}%
+}
+\item support for weighted graphs
+\end{enumerate}
+
+\section{Algorithmic Details}
+
+
+\subsection{Improvements}
+
+While testing it turned out that two-dimensional grids with more than
+100 vertices were not drawn as smooth as possible but had some
+waves when embedded in three dimensions. This undesirable behaviour
+was explored with the intention to eliminate it. However, the algorithm could
+not be improved significantly. 
+
+
+\subsection{Support for weighted graphs}
+
+In the original version edges had only constant weight. By manipulating
+this constant the drawing could be zoomed. Now the data structure
+for the graph is extended to handle weighted edges. Furthermore, some
+weighted test-graphs were implemented. It was neccessary to adjust
+the algorithm in following points:
+
+\begin{itemize}
+\item Replacement of the simple breadth first search by Djikstra's algorithm
+\item Adjustment of some parameters in the calculation of the Fruchtermann-Reingold-/
+Kamada-Kawai-vector. The new formulas look like:\newline
+Kamada-Kawai%
+\footnote{The formula is also used when a vertex is placed for the
+  first time but then only the nearest three vertices
+in the current layer are considered instead of all vertices.%
+}:
+
+\[
+disp(u)=\sum _{{\textrm{\tiny all vertices }v\atop \textrm{\tiny in
+      the current layer}}}
+\left(\frac{\left\Vert v-u\right\Vert
+      ^{2}}{dist(v,u)^{2}}-1\right)(v-u)
+\]
+
+
+Original formula:
+
+\[
+disp(u)=\sum _{{\textrm{\tiny all vertices }v\atop \textrm{\tiny in
+      the current layer}}}
+\left(\frac{\left\Vert v-u\right\Vert}{dist(v,u)w}-1\right)(v-u)
+\]
+
+Fruchtermann-Reingold:
+\[
+disp(u)=\underbrace{\sum _{{\textrm{\tiny all vertices }v\atop
+      \textrm{\tiny which are adjazent to }u}}\left(\frac{\left\Vert
+    v-u\right\Vert
+    ^{2}}{dist(v,u)^{2}}-1\right)(v-u)}_{\textrm{attractiv
+    force}}-\underbrace{\sum _{{\textrm{\tiny all vertices   }v\atop
+      \textrm{\tiny in the current
+        layer}}}\left(\frac{0.05l^2}{\left\Vert u-v\right\Vert
+    ^{2}}\right)(v-u)}_{\textrm{repulsiv force}}
+\]
+
+Original formula:
+
+\[
+disp(u)=\sum _{{\textrm{\tiny all vertices }v\atop
+    \textrm{\tiny which are adjazent to }u}}
+\left(\frac{\left\Vert
+  v-u\right\Vert^{2}}{w^{2}}-1\right)(v-u)-
+\sum _{{\textrm{\tiny all vertices}v\atop \textrm{\tiny in the current layer}}}
+\left(\frac{0.05w^2}{\left\Vert u-v\right\Vert
+  ^{2}}\right)(v-u)
+\]
+
+where $u,v$ are the position vectors of the corresponding vertices,
+$disp(u)$ states the direction in which the vertex $u$ is moved
+during an iteration%
+\footnote{The vector $disp(u)$ is normalized before use; only the 
+change of the direction compared to the previous iteration influences
+the amplitude strength. %
+}, $\left\Vert v-u\right\Vert $ is the current distance in the coordination
+system, $dist(v,u)$ the required distance given by the weight of
+the edges, $l$ is the average edge weight and $w=32$ the constant edge
+weight of the original version. The scaling factor 0.05 was
+taken from the original version; this value seems to provide the best
+results. In the calculation of $disp(u)$  according to Kamada-Kawai,
+$dist(v,u)$ is simply replaced by the given edge length instead of the 
+constant. However, the calculation
+of the attractive force of Fruchtermann-Reingold now considers
+$dist(v,u)$ (which it did not before).
+\end{itemize}
+
+No changes were made in the calculation of the layers or of the local
+temperature.
+
+
+\section{Technical Details}
+
+
+\subsection{Source Code Overview}
+
+\begin{longtable}{|p{3.5cm}|p{9.5cm}|}
+\hline 
+File&
+Description\\
+\hline
+\hline 
+main.c&
+main program - combines creation/reading of the graph and drawing\\
+\hline 
+gml\_{*}.c&
+implementation of gml-file-reader (converter, demo, parser, scanner)\\
+\hline 
+GraphMLConverter.cc&
+implementation of GraphML-file-reader\\
+&
+written in C++ because of the xerces library\\
+\hline 
+GraphMLException.cc,&
+handles parsing errors for GraphML-files\\
+handlers.cc&
+\\
+\hline 
+GraphMLNames.cc, GDNames.cc, GD.h&
+definition of the standard GraphML-tags and their extensions 
+for handling the weight of an edge and the position of a vertex\\
+\hline 
+GraphMLDocument.cc, &
+further tools for the GraphML-Converter\\
+GraphML.h, &
+\\
+DOMAdmin.cc/.h&
+\\
+\hline 
+cplusplusinterface.h&
+declaration of functions written in C++ that are called from c\\
+\hline 
+bfs.c/.h, dijkstra.c/.h&
+implementation of a graph breadth-first-search- and Dijkstra's algorithm\\
+\hline 
+Queue.c, PQueue.c, &
+implementation of a queue, a prioritiy queue and a heap \\
+Heap.c&
+(which is used by the priority queue) needed for bfs and Dijkstra\\
+\hline 
+Point.c/.h&
+implementation of a point-data structure\\
+\hline 
+Graph.c&
+implementation of test graphs like trees, (un)weighted grids, cubes,
+...\\
+\hline 
+Graph.h&
+definition of the main data structure {}``graph''\\
+\hline 
+misf.c/.h&
+creation of the misf-layers\\
+\hline 
+DrawGraph.c&
+implementation of the vertex-positioning algorithms\\
+\hline 
+MesaPlot.c/.h&
+implementation of plotting and user interface specific tasks\\
+\hline 
+graph.tcl&
+tcl-user interface -- makes it easy to set the parameters for the program\\
+\hline 
+help.data, help.tcl&
+online help for the tcl-interface\\
+\hline 
+graphml-structure-1.0rc.xsd&
+schema definition of the GraphML-Format
+(it is not the original version but a modified version that works)%
+\footnote{The changes in the schema definition do not affect the format of
+the XML-file.%
+}\\
+\hline 
+Makefile&
+for building the source code\\
+\hline 
+readme&
+some information for building and executing the program\\
+\hline
+\end{longtable}
+
+
+\subsection{Requirements}
+
+\begin{itemize}
+\item the programm was tested on Linux SuSE 8.0/7.3-Systems but should work
+with other distributions as well 
+\item xerces version 1.7.0 (1.6.0 might work too but you need to adjust
+include paths in the source code) 
+\item an OpenGL-library (e.g. MesaGlu)
+\end{itemize}
+
+\subsection{Building}
+
+You have to set the correct paths to your installation of xerces in
+the Makefile. After that type \texttt{\char`\"{}make\char`\"{}}.
+
+
+\subsection{Running }
+
+Probably you have to adjust the environment variable \texttt{LD\_LIBRARY\_PATH}
+to include the xerces library.\footnote{e.g. \texttt{\char`\"{}export LD\_LIBRARY\_PATH=\char`\"{}/home/student/maagv/hiwi/xerces-c1\_6\_0-linux/lib:\$LD\_LIBRARY\_PATH\char`\"{}}} 
+
+Then type \texttt{\char`\"{}graph.tcl\char`\"{}} or \texttt{\char`\"{}wish graph.tcl\char`\"{}}
+to set the parameters with an interface or start \texttt{main} directly setting
+the parameters ``by hand''. If results are written,
+you can find them in the file \texttt{erg.xml}. 
+
+You may want to use the help provided by graph.tcl
+
+
+\subsection{Parsing GraphML-Files}
+
+The validation of the xerces parser works only with an modified version
+of the GraphML schema, but you can switch off validation by compiling with the
+compiler option -DNO\_XERCES\_VAL. The program reads the schema style
+GraphML format but it should be able to validate the former dtd style
+format, too. While writing, the program tries to keep up all information
+it read (if it read a GraphML-file) but e.g. the direction property
+will be lost. Furthermore it may be suitable for large graphs to
+work with GraphML files with no further information because all this
+information will be kept in memory, so less memory will be available
+for computing. Lack of memory is not caught and will propably result
+in a segmentation fault.
+
+
+\subsection{Specification of the allowed graphs to be parsed}
+
+The programm accepts GraphML-graphs with the following properties: 
+
+\begin{itemize}
+\item undirected graphs 
+\item directed graphs; \noun{restriction}: will be converted in undirected
+graphs (for computing and writing) 
+\item weighted, unweighted or partially weighted edges with a given standard
+weight (If the standard weight is missing, the value 32 is used.) 
+\item graphs with loops and double edges; \noun{restriction}: these will
+be lost (for computing and writing) 
+\item graphs with additional information; \noun{remark}: the GraphML-format
+allows for every element (edge, node, the graph itself) of the graph
+to have additional information. This information should be kept
+when saving the graph with its new coordinates under the restrictions
+noted above (but this feature was never really completely tested). 
+\end{itemize}
+Further restrictions: 
+
+\begin{itemize}
+\item Only the first graph in a file will be handled.
+\end{itemize}
+The GML-Graphs might have more properties with less restrictions,
+see the documentation for original Guide.
+
+
+\subsection{Specification of the extended GraphML-format}
+
+The standard GraphML-format is not changed but extended in order to
+allow the weight of edges and the coordinates of vertices to be saved.
+
+If you want to set a weight of the edges, insert the following lines
+after the GraphML tag:
+
+\begin{lyxcode}
+<key~id=\char`\"{}we\char`\"{}~for=\char`\"{}edge\char`\"{}~attr.name=\char`\"{}weight\char`\"{}~attr.type=\char`\"{}double\char`\"{}>
+
+<default>\emph{default~weight~of~edge}</default>
+
+</key>
+\end{lyxcode}
+The number enclosed by the tag \texttt{default} defines a default weight. 
+Setting a default weight is optional. To set the weight of an edge, insert 
+a data-tag to an edge-tag like this:
+
+\begin{lyxcode}
+<edge~source=\char`\"{}v0\char`\"{}~target=\char`\"{}v1\char`\"{}>~
+
+<data~key=\char`\"{}we\char`\"{}>\emph{weight~of~edge}</data>~
+
+</edge>
+\end{lyxcode}
+The weight of an edge can be given as an integer or a real value.
+
+The coordinates are stored like this:
+
+\begin{lyxcode}
+<node~id=\char`\"{}v0\char`\"{}>~
+
+<data~key=\char`\"{}x1\char`\"{}>~50.1536~</data>~
+
+<data~key=\char`\"{}x2\char`\"{}>~168.311~</data>~
+
+<data~key=\char`\"{}x3\char`\"{}>~-62.3714~</data>
+
+</node>
+\end{lyxcode}
+If there are four or two coordinates, four or two coordinates will
+be saved. If there are coordinates in the file, the following key-tags
+must also be present:
+
+\begin{lyxcode}
+<key~id=\char`\"{}x1\char`\"{}~for=\char`\"{}node\char`\"{}~attr.name=\char`\"{}x1-coord\char`\"{}~attr.type=\char`\"{}double\char`\"{}/>~~
+
+<key~id=\char`\"{}x2\char`\"{}~for=\char`\"{}node\char`\"{}~attr.name=\char`\"{}x2-coord\char`\"{}~attr.type=\char`\"{}double\char`\"{}/>~~
+
+<key~id=\char`\"{}x3\char`\"{}~for=\char`\"{}node\char`\"{}~attr.name=\char`\"{}x3-coord\char`\"{}~attr.type=\char`\"{}double\char`\"{}/>\end{lyxcode}
+
+\end{document}
