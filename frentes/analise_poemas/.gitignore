@@ -1,0 +1,7 @@
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+dados/analise/*.csv
+dados/bruto/*.csv
+dados/anotado/*.csv
+saida/*/*/

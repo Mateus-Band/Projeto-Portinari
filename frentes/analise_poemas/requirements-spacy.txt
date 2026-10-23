@@ -1,0 +1,3 @@
+# Notebook 01 com MODELO = "spacy". Depois de instalar, baixe o pacote do idioma:
+#   python -m spacy download pt_core_news_lg      (alternativas: pt_core_news_md, pt_core_news_sm)
+spacy>=3.7

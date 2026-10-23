@@ -1,0 +1,2 @@
+# Notebook 01 com MODELO = "udpipe2" (acesso = "rest": serviço online do LINDAT).
+requests>=2.28
