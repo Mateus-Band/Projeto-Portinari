@@ -49,3 +49,6 @@ Thumbs.db
 
 # Arquivos de proposta temporários
 *reestruturacao.md
+
+# Artefatos gerados pelo mosaico de cores
+frentes/cores/notebooks/visualizacoes/cache.json
