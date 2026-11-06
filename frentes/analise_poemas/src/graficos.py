@@ -123,7 +123,7 @@ def barras_upos(tab: pd.DataFrame, nomes: dict, caminho=None, mostrar: bool = Tr
     """Frequência (nº de palavras) de cada classe gramatical."""
     t = tab.sort_values("n")
     fig, ax = plt.subplots(figsize=(7, 0.35 * len(t) + 1.5))
-    ax.barh(t["upos"], t["n"], color=AZUL)
+    ax.barh(t["upos"].map(nomes).fillna(t["upos"]), t["n"], color=AZUL)
     for y, (n, p) in enumerate(zip(t["n"], t["prop"])):
         ax.text(n, y, f" {p:.1%}", va="center", fontsize=8, color="#555")
     ax.set_xlabel("frequência (nº de palavras na classe)")
