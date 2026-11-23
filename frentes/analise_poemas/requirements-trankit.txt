@@ -1,0 +1,3 @@
+# Notebook 01 com MODELO = "trankit". ATENÇÃO: costuma exigir versões específicas de torch/transformers;
+# confirme que instala e roda antes de usar (veja o README, "Pontos em aberto").
+trankit

@@ -1,0 +1,3 @@
+# Notebook 01 com MODELO = "stanza". Baixe os modelos uma vez:  python -c "import stanza; stanza.download('pt')"
+# (ou use "baixar": True em CONFIG_MODELOS["stanza"]). Instala o PyTorch.
+stanza>=1.7

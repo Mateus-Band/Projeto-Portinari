@@ -45,6 +45,7 @@ Poemas-Livro/
 *.tar.gz
 *.parquet
 imagens_extraidas/
+frentes/analise_poemas/saida
 
 # Modelos locais pesados
 bertimbau-portinari/

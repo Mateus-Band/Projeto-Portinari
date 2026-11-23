@@ -1,0 +1,5 @@
+# Testes e execução dos notebooks por linha de comando.
+-r requirements.txt
+pytest>=7.0
+nbconvert>=7.0
+requests>=2.28
