@@ -81,7 +81,7 @@ def carregar_tokens(modelo: str, contexto: str, pasta: Path | None = None) -> pd
         raise ValueError(f"{arquivo} não tem as colunas {faltando}.")
     for col in ("verso_idx", "token_idx"):
         tokens[col] = tokens[col].astype(int)
-    tokens = tokens[~tokens["upos"].isin(["PUNCT", "SYM", "X"])].copy()
+    tokens = tokens[~tokens["upos"].isin(["PUNCT", "SYM"])].copy()
     return tokens[COLUNAS_TOKENS]
 
 

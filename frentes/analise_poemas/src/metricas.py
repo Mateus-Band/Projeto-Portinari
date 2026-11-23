@@ -13,22 +13,39 @@ CLASSES_PRINCIPAIS = ["NOUN", "VERB", "ADJ", "ADV"]
 CLASSES_FORA_DA_MORFOLOGIA = ["PUNCT", "SYM"]
 
 NOMES_CLASSES = {  # associa cada etiqueta UPOS (Universal Part-of-Speech) a um nome em português.
-    "NOUN": "substantivos", "VERB": "verbos", "ADJ": "adjetivos", "ADV": "advérbios",
-    "PROPN": "nomes próprios", "PRON": "pronomes", "DET": "determinantes", "ADP": "preposições",
-    "AUX": "verbos auxiliares", "CCONJ": "conjunções coordenativas", "SCONJ": "conjunções subordinativas",
-    "NUM": "numerais", "INTJ": "interjeições", "PART": "partículas", "X": "outros",
+    "NOUN": "Substantivos", "VERB": "Verbos", "ADJ": "Adjetivos", "ADV": "Advérbios",
+    "PROPN": "Nomes próprios", "PRON": "Pronomes", "DET": "Determinantes", "ADP": "Preposições",
+    "AUX": "Verbos auxiliares", "CCONJ": "Conj. coordenativas", "SCONJ": "Conj. subordinativas",
+    "NUM": "Numerais", "INTJ": "Interjeições", "PART": "Partículas", "X": "Outros",
 }
 
 # Define quais traços morfológicos são relevantes para cada classe gramatical.
-FOCOS_MORF = [
-    ("VERB", ["VerbForm", "Tense", "Mood", "Person", "Number"]),
-    ("AUX", ["VerbForm", "Tense", "Mood", "Person", "Number"]),
-    ("NOUN", ["Gender", "Number"]),
-    ("ADJ", ["Gender", "Number", "Degree"]),
-    ("PRON", ["Person", "Number", "PronType"]),
-    ("DET", ["Gender", "Number", "Definite"]),
+TRACOS_RELEVANTES = [
+    ("VERB", ["Forma verbal", "Tempo verbal", "Modo verbal", "Pessoa", "Número"]),
+    ("AUX", ["Forma verbal", "Tempo verbal", "Modo verbal", "Pessoa", "Número"]),
+    ("NOUN", ["Gênero", "Número"]),
+    ("ADJ", ["Gênero", "Número", "Grau"]),
+    ("PRON", ["Pessoa", "Número", "Tipo de pronome"]),
+    ("DET", ["Gênero", "Número", "Definitude"]),
 ]
 
+NOMES_TRACOS = { # associa cada etiqueta UD (Universal Dependencies) a um nome em português.
+    "VerbForm": "Forma verbal", "Tense": "Tempo verbal", "Mood": "Modo verbal",
+    "Person": "Pessoa", "Number": "Número", "Gender": "Gênero",
+    "Degree": "Grau", "PronType": "Tipo de pronome", "Definite": "Definitude",
+}
+
+NOMES_VALORES = {
+    "Number": {"Sing": "Singular", "Plur": "Plural", "Dual": "Dual",},
+    "Gender": {"Masc": "Masculino", "Fem": "Feminino", "Neut": "Neutro", "Com": "Comum"},
+    "Tense": {"Imp": "Imperfeito", "Pres": "Presente", "Past": "Perfeito", "Fut": "Futuro", "Pqp": "Mais que perfeito"},
+    "Mood": {"Ind": "Indicativo", "Sub": "Subjuntivo", "Cnd": "Condicional", "Imp": "Imperativo"},
+    "VerbForm": {"Fin": "Finita", "Inf": "Infinitivo", "Part": "Particípio","Ger": "Gerúndio"},
+    "Degree": {"Pos": "Positivo", "Cmp": "Comparativo", "Sup": "Superlativo"},
+    "PronType": {"Prs": "Pessoal", "Rel": "Relativo", "Int": "Interrogativo", "Dem": "Demonstrativo",
+                 "Ind": "Indefinido", "Tot": "Total", "Rcp": "Recíproco", "Neg": "Negativo"},
+    "Definite": {"Def": "Definido", "Ind": "Indefinido"}
+}
 
 # ----------------------------------------------------------------------------- lexical
 def tabela_de_unidades(tokens: pd.DataFrame, usar_lemas: bool) -> pd.DataFrame:
@@ -153,7 +170,7 @@ def tracos_explodidos(tokens: pd.DataFrame) -> pd.DataFrame:
     m = t.assign(traco=t["morph"].str.split("|")).explode("traco")
     m = m[m["traco"].notna() & (m["traco"] != "")].copy()
     partes = m["traco"].str.split("=", n=1, expand=True).reindex(columns=[0, 1])
-    m["feature"], m["valor"] = partes[0], partes[1]
+    m["feature"], m["valor"] = partes[0].replace(NOMES_TRACOS), [NOMES_VALORES.get(f, {}).get(v, v) for f, v in zip(partes[0], partes[1])]
     return m[["poema_id", "token_idx", "forma", "upos", "traco", "feature", "valor"]].reset_index(drop=True)
 
 

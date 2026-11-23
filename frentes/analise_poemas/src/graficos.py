@@ -31,7 +31,7 @@ def barras_frequencia(tab: pd.DataFrame, titulo: str, caminho=None, top: int = 5
     t = tab.head(top).iloc[::-1]
     fig, ax = plt.subplots(figsize=(7, 0.28 * len(t) + 1.5))
     ax.barh(t["palavra"], t["freq"], color=AZUL, label="frequência total")
-    ax.barh(t["palavra"], t["df"], color=LARANJA, height=0.4, label="nº de poemas (df)")
+    ax.barh(t["palavra"], t["df"], color=LARANJA, height=0.4, label="nº de poemas")
     ax.set_title(titulo)
     ax.set_xlabel("contagem")
     ax.legend(loc="lower right")
@@ -80,11 +80,13 @@ def painel_classes(tabelas: dict, nomes: dict, titulo: str, caminho=None, mostra
     classes = list(tabelas)
     n_col = 2
     n_lin = int(np.ceil(len(classes) / n_col))
+    x_max = max(tabelas[c].head(top)["freq"].max() for c in classes)
     fig, eixos = plt.subplots(n_lin, n_col, figsize=(5.4 * n_col, 0.34 * top * n_lin + 1.6 * n_lin), squeeze=False)
     for ax, c in zip(eixos.ravel(), classes):
         t = tabelas[c].head(top).iloc[::-1]
         ax.barh(t["palavra"], t["freq"], color=AZUL)
-        ax.set_title(f"{nomes.get(c, c)} ({c})", fontsize=10)
+        ax.set_xlim(0, x_max * 1.1)
+        ax.set_title(f"{nomes.get(c, c)}", fontsize=10)
         ax.tick_params(labelsize=8)
     for ax in eixos.ravel()[len(classes):]:
         ax.axis("off")
@@ -140,14 +142,14 @@ def barras_traco_por_classe(tab: pd.DataFrame, upos: str, features, nome: str, c
     fig, eixos = plt.subplots(1, len(feats), figsize=(3.6 * len(feats), 3.6), squeeze=False)
     for ax, f in zip(eixos[0], feats):
         s = t[t["feature"] == f].sort_values("n", ascending=False)
-        ax.bar(s["valor"], s["prop_na_classe"], color=AZUL)
-        for x, (p, n) in enumerate(zip(s["prop_na_classe"], s["n"])):
-            ax.text(x, p, f"n={n}", ha="center", va="bottom", fontsize=7)
+        ax.bar(s["valor"], s["n"], color=AZUL)
+        for x, n in enumerate(s["n"]):
+            ax.text(x, n, f"n = {n}", ha="center", va="bottom", fontsize=7)
         ax.set_title(f, fontsize=10)
-        ax.set_ylim(0, 1.12)
+        ax.set_ylim(0, s["n"].max() * 1.1)
         ax.tick_params(axis="x", rotation=45, labelsize=8)
-    eixos[0][0].set_ylabel("proporção na classe")
-    fig.suptitle(f"{nome} ({upos})")
+    eixos[0][0].set_ylabel("frequência absoluta")
+    fig.suptitle(nome)
     finalizar(fig, caminho, mostrar)
     return True
 
@@ -155,16 +157,28 @@ def barras_traco_por_classe(tab: pd.DataFrame, upos: str, features, nome: str, c
 def figura_verbos(m: pd.DataFrame, caminho=None, mostrar: bool = True):
     """Distribuição de VerbForm, Tense e Mood nas formas verbais (VERB + AUX)."""
     v = m[m["upos"].isin(["VERB", "AUX"])]
-    feats = [f for f in ("VerbForm", "Tense", "Mood") if (v["feature"] == f).any()]
+    feats = [f for f in ("Forma verbal", "Tempo verbal", "Modo verbal") if (v["feature"] == f).any()]
     if not feats:
         return False
     fig, eixos = plt.subplots(1, len(feats), figsize=(4.2 * len(feats), 3.8), squeeze=False)
     for ax, f in zip(eixos[0], feats):
         c = v.loc[v["feature"] == f, "valor"].value_counts()
-        ax.bar(c.index, c.to_numpy() / c.sum(), color=VERDE)
-        ax.set_title(f"{f} (verbos e auxiliares)")
-        ax.set_ylabel("proporção")
+        if f == "Tempo verbal":
+            passados = ["Perfeito", "Imperfeito", "Mais que perfeito"]
+            n_passado = c[c.index.isin(passados)].sum()
+            c = c[~c.index.isin(passados)]
+            c["Pretérito"] = n_passado
+            c = c.sort_values(ascending=False)
+        c_n = c.to_numpy()
+        ax.bar(c.index, c_n, color=AZUL)
+        for x, n in enumerate(c_n):
+            p = n / c.sum()
+            ax.text(x, n, f"{p:.1%}", ha="center", va="bottom", fontsize=7)
+        ax.set_title(f)
+        ax.set_ylim(0, c_n.max() * 1.1)
+        ax.set_ylabel("frequência absoluta")
         ax.tick_params(axis="x", rotation=45)
+    fig.suptitle("Características morfológicas dos verbos e auxiliares")
     finalizar(fig, caminho, mostrar)
     return True
 
